@@ -1,0 +1,409 @@
+{
+ "meeting": {
+  "id": "meeting-97f6214f-89f3-42f5-9c3f-eb1d6f8770fe",
+  "title": "Ridgeline Roofing Lead Conversion and Follow-Up Process Review",
+  "created_at": "2026-11-01T20:36:35.919457+00:00"
+ },
+ "summary_present": true,
+ "process_map": [
+  {
+   "item": "Leads come in from three sources: buying leads from Angie's List, form fills on the website, and door knocking after storms. | - | -",
+   "evidence": {
+    "t": "00:19",
+    "speaker": null,
+    "score": 0.72,
+    "quote": "Leads come in three ways. We buy leads from Angie. We get form fills from our website, and we have two guys who knock doors after a big storm."
+   }
+  },
+  {
+   "item": "Leads are entered into Job Nimbus CRM. | - | Job Nimbus",
+   "evidence": {
+    "t": "00:29",
+    "speaker": null,
+    "score": 0.76,
+    "quote": "Every lead goes into Job Nimbus. That's our CRM."
+   }
+  },
+  {
+   "item": "Office coordinator calls the lead to book an inspection. | Tasha | -",
+   "evidence": {
+    "t": "00:45",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Our office coordinator, Tasha, calls the lead and books an inspection, then one of my three estimators goes out, gets on the roof, takes photos, and measures."
+   }
+  },
+  {
+   "item": "An estimator goes to the roof for inspection, takes photos, measures, and builds the estimate in Job Nimbus. | Estimator | Job Nimbus, Company Cam",
+   "evidence": {
+    "t": "00:45",
+    "speaker": null,
+    "score": 0.96,
+    "quote": "Our office coordinator, Tasha, calls the lead and books an inspection, then one of my three estimators goes out, gets on the roof, takes photos, and measures. He builds the estimate in Job Nimbus, and emails the customer a PDF that night or the next day."
+   }
+  },
+  {
+   "item": "Estimator emails a PDF estimate to the customer (same night or next day). | Estimator | Email",
+   "evidence": {
+    "t": "00:45",
+    "speaker": null,
+    "score": 0.85,
+    "quote": "Our office coordinator, Tasha, calls the lead and books an inspection, then one of my three estimators goes out, gets on the roof, takes photos, and measures. He builds the estimate in Job Nimbus, and emails the customer a PDF that night or the next day."
+   }
+  },
+  {
+   "item": "Estimator is responsible for follow-up calls on old estimates. | Estimator | -",
+   "evidence": {
+    "t": "02:44",
+    "speaker": null,
+    "score": 0.63,
+    "quote": "So by the time they're done they're tired, and following up on old estimates is the last thing on their mind. Do they log their follow up calls anywhere?"
+   }
+  },
+  {
+   "item": "If a customer wants to think about it, the estimator checks back later (usually next week). | Estimator | -",
+   "evidence": {
+    "t": "03:00",
+    "speaker": null,
+    "score": 0.82,
+    "quote": "So when a customer calls back and asks for their estimator, Tasha has no idea what was already said. What happens they want to think about it? Usually the estimator says he'll check back next week and then the week gets busy."
+   }
+  }
+ ],
+ "volumes": [
+  {
+   "item": "**Leads per month:** ~120 normally; up to 300 after hailstorms.",
+   "evidence": {
+    "t": "00:36",
+    "speaker": null,
+    "score": 0.63,
+    "quote": "A normal month is about 120 leads. After a hailstorm, it can be three hundred."
+   }
+  },
+  {
+   "item": "**Estimates sent per month:** ~45.",
+   "evidence": {
+    "t": "01:37",
+    "speaker": null,
+    "score": 0.76,
+    "quote": "I went through it last month. Out of 45 estimates, 19 had no follow up at all after the first email."
+   }
+  },
+  {
+   "item": "**Close rate:** ~30%.",
+   "evidence": {
+    "t": "04:55",
+    "speaker": null,
+    "score": 0.96,
+    "quote": "The close rate. Get it from 30% to 35%."
+   }
+  },
+  {
+   "item": "**Average job value:** $14,000 (full replacement); ~$800 (repairs).",
+   "evidence": {
+    "t": "01:10",
+    "speaker": null,
+    "score": 0.62,
+    "quote": "What's an average job worth? Around fourteen thousand dollars for a full replacement. Repairs smaller, maybe 800."
+   }
+  },
+  {
+   "item": "**Follow-up status:** Out of 45 estimates, 19 had no follow-up calls after the first email.",
+   "evidence": {
+    "t": "01:33",
+    "speaker": null,
+    "score": 0.83,
+    "quote": "Do you know how many estimates never get a follow up call? I went through it last month. Out of 45 estimates, 19 had no follow up at all after the first email."
+   }
+  },
+  {
+   "item": "**Potential revenue impact:** If 3 more of those 19 were closed monthly, over $40,000 in additional revenue.",
+   "evidence": null
+  },
+  {
+   "item": "**Estimator meetings with adjusters:** ~20 per month.",
+   "evidence": {
+    "t": "02:17",
+    "speaker": null,
+    "score": 0.5,
+    "quote": "How many adjuster meetings a month?"
+   }
+  },
+  {
+   "item": "**Estimator workload:** 3-4 inspections per day when busy; writing estimates happens at night, usually after 8 PM.",
+   "evidence": {
+    "t": "02:35",
+    "speaker": null,
+    "score": 0.4,
+    "quote": "Each estimator does three or four inspections a day when it's busy. They write the estimate at night from home, usually after eight."
+   }
+  }
+ ],
+ "tools": [
+  {
+   "item": "Job Nimbus (CRM)",
+   "evidence": {
+    "t": "00:29",
+    "speaker": null,
+    "score": 0.96,
+    "quote": "Every lead goes into Job Nimbus. That's our CRM."
+   }
+  },
+  {
+   "item": "Angie's List",
+   "evidence": {
+    "t": "05:13",
+    "speaker": null,
+    "score": 0.67,
+    "quote": "For next steps, can you pull a list of last quarter's estimates from job nimbus with the status of each one?"
+   }
+  },
+  {
+   "item": "Company Cam (for roof photos)",
+   "evidence": {
+    "t": "02:28",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "We also use Company Cam for the roof photos."
+   }
+  },
+  {
+   "item": "Google Calendar (for estimators)",
+   "evidence": {
+    "t": "02:23",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Job Nimbus, Tasha's phone, Google Calendar for the estimators, and email."
+   }
+  },
+  {
+   "item": "Email",
+   "evidence": {
+    "t": "00:56",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "He builds the estimate in Job Nimbus, and emails the customer a PDF that night or the next day."
+   }
+  },
+  {
+   "item": "ABC Supply (for materials)",
+   "evidence": {
+    "t": "04:14",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Then it goes to production, ordering materials from ABC supply, scheduling the crew, the permit."
+   }
+  }
+ ],
+ "pains": [
+  {
+   "item": "No system for follow-up on estimates sent via email. | 19 out of 45 estimates received no follow-up calls last month, leaving significant revenue on the table.",
+   "evidence": {
+    "t": "01:39",
+    "speaker": null,
+    "score": 0.5,
+    "quote": "Out of 45 estimates, 19 had no follow up at all after the first email."
+   }
+  },
+  {
+   "item": "Estimators are tired when writing estimates at night, making follow-up a low priority. | Customers may sign with competitors who call back first; lost jobs to more organized companies.",
+   "evidence": {
+    "t": "02:35",
+    "speaker": null,
+    "score": 0.48,
+    "quote": "Each estimator does three or four inspections a day when it's busy. They write the estimate at night from home, usually after eight. So by the time they're done they're tired, and following up on old estimates is the last thing on their mind."
+   }
+  },
+  {
+   "item": "Price is rarely a reason for losing a job (only 1 in 5). | Lost revenue due to lack of follow-up outweighs price competition issues.",
+   "evidence": null
+  },
+  {
+   "item": "Scheduling adjuster meetings is difficult and chaotic. | Homeowner receives one-day notice from adjuster; Tasha must coordinate via phone/text with homeowner and estimator's calendar, often resulting in multiple messages to set one meeting.",
+   "evidence": {
+    "t": "02:17",
+    "speaker": null,
+    "score": 0.4,
+    "quote": "How many adjuster meetings a month?"
+   }
+  },
+  {
+   "item": "Adjuster misses damage if the estimator/owner is not present. | Claim must be supplemented later, taking an additional 3-4 weeks to complete.",
+   "evidence": {
+    "t": "03:58",
+    "speaker": null,
+    "score": 0.63,
+    "quote": "What does it cost you when the estimator misses an adjuster meeting? The adjuster writes the claim without us there and he usually misses damage."
+   }
+  }
+ ],
+ "outcome": [
+  {
+   "item": "**Goal:** Every estimate receives follow-up on day two, day five, and day ten until the customer responds (yes or no).",
+   "evidence": {
+    "t": "04:40",
+    "speaker": null,
+    "score": 0.77,
+    "quote": "Every estimate gets a follow up on day two, day five, and day ten, until the customer says yes or no."
+   }
+  },
+  {
+   "item": "**Measurement Metric:** Close rate (aiming to increase from 30% to 35%).",
+   "evidence": {
+    "t": "04:55",
+    "speaker": null,
+    "score": 0.56,
+    "quote": "The close rate. Get it from 30% to 35%."
+   }
+  },
+  {
+   "item": "**Target Metric:** Zero estimates with zero follow-up (currently 19 out of 45).",
+   "evidence": {
+    "t": "01:39",
+    "speaker": null,
+    "score": 0.6,
+    "quote": "Out of 45 estimates, 19 had no follow up at all after the first email."
+   }
+  }
+ ],
+ "decision_makers": [
+  {
+   "item": "**Owner:** Owner of Ridgeline Roofing (signs off).",
+   "evidence": {
+    "t": "00:13",
+    "speaker": null,
+    "score": 0.56,
+    "quote": "You on Ridgeline Roofing. Walk me through how a lead turns into a sign job."
+   }
+  },
+  {
+   "item": "**Reviewers:** Tasha (Office Coordinator) and Jake (Lead Estimator) must review the plan first.",
+   "evidence": {
+    "t": "00:45",
+    "speaker": null,
+    "score": 0.45,
+    "quote": "Our office coordinator, Tasha, calls the lead and books an inspection, then one of my three estimators goes out, gets on the roof, takes photos, and measures."
+   }
+  }
+ ],
+ "next_steps": [
+  {
+   "item": "Tasha | Pull a list of last quarter's estimates from Job Nimbus with the status of each one. | This week",
+   "evidence": {
+    "t": "05:13",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "For next steps, can you pull a list of last quarter's estimates from job nimbus with the status of each one?"
+   }
+  },
+  {
+   "item": "[Meeting Organizer] | Put together a one-page plan for the single lane (estimate follow-up). | After Tasha's data is pulled",
+   "evidence": {
+    "t": "05:23",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Then I'll put together a one page plan for a single lane, which is estimate follow-up, and we can do a two week trial on new estimates only."
+   }
+  },
+  {
+   "item": "Team | Conduct a two-week trial on new estimates only for the estimate follow-up process. | Next Tuesday at 10 AM",
+   "evidence": {
+    "t": "05:23",
+    "speaker": null,
+    "score": 0.78,
+    "quote": "Then I'll put together a one page plan for a single lane, which is estimate follow-up, and we can do a two week trial on new estimates only."
+   }
+  },
+  {
+   "item": "Team | Meet again to discuss results and potential second phase (adjuster scheduling). | Next Tuesday at 10 AM",
+   "evidence": {
+    "t": "05:32",
+    "speaker": null,
+    "score": 0.44,
+    "quote": "The adjuster scheduling we keep as a possible second phase, not part of this one."
+   }
+  }
+ ],
+ "candidate_agent_tasks": [
+  {
+   "task": "Candidate agent task: No system for follow-up on estimates sent via email.",
+   "from": "pains",
+   "evidence": {
+    "t": "01:39",
+    "speaker": null,
+    "score": 0.5,
+    "quote": "Out of 45 estimates, 19 had no follow up at all after the first email."
+   }
+  },
+  {
+   "task": "Candidate agent task: Estimators are tired when writing estimates at night, making follow-up a low priority.",
+   "from": "pains",
+   "evidence": {
+    "t": "02:35",
+    "speaker": null,
+    "score": 0.48,
+    "quote": "Each estimator does three or four inspections a day when it's busy. They write the estimate at night from home, usually after eight. So by the time they're done they're tired, and following up on old estimates is the last thing on their mind."
+   }
+  },
+  {
+   "task": "Candidate agent task: Scheduling adjuster meetings is difficult and chaotic.",
+   "from": "pains",
+   "evidence": {
+    "t": "02:17",
+    "speaker": null,
+    "score": 0.4,
+    "quote": "How many adjuster meetings a month?"
+   }
+  },
+  {
+   "task": "Candidate agent task: Leads are entered into Job Nimbus CRM.",
+   "from": "process_map",
+   "evidence": {
+    "t": "00:29",
+    "speaker": null,
+    "score": 0.76,
+    "quote": "Every lead goes into Job Nimbus. That's our CRM."
+   }
+  },
+  {
+   "task": "Candidate agent task: Office coordinator calls the lead to book an inspection.",
+   "from": "process_map",
+   "evidence": {
+    "t": "00:45",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Our office coordinator, Tasha, calls the lead and books an inspection, then one of my three estimators goes out, gets on the roof, takes photos, and measures."
+   }
+  },
+  {
+   "task": "Candidate agent task: Estimator emails a PDF estimate to the customer (same night or next day).",
+   "from": "process_map",
+   "evidence": {
+    "t": "00:45",
+    "speaker": null,
+    "score": 0.85,
+    "quote": "Our office coordinator, Tasha, calls the lead and books an inspection, then one of my three estimators goes out, gets on the roof, takes photos, and measures. He builds the estimate in Job Nimbus, and emails the customer a PDF that night or the next day."
+   }
+  },
+  {
+   "task": "Candidate agent task: Estimator is responsible for follow-up calls on old estimates.",
+   "from": "process_map",
+   "evidence": {
+    "t": "02:44",
+    "speaker": null,
+    "score": 0.63,
+    "quote": "So by the time they're done they're tired, and following up on old estimates is the last thing on their mind. Do they log their follow up calls anywhere?"
+   }
+  }
+ ],
+ "stats": {
+  "items": 35,
+  "items_with_quote": 33,
+  "items_without_quote": [
+   "**Potential revenue impact:** If 3 more of those 19 were closed monthly, over $40,000 in additional revenue.",
+   "Price is rarely a reason for losing a job (only 1 in 5). | Lost revenue due to lack of follow-up outweighs price competition issues."
+  ]
+ },
+ "summary_status": "completed",
+ "summary_markdown": "**Company and People**\n\n*   **Company:** Ridgeline Roofing\n    *   **What it does:** Provides roofing services including full replacements, repairs, and insurance claim management.\n*   **Tasha:** Office Coordinator\n*   **Jake:** Lead Estimator\n*   **Estimators:** Three estimators in total (Jake and two others)\n\n**Workflow Steps**\n\n| Step | Who | Tool |\n| --- | --- | --- |\n| Leads come in from three sources: buying leads from Angie's List, form fills on the website, and door knocking after storms. | - | - |\n| Leads are entered into Job Nimbus CRM. | - | Job Nimbus |\n| Office coordinator calls the lead to book an inspection. | Tasha | - |\n| An estimator goes to the roof for inspection, takes photos, measures, and builds the estimate in Job Nimbus. | Estimator | Job Nimbus, Company Cam |\n| Estimator emails a PDF estimate to the customer (same night or next day). | Estimator | Email |\n| Estimator is responsible for follow-up calls on old estimates. | Estimator | - |\n| If a customer wants to think about it, the estimator checks back later (usually next week). | Estimator | - |\n\n**Volumes and Timing**\n\n*   **Leads per month:** ~120 normally; up to 300 after hailstorms.\n*   **Estimates sent per month:** ~45.\n*   **Close rate:** ~30%.\n*   **Average job value:** $14,000 (full replacement); ~$800 (repairs).\n*   **Follow-up status:** Out of 45 estimates, 19 had no follow-up calls after the first email.\n*   **Potential revenue impact:** If 3 more of those 19 were closed monthly, over $40,000 in additional revenue.\n*   **Estimator meetings with adjusters:** ~20 per month.\n*   **Estimator workload:** 3-4 inspections per day when busy; writing estimates happens at night, usually after 8 PM.\n\n**Tools and Systems**\n\n*   Job Nimbus (CRM)\n*   Angie's List\n*   Company Cam (for roof photos)\n*   Google Calendar (for estimators)\n*   Email\n*   ABC Supply (for materials)\n\n**Pain Points**\n\n| Pain | Cost or impact |\n| --- | --- |\n| No system for follow-up on estimates sent via email. | 19 out of 45 estimates received no follow-up calls last month, leaving significant revenue on the table. |\n| Estimators are tired when writing estimates at night, making follow-up a low priority. | Customers may sign with competitors who call back first; lost jobs to more organized companies. |\n| Price is rarely a reason for losing a job (only 1 in 5). | Lost revenue due to lack of follow-up outweighs price competition issues. |\n| Scheduling adjuster meetings is difficult and chaotic. | Homeowner receives one-day notice from adjuster; Tasha must coordinate via phone/text with homeowner and estimator's calendar, often resulting in multiple messages to set one meeting. |\n| Adjuster misses damage if the estimator/owner is not present. | Claim must be supplemented later, taking an additional 3-4 weeks to complete. |\n\n**Desired Outcome and Measure**\n\n*   **Goal:** Every estimate receives follow-up on day two, day five, and day ten until the customer responds (yes or no).\n*   **Measurement Metric:** Close rate (aiming to increase from 30% to 35%).\n*   **Target Metric:** Zero estimates with zero follow-up (currently 19 out of 45).\n\n**Decision Makers**\n\n*   **Owner:** Owner of Ridgeline Roofing (signs off).\n*   **Reviewers:** Tasha (Office Coordinator) and Jake (Lead Estimator) must review the plan first.\n\n**Next Steps**\n\n| Owner | Action | When |\n| --- | --- | --- |\n| Tasha | Pull a list of last quarter's estimates from Job Nimbus with the status of each one. | This week |\n| [Meeting Organizer] | Put together a one-page plan for the single lane (estimate follow-up). | After Tasha's data is pulled |\n| Team | Conduct a two-week trial on new estimates only for the estimate follow-up process. | Next Tuesday at 10 AM |\n| Team | Meet again to discuss results and potential second phase (adjuster scheduling). | Next Tuesday at 10 AM |"
+}

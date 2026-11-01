@@ -1,0 +1,871 @@
+{
+ "_how": "An item counts as captured when EVERY group in 'all' has at least one alternative present in the normalised summary text (spaces also removed for brand names). Built from the scripts before any Meetily output was seen.",
+ "call1-hvac": [
+  {
+   "id": "w1",
+   "cat": "workflow",
+   "item": "Daytime calls answered by dispatchers, job created in ServiceTitan",
+   "all": [
+    [
+     "dispatcher"
+    ],
+    [
+     "servicetitan",
+     "service titan"
+    ]
+   ]
+  },
+  {
+   "id": "w2",
+   "cat": "workflow",
+   "item": "After hours calls roll to an answering service that takes messages",
+   "all": [
+    [
+     "answering service"
+    ],
+    [
+     "message"
+    ]
+   ]
+  },
+  {
+   "id": "w3",
+   "cat": "workflow",
+   "item": "Messages emailed to a shared inbox, read next morning",
+   "all": [
+    [
+     "email",
+     "inbox"
+    ],
+    [
+     "morning"
+    ]
+   ]
+  },
+  {
+   "id": "w4",
+   "cat": "workflow",
+   "item": "Dispatcher calls each person back and enters job by hand",
+   "all": [
+    [
+     "call",
+     "calls"
+    ],
+    [
+     "back",
+     "callback"
+    ]
+   ]
+  },
+  {
+   "id": "v1",
+   "cat": "volume",
+   "item": "About 60 calls a day in summer",
+   "all": [
+    [
+     "sixty"
+    ]
+   ]
+  },
+  {
+   "id": "v2",
+   "cat": "volume",
+   "item": "About 25 after hours calls a week (40 on hot weekends)",
+   "all": [
+    [
+     "twenty five",
+     "forty"
+    ]
+   ]
+  },
+  {
+   "id": "v3",
+   "cat": "volume",
+   "item": "About 8 jobs lost a week",
+   "all": [
+    [
+     "eight"
+    ],
+    [
+     "lost",
+     "lose",
+     "losing",
+     "jobs"
+    ]
+   ]
+  },
+  {
+   "id": "v4",
+   "cat": "volume",
+   "item": "Average repair ticket about $400",
+   "all": [
+    [
+     "four hundred"
+    ]
+   ]
+  },
+  {
+   "id": "v5",
+   "cat": "volume",
+   "item": "Nine technicians, two on call rotation",
+   "all": [
+    [
+     "nine"
+    ],
+    [
+     "technician",
+     "tech"
+    ]
+   ]
+  },
+  {
+   "id": "v6",
+   "cat": "volume",
+   "item": "About 15 arrival-time status calls a day in summer",
+   "all": [
+    [
+     "fifteen"
+    ],
+    [
+     "status",
+     "arriv",
+     "when"
+    ]
+   ]
+  },
+  {
+   "id": "t1",
+   "cat": "tool",
+   "item": "RingCentral",
+   "all": [
+    [
+     "ringcentral",
+     "ring central"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "cat": "tool",
+   "item": "ServiceTitan",
+   "all": [
+    [
+     "servicetitan",
+     "service titan"
+    ]
+   ]
+  },
+  {
+   "id": "t3",
+   "cat": "tool",
+   "item": "Google Sheet",
+   "all": [
+    [
+     "google sheet",
+     "spreadsheet"
+    ]
+   ]
+  },
+  {
+   "id": "t4",
+   "cat": "tool",
+   "item": "Podium",
+   "all": [
+    [
+     "podium"
+    ]
+   ]
+  },
+  {
+   "id": "p1",
+   "cat": "pain",
+   "item": "After hours callers wait until 10 to 10:30 the next morning (13 hours)",
+   "all": [
+    [
+     "ten",
+     "thirteen",
+     "morning",
+     "delay",
+     "wait"
+    ]
+   ]
+  },
+  {
+   "id": "p2",
+   "cat": "pain",
+   "item": "Answering service captures poor information (wrong/missing address)",
+   "all": [
+    [
+     "address",
+     "information",
+     "details"
+    ]
+   ]
+  },
+  {
+   "id": "p3",
+   "cat": "pain",
+   "item": "Emergencies misjudged (woke tech for thermostat battery, missed no-heat newborn)",
+   "all": [
+    [
+     "emergenc",
+     "emergency",
+     "emergencies",
+     "urgent",
+     "on call"
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "cat": "pain",
+   "item": "Unanswered callbacks tracked on sticky notes",
+   "all": [
+    [
+     "sticky"
+    ]
+   ]
+  },
+  {
+   "id": "o1",
+   "cat": "outcome",
+   "item": "Response within 15 minutes; measure time to first response and booked jobs",
+   "all": [
+    [
+     "fifteen minutes"
+    ]
+   ]
+  },
+  {
+   "id": "d1",
+   "cat": "decision",
+   "item": "Owner Ray signs off; lead dispatcher Monique involved",
+   "all": [
+    [
+     "ray"
+    ],
+    [
+     "monique"
+    ]
+   ]
+  },
+  {
+   "id": "n1",
+   "cat": "next_step",
+   "item": "Prospect sends ~10 anonymized answering service emails by Wednesday",
+   "all": [
+    [
+     "wednesday",
+     "examples",
+     "email"
+    ]
+   ]
+  },
+  {
+   "id": "n2",
+   "cat": "next_step",
+   "item": "Meeting Thursday at two with Ray and Monique",
+   "all": [
+    [
+     "thursday"
+    ]
+   ]
+  },
+  {
+   "id": "n3",
+   "cat": "next_step",
+   "item": "Axiom brings a one-page proposal for one lane",
+   "all": [
+    [
+     "proposal",
+     "one page",
+     "lane"
+    ]
+   ]
+  }
+ ],
+ "call2-property": [
+  {
+   "id": "w1",
+   "cat": "workflow",
+   "item": "Requests come in via AppFolio portal, email to leasing office, and texts to Carlos",
+   "all": [
+    [
+     "appfolio",
+     "app folio",
+     "portal"
+    ],
+    [
+     "text"
+    ]
+   ]
+  },
+  {
+   "id": "w2",
+   "cat": "workflow",
+   "item": "Carlos triages emergency vs routine",
+   "all": [
+    [
+     "emergenc",
+     "emergency",
+     "emergencies",
+     "routine"
+    ]
+   ]
+  },
+  {
+   "id": "w3",
+   "cat": "workflow",
+   "item": "Assigns to in-house technician or outside vendor from Excel list",
+   "all": [
+    [
+     "vendor"
+    ]
+   ]
+  },
+  {
+   "id": "w4",
+   "cat": "workflow",
+   "item": "Owner approval needed for repairs over $500",
+   "all": [
+    [
+     "five hundred"
+    ],
+    [
+     "approv",
+     "approval",
+     "approve"
+    ]
+   ]
+  },
+  {
+   "id": "w5",
+   "cat": "workflow",
+   "item": "Work order closed in AppFolio with invoice attached",
+   "all": [
+    [
+     "close",
+     "closed",
+     "closing"
+    ],
+    [
+     "invoice",
+     "work order"
+    ]
+   ]
+  },
+  {
+   "id": "v1",
+   "cat": "volume",
+   "item": "About 340 units across six buildings",
+   "all": [
+    [
+     "three hundred forty",
+     "three hundred and forty"
+    ]
+   ]
+  },
+  {
+   "id": "v2",
+   "cat": "volume",
+   "item": "About 90 work orders a month, 15 emergencies",
+   "all": [
+    [
+     "ninety"
+    ]
+   ]
+  },
+  {
+   "id": "v3",
+   "cat": "volume",
+   "item": "About 30 status calls a week",
+   "all": [
+    [
+     "thirty"
+    ],
+    [
+     "status",
+     "call"
+    ]
+   ]
+  },
+  {
+   "id": "v4",
+   "cat": "volume",
+   "item": "About nine days to close a work order",
+   "all": [
+    [
+     "nine days",
+     "nine"
+    ]
+   ]
+  },
+  {
+   "id": "v5",
+   "cat": "volume",
+   "item": "Two or three unmatched vendor invoices a month",
+   "all": [
+    [
+     "invoice"
+    ],
+    [
+     "two",
+     "three",
+     "match"
+    ]
+   ]
+  },
+  {
+   "id": "t1",
+   "cat": "tool",
+   "item": "AppFolio",
+   "all": [
+    [
+     "appfolio",
+     "app folio"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "cat": "tool",
+   "item": "Excel vendor list",
+   "all": [
+    [
+     "excel",
+     "spreadsheet"
+    ]
+   ]
+  },
+  {
+   "id": "t3",
+   "cat": "tool",
+   "item": "Whiteboard",
+   "all": [
+    [
+     "whiteboard",
+     "white board"
+    ]
+   ]
+  },
+  {
+   "id": "t4",
+   "cat": "tool",
+   "item": "QuickBooks",
+   "all": [
+    [
+     "quickbooks",
+     "quick books"
+    ]
+   ]
+  },
+  {
+   "id": "p1",
+   "cat": "pain",
+   "item": "Requests via texts to a personal phone get lost / scattered",
+   "all": [
+    [
+     "text",
+     "phone",
+     "cell"
+    ]
+   ]
+  },
+  {
+   "id": "p2",
+   "cat": "pain",
+   "item": "Vendor no-shows (about 1 in 8)",
+   "all": [
+    [
+     "show",
+     "no show",
+     "vendor"
+    ]
+   ]
+  },
+  {
+   "id": "p3",
+   "cat": "pain",
+   "item": "Slow owner approvals (an hour to a week)",
+   "all": [
+    [
+     "owner"
+    ],
+    [
+     "approv",
+     "approval",
+     "week",
+     "slow"
+    ]
+   ]
+  },
+  {
+   "id": "p5",
+   "cat": "pain",
+   "item": "Single point of failure when Carlos is away (vacation week)",
+   "all": [
+    [
+     "vacation",
+     "away",
+     "off",
+     "single point"
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "cat": "pain",
+   "item": "Work orders left open for weeks; wrong owner reports and bad reviews",
+   "all": [
+    [
+     "open",
+     "review",
+     "report"
+    ]
+   ]
+  },
+  {
+   "id": "o1",
+   "cat": "outcome",
+   "item": "Every request in AppFolio within the hour; halve status calls",
+   "all": [
+    [
+     "hour",
+     "half",
+     "status"
+    ]
+   ]
+  },
+  {
+   "id": "d1",
+   "cat": "decision",
+   "item": "Linda Park (owner) decides; Carlos involved",
+   "all": [
+    [
+     "linda"
+    ]
+   ]
+  },
+  {
+   "id": "n1",
+   "cat": "next_step",
+   "item": "Export one month of work orders on Monday",
+   "all": [
+    [
+     "monday",
+     "export"
+    ]
+   ]
+  },
+  {
+   "id": "n2",
+   "cat": "next_step",
+   "item": "Call with Linda and Carlos next week",
+   "all": [
+    [
+     "next week",
+     "linda"
+    ]
+   ]
+  },
+  {
+   "id": "n3",
+   "cat": "next_step",
+   "item": "Pilot on the Magnolia building",
+   "all": [
+    [
+     "magnolia",
+     "pilot"
+    ]
+   ]
+  }
+ ],
+ "call3-roofing": [
+  {
+   "id": "w1",
+   "cat": "workflow",
+   "item": "Leads from Angi, website forms, and door knocking go into JobNimbus",
+   "all": [
+    [
+     "angi",
+     "angie",
+     "website",
+     "door"
+    ],
+    [
+     "jobnimbus",
+     "job nimbus",
+     "crm"
+    ]
+   ]
+  },
+  {
+   "id": "w2",
+   "cat": "workflow",
+   "item": "Tasha calls the lead and books an inspection",
+   "all": [
+    [
+     "inspection"
+    ]
+   ]
+  },
+  {
+   "id": "w3",
+   "cat": "workflow",
+   "item": "Estimator inspects roof, builds estimate in JobNimbus, emails PDF",
+   "all": [
+    [
+     "estimat"
+    ],
+    [
+     "pdf",
+     "email"
+    ]
+   ]
+  },
+  {
+   "id": "w4",
+   "cat": "workflow",
+   "item": "Follow up after estimate is up to the estimator, no system",
+   "all": [
+    [
+     "follow"
+    ]
+   ]
+  },
+  {
+   "id": "w5",
+   "cat": "workflow",
+   "item": "Insurance adjuster meeting scheduling",
+   "all": [
+    [
+     "adjuster"
+    ]
+   ]
+  },
+  {
+   "id": "v1",
+   "cat": "volume",
+   "item": "About 120 leads a month (300 after hail)",
+   "all": [
+    [
+     "one hundred twenty",
+     "one hundred and twenty",
+     "three hundred"
+    ]
+   ]
+  },
+  {
+   "id": "v2",
+   "cat": "volume",
+   "item": "About 45 estimates a month",
+   "all": [
+    [
+     "forty five"
+    ]
+   ]
+  },
+  {
+   "id": "v3",
+   "cat": "volume",
+   "item": "Close about 30 percent",
+   "all": [
+    [
+     "thirty percent",
+     "thirty"
+    ]
+   ]
+  },
+  {
+   "id": "v4",
+   "cat": "volume",
+   "item": "Average job about $14,000",
+   "all": [
+    [
+     "fourteen thousand"
+    ]
+   ]
+  },
+  {
+   "id": "v5",
+   "cat": "volume",
+   "item": "19 of 45 estimates had no follow up",
+   "all": [
+    [
+     "nineteen"
+    ]
+   ]
+  },
+  {
+   "id": "v6",
+   "cat": "volume",
+   "item": "Three or four inspections a day per estimator",
+   "all": [
+    [
+     "three or four",
+     "inspections a day",
+     "four inspections"
+    ]
+   ]
+  },
+  {
+   "id": "t1",
+   "cat": "tool",
+   "item": "JobNimbus",
+   "all": [
+    [
+     "jobnimbus",
+     "job nimbus"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "cat": "tool",
+   "item": "Google Calendar",
+   "all": [
+    [
+     "google calendar",
+     "calendar"
+    ]
+   ]
+  },
+  {
+   "id": "t3",
+   "cat": "tool",
+   "item": "CompanyCam",
+   "all": [
+    [
+     "companycam",
+     "company cam"
+    ]
+   ]
+  },
+  {
+   "id": "t4",
+   "cat": "tool",
+   "item": "Angi lead service",
+   "all": [
+    [
+     "angi",
+     "angie"
+    ]
+   ]
+  },
+  {
+   "id": "p1",
+   "cat": "pain",
+   "item": "No follow up system after estimate",
+   "all": [
+    [
+     "follow"
+    ],
+    [
+     "no ",
+     "never",
+     "lack",
+     "without",
+     "inconsistent",
+     "nineteen"
+    ]
+   ]
+  },
+  {
+   "id": "p2",
+   "cat": "pain",
+   "item": "Adjuster scheduling takes 8-9 messages",
+   "all": [
+    [
+     "adjuster"
+    ],
+    [
+     "schedul",
+     "message",
+     "nightmare"
+    ]
+   ]
+  },
+  {
+   "id": "p3",
+   "cat": "pain",
+   "item": "Lost revenue (3 more closes = over $40,000)",
+   "all": [
+    [
+     "forty thousand",
+     "revenue",
+     "money"
+    ]
+   ]
+  },
+  {
+   "id": "o1",
+   "cat": "outcome",
+   "item": "Follow up day 2, 5, 10; close rate 30 to 35 percent",
+   "all": [
+    [
+     "thirty five",
+     "close rate"
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "cat": "pain",
+   "item": "Missed adjuster meeting leads to supplement taking 3-4 weeks",
+   "all": [
+    [
+     "supplement",
+     "missed damage",
+     "misses damage"
+    ]
+   ]
+  },
+  {
+   "id": "d1",
+   "cat": "decision",
+   "item": "Owner decides; Tasha and Jake see it first",
+   "all": [
+    [
+     "jake"
+    ]
+   ]
+  },
+  {
+   "id": "n1",
+   "cat": "next_step",
+   "item": "Tasha pulls last quarter's estimates this week",
+   "all": [
+    [
+     "estimate"
+    ],
+    [
+     "list",
+     "pull",
+     "quarter"
+    ]
+   ]
+  },
+  {
+   "id": "n2",
+   "cat": "next_step",
+   "item": "Two-week trial on new estimates; adjuster scheduling kept as phase two",
+   "all": [
+    [
+     "trial",
+     "two week",
+     "plan"
+    ]
+   ]
+  },
+  {
+   "id": "n3",
+   "cat": "next_step",
+   "item": "Meet Tuesday at ten with Tasha and Jake",
+   "all": [
+    [
+     "tuesday"
+    ]
+   ]
+  }
+ ]
+}

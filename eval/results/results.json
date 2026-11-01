@@ -1,0 +1,184 @@
+{
+ "rows": [
+  {
+   "call": "call1-hvac",
+   "condition": "clean",
+   "feed": "import",
+   "wer": 0.0104,
+   "sub": 4,
+   "del": 5,
+   "ins": 3,
+   "ref_words": 1157,
+   "segments": 15,
+   "labels": {
+    "unlabelled": 15
+   },
+   "checklist": "23/23",
+   "by_category": {
+    "workflow": "4/4",
+    "volume": "6/6",
+    "tool": "4/4",
+    "pain": "4/4",
+    "outcome": "1/1",
+    "decision": "1/1",
+    "next_step": "3/3"
+   },
+   "quotes": "34/34",
+   "factual_errors": 1,
+   "owner_errors": 2,
+   "missed_by_hand": 0
+  },
+  {
+   "call": "call1-hvac",
+   "condition": "live (system audio)",
+   "feed": "played through system audio while recording",
+   "wer": 0.0121,
+   "sub": 7,
+   "del": 3,
+   "ins": 4,
+   "ref_words": 1157,
+   "segments": 30,
+   "labels": {
+    "unlabelled": 30
+   },
+   "checklist": "22/23",
+   "by_category": {
+    "workflow": "3/4",
+    "volume": "6/6",
+    "tool": "4/4",
+    "pain": "4/4",
+    "outcome": "1/1",
+    "decision": "1/1",
+    "next_step": "3/3"
+   },
+   "quotes": "39/41",
+   "factual_errors": 2,
+   "owner_errors": 1,
+   "missed_by_hand": 0
+  },
+  {
+   "call": "call2-property",
+   "condition": "clean",
+   "feed": "import",
+   "wer": 0.0446,
+   "sub": 6,
+   "del": 39,
+   "ins": 3,
+   "ref_words": 1076,
+   "segments": 15,
+   "labels": {
+    "unlabelled": 15
+   },
+   "checklist": "24/24",
+   "by_category": {
+    "workflow": "5/5",
+    "volume": "5/5",
+    "tool": "4/4",
+    "pain": "5/5",
+    "outcome": "1/1",
+    "decision": "1/1",
+    "next_step": "3/3"
+   },
+   "quotes": "35/37",
+   "factual_errors": 1,
+   "owner_errors": 1,
+   "missed_by_hand": 0
+  },
+  {
+   "call": "call2-property",
+   "condition": "noise",
+   "feed": "import",
+   "wer": 0.0279,
+   "sub": 16,
+   "del": 10,
+   "ins": 4,
+   "ref_words": 1076,
+   "segments": 14,
+   "labels": {
+    "unlabelled": 14
+   },
+   "checklist": "23/24",
+   "by_category": {
+    "workflow": "4/5",
+    "volume": "5/5",
+    "tool": "4/4",
+    "pain": "5/5",
+    "outcome": "1/1",
+    "decision": "1/1",
+    "next_step": "3/3"
+   },
+   "quotes": "28/33",
+   "factual_errors": 0,
+   "owner_errors": 2,
+   "missed_by_hand": 2
+  },
+  {
+   "call": "call3-roofing",
+   "condition": "clean",
+   "feed": "import",
+   "wer": 0.0348,
+   "sub": 4,
+   "del": 31,
+   "ins": 0,
+   "ref_words": 1006,
+   "segments": 15,
+   "labels": {
+    "unlabelled": 15
+   },
+   "checklist": "24/24",
+   "by_category": {
+    "workflow": "5/5",
+    "volume": "6/6",
+    "tool": "4/4",
+    "pain": "4/4",
+    "outcome": "1/1",
+    "decision": "1/1",
+    "next_step": "3/3"
+   },
+   "quotes": "33/35",
+   "factual_errors": 2,
+   "owner_errors": 1,
+   "missed_by_hand": 0
+  },
+  {
+   "call": "call3-roofing",
+   "condition": "overlap",
+   "feed": "import",
+   "wer": 0.1362,
+   "sub": 18,
+   "del": 117,
+   "ins": 2,
+   "ref_words": 1006,
+   "segments": 14,
+   "labels": {
+    "unlabelled": 14
+   },
+   "checklist": "22/24",
+   "by_category": {
+    "workflow": "5/5",
+    "volume": "5/6",
+    "tool": "3/4",
+    "pain": "4/4",
+    "outcome": "1/1",
+    "decision": "1/1",
+    "next_step": "3/3"
+   },
+   "quotes": "27/30",
+   "factual_errors": 2,
+   "owner_errors": 1,
+   "missed_by_hand": 3
+  }
+ ],
+ "gemma3_1b": [
+  [
+   "Axiom Discovery template",
+   0,
+   23
+  ],
+  [
+   "bundled Client / Sales template",
+   8,
+   23
+  ]
+ ]
+}

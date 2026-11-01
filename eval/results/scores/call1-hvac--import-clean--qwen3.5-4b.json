@@ -1,0 +1,258 @@
+{
+ "call": "call1-hvac",
+ "method": "import-clean",
+ "meeting_id": "meeting-8356f609-cfad-4d4a-9d5f-edb42464d5e9",
+ "meeting_title": "Meeting Summary: Bayou Comfort Heating and Air After-Hours Booking Process",
+ "summary_model": "qwen3.5-4b",
+ "summary_status": "completed",
+ "wer": {
+  "ref_words": 1157,
+  "hyp_words": 1155,
+  "sub": 4,
+  "del": 5,
+  "ins": 3,
+  "wer": 0.0104
+ },
+ "source_split": {
+  "segments": 15,
+  "labels": {
+   "unlabelled": 15
+  },
+  "expected": null
+ },
+ "summary_checklist": {
+  "captured": 23,
+  "total": 23,
+  "by_category": {
+   "workflow": "4/4",
+   "volume": "6/6",
+   "tool": "4/4",
+   "pain": "4/4",
+   "outcome": "1/1",
+   "decision": "1/1",
+   "next_step": "3/3"
+  },
+  "items": [
+   {
+    "id": "w1",
+    "cat": "workflow",
+    "item": "Daytime calls answered by dispatchers, job created in ServiceTitan",
+    "captured": true,
+    "matched": [
+     "dispatcher",
+     "servicetitan"
+    ]
+   },
+   {
+    "id": "w2",
+    "cat": "workflow",
+    "item": "After hours calls roll to an answering service that takes messages",
+    "captured": true,
+    "matched": [
+     "answering service",
+     "message"
+    ]
+   },
+   {
+    "id": "w3",
+    "cat": "workflow",
+    "item": "Messages emailed to a shared inbox, read next morning",
+    "captured": true,
+    "matched": [
+     "email",
+     "morning"
+    ]
+   },
+   {
+    "id": "w4",
+    "cat": "workflow",
+    "item": "Dispatcher calls each person back and enters job by hand",
+    "captured": true,
+    "matched": [
+     "call",
+     "back"
+    ]
+   },
+   {
+    "id": "v1",
+    "cat": "volume",
+    "item": "About 60 calls a day in summer",
+    "captured": true,
+    "matched": [
+     "sixty"
+    ]
+   },
+   {
+    "id": "v2",
+    "cat": "volume",
+    "item": "About 25 after hours calls a week (40 on hot weekends)",
+    "captured": true,
+    "matched": [
+     "twenty five"
+    ]
+   },
+   {
+    "id": "v3",
+    "cat": "volume",
+    "item": "About 8 jobs lost a week",
+    "captured": true,
+    "matched": [
+     "eight",
+     "lost"
+    ]
+   },
+   {
+    "id": "v4",
+    "cat": "volume",
+    "item": "Average repair ticket about $400",
+    "captured": true,
+    "matched": [
+     "four hundred"
+    ]
+   },
+   {
+    "id": "v5",
+    "cat": "volume",
+    "item": "Nine technicians, two on call rotation",
+    "captured": true,
+    "matched": [
+     "nine",
+     "technician"
+    ]
+   },
+   {
+    "id": "v6",
+    "cat": "volume",
+    "item": "About 15 arrival-time status calls a day in summer",
+    "captured": true,
+    "matched": [
+     "fifteen",
+     "arriv"
+    ]
+   },
+   {
+    "id": "t1",
+    "cat": "tool",
+    "item": "RingCentral",
+    "captured": true,
+    "matched": [
+     "ringcentral"
+    ]
+   },
+   {
+    "id": "t2",
+    "cat": "tool",
+    "item": "ServiceTitan",
+    "captured": true,
+    "matched": [
+     "servicetitan"
+    ]
+   },
+   {
+    "id": "t3",
+    "cat": "tool",
+    "item": "Google Sheet",
+    "captured": true,
+    "matched": [
+     "google sheet"
+    ]
+   },
+   {
+    "id": "t4",
+    "cat": "tool",
+    "item": "Podium",
+    "captured": true,
+    "matched": [
+     "podium"
+    ]
+   },
+   {
+    "id": "p1",
+    "cat": "pain",
+    "item": "After hours callers wait until 10 to 10:30 the next morning (13 hours)",
+    "captured": true,
+    "matched": [
+     "ten"
+    ]
+   },
+   {
+    "id": "p2",
+    "cat": "pain",
+    "item": "Answering service captures poor information (wrong/missing address)",
+    "captured": true,
+    "matched": [
+     "address"
+    ]
+   },
+   {
+    "id": "p3",
+    "cat": "pain",
+    "item": "Emergencies misjudged (woke tech for thermostat battery, missed no-heat newborn)",
+    "captured": true,
+    "matched": [
+     "emergenc"
+    ]
+   },
+   {
+    "id": "p4",
+    "cat": "pain",
+    "item": "Unanswered callbacks tracked on sticky notes",
+    "captured": true,
+    "matched": [
+     "sticky"
+    ]
+   },
+   {
+    "id": "o1",
+    "cat": "outcome",
+    "item": "Response within 15 minutes; measure time to first response and booked jobs",
+    "captured": true,
+    "matched": [
+     "fifteen minutes"
+    ]
+   },
+   {
+    "id": "d1",
+    "cat": "decision",
+    "item": "Owner Ray signs off; lead dispatcher Monique involved",
+    "captured": true,
+    "matched": [
+     "ray",
+     "monique"
+    ]
+   },
+   {
+    "id": "n1",
+    "cat": "next_step",
+    "item": "Prospect sends ~10 anonymized answering service emails by Wednesday",
+    "captured": true,
+    "matched": [
+     "wednesday"
+    ]
+   },
+   {
+    "id": "n2",
+    "cat": "next_step",
+    "item": "Meeting Thursday at two with Ray and Monique",
+    "captured": true,
+    "matched": [
+     "thursday"
+    ]
+   },
+   {
+    "id": "n3",
+    "cat": "next_step",
+    "item": "Axiom brings a one-page proposal for one lane",
+    "captured": true,
+    "matched": [
+     "proposal"
+    ]
+   }
+  ]
+ },
+ "quote_linking": {
+  "items": 34,
+  "items_with_quote": 34,
+  "items_without_quote": []
+ }
+}

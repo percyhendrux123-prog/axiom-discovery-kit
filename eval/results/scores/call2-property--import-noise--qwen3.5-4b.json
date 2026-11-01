@@ -1,0 +1,271 @@
+{
+ "call": "call2-property",
+ "method": "import-noise",
+ "meeting_id": "meeting-47c66367-711c-48b2-9325-f16fc068d662",
+ "meeting_title": "Oakline Property Group Maintenance Request Workflow Analysis",
+ "summary_model": "qwen3.5-4b",
+ "summary_status": "completed",
+ "wer": {
+  "ref_words": 1076,
+  "hyp_words": 1070,
+  "sub": 16,
+  "del": 10,
+  "ins": 4,
+  "wer": 0.0279
+ },
+ "source_split": {
+  "segments": 14,
+  "labels": {
+   "unlabelled": 14
+  },
+  "expected": null
+ },
+ "summary_checklist": {
+  "captured": 23,
+  "total": 24,
+  "by_category": {
+   "workflow": "4/5",
+   "volume": "5/5",
+   "tool": "4/4",
+   "pain": "5/5",
+   "outcome": "1/1",
+   "decision": "1/1",
+   "next_step": "3/3"
+  },
+  "items": [
+   {
+    "id": "w1",
+    "cat": "workflow",
+    "item": "Requests come in via AppFolio portal, email to leasing office, and texts to Carlos",
+    "captured": true,
+    "matched": [
+     "appfolio",
+     "text"
+    ]
+   },
+   {
+    "id": "w2",
+    "cat": "workflow",
+    "item": "Carlos triages emergency vs routine",
+    "captured": true,
+    "matched": [
+     "emergenc"
+    ]
+   },
+   {
+    "id": "w3",
+    "cat": "workflow",
+    "item": "Assigns to in-house technician or outside vendor from Excel list",
+    "captured": true,
+    "matched": [
+     "vendor"
+    ]
+   },
+   {
+    "id": "w4",
+    "cat": "workflow",
+    "item": "Owner approval needed for repairs over $500",
+    "captured": false,
+    "matched": [
+     null,
+     null
+    ]
+   },
+   {
+    "id": "w5",
+    "cat": "workflow",
+    "item": "Work order closed in AppFolio with invoice attached",
+    "captured": true,
+    "matched": [
+     "close",
+     "invoice"
+    ]
+   },
+   {
+    "id": "v1",
+    "cat": "volume",
+    "item": "About 340 units across six buildings",
+    "captured": true,
+    "matched": [
+     "three hundred forty"
+    ]
+   },
+   {
+    "id": "v2",
+    "cat": "volume",
+    "item": "About 90 work orders a month, 15 emergencies",
+    "captured": true,
+    "matched": [
+     "ninety"
+    ]
+   },
+   {
+    "id": "v3",
+    "cat": "volume",
+    "item": "About 30 status calls a week",
+    "captured": true,
+    "matched": [
+     "thirty",
+     "status"
+    ]
+   },
+   {
+    "id": "v4",
+    "cat": "volume",
+    "item": "About nine days to close a work order",
+    "captured": true,
+    "matched": [
+     "nine days"
+    ]
+   },
+   {
+    "id": "v5",
+    "cat": "volume",
+    "item": "Two or three unmatched vendor invoices a month",
+    "captured": true,
+    "matched": [
+     "invoice",
+     "two"
+    ]
+   },
+   {
+    "id": "t1",
+    "cat": "tool",
+    "item": "AppFolio",
+    "captured": true,
+    "matched": [
+     "appfolio"
+    ]
+   },
+   {
+    "id": "t2",
+    "cat": "tool",
+    "item": "Excel vendor list",
+    "captured": true,
+    "matched": [
+     "excel"
+    ]
+   },
+   {
+    "id": "t3",
+    "cat": "tool",
+    "item": "Whiteboard",
+    "captured": true,
+    "matched": [
+     "whiteboard"
+    ]
+   },
+   {
+    "id": "t4",
+    "cat": "tool",
+    "item": "QuickBooks",
+    "captured": true,
+    "matched": [
+     "quickbooks"
+    ]
+   },
+   {
+    "id": "p1",
+    "cat": "pain",
+    "item": "Requests via texts to a personal phone get lost / scattered",
+    "captured": true,
+    "matched": [
+     "text"
+    ]
+   },
+   {
+    "id": "p2",
+    "cat": "pain",
+    "item": "Vendor no-shows (about 1 in 8)",
+    "captured": true,
+    "matched": [
+     "show"
+    ]
+   },
+   {
+    "id": "p3",
+    "cat": "pain",
+    "item": "Slow owner approvals (an hour to a week)",
+    "captured": true,
+    "matched": [
+     "owner",
+     "week"
+    ]
+   },
+   {
+    "id": "p5",
+    "cat": "pain",
+    "item": "Single point of failure when Carlos is away (vacation week)",
+    "captured": true,
+    "matched": [
+     "vacation"
+    ]
+   },
+   {
+    "id": "p4",
+    "cat": "pain",
+    "item": "Work orders left open for weeks; wrong owner reports and bad reviews",
+    "captured": true,
+    "matched": [
+     "open"
+    ]
+   },
+   {
+    "id": "o1",
+    "cat": "outcome",
+    "item": "Every request in AppFolio within the hour; halve status calls",
+    "captured": true,
+    "matched": [
+     "hour"
+    ]
+   },
+   {
+    "id": "d1",
+    "cat": "decision",
+    "item": "Linda Park (owner) decides; Carlos involved",
+    "captured": true,
+    "matched": [
+     "linda"
+    ]
+   },
+   {
+    "id": "n1",
+    "cat": "next_step",
+    "item": "Export one month of work orders on Monday",
+    "captured": true,
+    "matched": [
+     "monday"
+    ]
+   },
+   {
+    "id": "n2",
+    "cat": "next_step",
+    "item": "Call with Linda and Carlos next week",
+    "captured": true,
+    "matched": [
+     "next week"
+    ]
+   },
+   {
+    "id": "n3",
+    "cat": "next_step",
+    "item": "Pilot on the Magnolia building",
+    "captured": true,
+    "matched": [
+     "pilot"
+    ]
+   }
+  ]
+ },
+ "quote_linking": {
+  "items": 33,
+  "items_with_quote": 28,
+  "items_without_quote": [
+   "Status call duration: 5\u201310 minutes each.",
+   "Unmatched invoices frequency: 2\u20133 times per month.",
+   "Vendors do not show up or arrive late; no record kept in system. | Residents call upset; no one knows what happened because info was only in Carlos's texts.",
+   "After-hours emergency requests often lack proper documentation. | Invoices cannot be matched to units; bookkeeper must email Carlos to dig through texts.",
+   "**Required involvement:** Carlos (Maintenance Coordinator) must be present to know where issues are occurring."
+  ]
+ }
+}

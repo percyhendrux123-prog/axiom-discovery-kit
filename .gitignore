@@ -1,0 +1,11 @@
+# audio and local outputs never go in the repo
+*.wav
+*.mp3
+*.mp4
+*.m4a
+eval/audio/
+out/
+__pycache__/
+*.pyc
+.DS_Store
+.env

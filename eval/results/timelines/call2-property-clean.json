@@ -1,0 +1,347 @@
+{
+ "call": "call2-property",
+ "condition": "clean",
+ "sample_rate": 24000,
+ "duration_s": 366.7,
+ "lines": 48,
+ "overlapping_turns": 0,
+ "snr_db": null,
+ "timeline": [
+  {
+   "i": 0,
+   "spk": "A",
+   "start": 0.5,
+   "end": 10.34,
+   "text": "Before we get going, I want to let you know I'm recording this call on my laptop so I can keep good notes. It stays with us and isn't shared with anyone. Is that all right?"
+  },
+  {
+   "i": 1,
+   "spk": "P",
+   "start": 10.79,
+   "end": 12.39,
+   "text": "Sure, that's fine with me."
+  },
+  {
+   "i": 2,
+   "spk": "A",
+   "start": 12.84,
+   "end": 23.0,
+   "text": "Thanks. You're the operations manager at Oakline Property Group. Tell me how a maintenance request moves through your company today, from the moment a resident has a problem."
+  },
+  {
+   "i": 3,
+   "spk": "P",
+   "start": 23.45,
+   "end": 44.09,
+   "text": "Okay. We manage about three hundred and forty units across six buildings. Residents are supposed to submit requests through the AppFolio resident portal. Some do. A lot of them email the leasing office instead, and some of them just text our maintenance coordinator, Carlos, on his personal cell phone."
+  },
+  {
+   "i": 4,
+   "spk": "A",
+   "start": 44.54,
+   "end": 47.18,
+   "text": "So three ways in. What happens next?"
+  },
+  {
+   "i": 5,
+   "spk": "P",
+   "start": 47.63,
+   "end": 67.23,
+   "text": "Carlos checks the portal, his email and his texts a few times a day. He decides whether it's an emergency or routine. For anything routine he either assigns it to our in house technician or to an outside vendor. We have a vendor list in an Excel spreadsheet with plumbers, electricians, appliance repair and a locksmith."
+  },
+  {
+   "i": 6,
+   "spk": "A",
+   "start": 67.68,
+   "end": 69.84,
+   "text": "How many requests do you get in a month?"
+  },
+  {
+   "i": 7,
+   "spk": "P",
+   "start": 70.29,
+   "end": 76.61,
+   "text": "Around ninety work orders a month. About fifteen of those are emergencies, like water leaks or no heat."
+  },
+  {
+   "i": 8,
+   "spk": "A",
+   "start": 77.06,
+   "end": 79.06,
+   "text": "How does Carlos get the vendor scheduled?"
+  },
+  {
+   "i": 9,
+   "spk": "P",
+   "start": 79.51,
+   "end": 90.79,
+   "text": "He calls them or texts them. Then he has to tell the resident when someone is coming. Then he has to remember to check whether the vendor actually showed up. That last part is where things fall apart."
+  },
+  {
+   "i": 10,
+   "spk": "A",
+   "start": 91.24,
+   "end": 92.44,
+   "text": "Tell me more about that."
+  },
+  {
+   "i": 11,
+   "spk": "P",
+   "start": 92.89,
+   "end": 106.33,
+   "text": "Vendors don't always show up. Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong day. The resident calls the office, upset, and nobody knows what happened because it was all in Carlos's texts."
+  },
+  {
+   "i": 12,
+   "spk": "A",
+   "start": 106.78,
+   "end": 110.3,
+   "text": "How much of the office's time goes to residents calling for status?"
+  },
+  {
+   "i": 13,
+   "spk": "P",
+   "start": 110.75,
+   "end": 118.91,
+   "text": "Our leasing team says they get about thirty status calls a week. Each one takes five or ten minutes because they have to find Carlos and ask him."
+  },
+  {
+   "i": 14,
+   "spk": "A",
+   "start": 119.36,
+   "end": 120.56,
+   "text": "Are there approval steps?"
+  },
+  {
+   "i": 15,
+   "spk": "P",
+   "start": 121.01,
+   "end": 136.69,
+   "text": "Yes. Any repair over five hundred dollars needs the property owner's approval. We have eleven owners. Carlos emails them a quote and waits. Some owners answer in an hour. Some take a week. Meanwhile the resident is waiting with a broken dishwasher."
+  },
+  {
+   "i": 16,
+   "spk": "A",
+   "start": 137.14,
+   "end": 140.5,
+   "text": "How do you track which requests are waiting on an owner?"
+  },
+  {
+   "i": 17,
+   "spk": "P",
+   "start": 140.95,
+   "end": 147.35,
+   "text": "Honestly, we don't track it well. There's a whiteboard in Carlos's office with the open items. It's usually out of date."
+  },
+  {
+   "i": 18,
+   "spk": "A",
+   "start": 147.8,
+   "end": 149.64,
+   "text": "What tools are involved altogether?"
+  },
+  {
+   "i": 19,
+   "spk": "P",
+   "start": 150.09,
+   "end": 162.57,
+   "text": "AppFolio for the portal and work orders, Gmail, Carlos's phone, the Excel vendor list, and the whiteboard. We also use QuickBooks for paying vendor invoices, but that's the accounting side."
+  },
+  {
+   "i": 20,
+   "spk": "A",
+   "start": 163.02,
+   "end": 165.58,
+   "text": "When a work order is done, how does it get closed?"
+  },
+  {
+   "i": 21,
+   "spk": "P",
+   "start": 166.03,
+   "end": 178.19,
+   "text": "The vendor sends an invoice, sometimes with photos. Carlos is supposed to close the work order in AppFolio and attach the invoice. Half the time the work order stays open for weeks because nobody closed it."
+  },
+  {
+   "i": 22,
+   "spk": "A",
+   "start": 178.64,
+   "end": 179.84,
+   "text": "What does that cost you?"
+  },
+  {
+   "i": 23,
+   "spk": "P",
+   "start": 180.29,
+   "end": 191.57,
+   "text": "Two things. Residents give us bad reviews because they think we ignored them. And at the end of the month our reports to owners are wrong, because open work orders look like unfinished work."
+  },
+  {
+   "i": 24,
+   "spk": "A",
+   "start": 192.02,
+   "end": 195.14,
+   "text": "Walk me through an emergency, say a water leak at night."
+  },
+  {
+   "i": 25,
+   "spk": "P",
+   "start": 195.59,
+   "end": 219.51,
+   "text": "The resident is supposed to call our after hours line, which forwards to Carlos's cell phone. He decides whether to send our technician or call an emergency plumber. Then in the morning he's supposed to create the work order in AppFolio after the fact, so we have a record. Sometimes that never happens, and then the plumber's invoice shows up and nobody knows which unit it was for."
+  },
+  {
+   "i": 26,
+   "spk": "A",
+   "start": 219.96,
+   "end": 221.56,
+   "text": "How often does that happen?"
+  },
+  {
+   "i": 27,
+   "spk": "P",
+   "start": 222.01,
+   "end": 230.17,
+   "text": "I'd guess two or three times a month we get an invoice we can't match to a work order. Our bookkeeper has to email Carlos and he has to dig through his texts."
+  },
+  {
+   "i": 28,
+   "spk": "A",
+   "start": 230.62,
+   "end": 232.78,
+   "text": "What happens when Carlos is on vacation?"
+  },
+  {
+   "i": 29,
+   "spk": "P",
+   "start": 233.23,
+   "end": 245.95,
+   "text": "Honestly, that's my biggest fear. Last summer he took a week off, and I covered for him. I didn't have half the vendor phone numbers, I didn't know which jobs were already scheduled, and three residents told me someone had promised to come and nobody did."
+  },
+  {
+   "i": 30,
+   "spk": "A",
+   "start": 246.4,
+   "end": 249.44,
+   "text": "How do residents usually find out their request is done?"
+  },
+  {
+   "i": 31,
+   "spk": "P",
+   "start": 249.89,
+   "end": 261.09,
+   "text": "Most of the time they don't, unless they're home when the vendor comes. AppFolio can send a notice when the work order is closed, but since the work orders stay open, the notice never goes out."
+  },
+  {
+   "i": 32,
+   "spk": "A",
+   "start": 261.54,
+   "end": 265.06,
+   "text": "What does the leasing team do when a resident calls for status?"
+  },
+  {
+   "i": 33,
+   "spk": "P",
+   "start": 265.51,
+   "end": 275.99,
+   "text": "They put the resident on hold, walk down the hall to Carlos's office or text him, and then wait. If Carlos is out at a property, the resident gets a callback later, which is one more thing to remember."
+  },
+  {
+   "i": 34,
+   "spk": "A",
+   "start": 276.44,
+   "end": 278.12,
+   "text": "Have you tried to fix any of this before?"
+  },
+  {
+   "i": 35,
+   "spk": "P",
+   "start": 278.57,
+   "end": 289.53,
+   "text": "We tried a shared spreadsheet for open requests about a year ago. It lasted about three weeks. Nobody kept it updated because it was one more place to type the same thing."
+  },
+  {
+   "i": 36,
+   "spk": "A",
+   "start": 289.98,
+   "end": 293.66,
+   "text": "If you could change one thing in the next quarter, what would it be?"
+  },
+  {
+   "i": 37,
+   "spk": "P",
+   "start": 294.11,
+   "end": 305.95,
+   "text": "I want every request, no matter how it comes in, to end up in AppFolio within the hour, and every resident to get an update when a vendor is scheduled and when the work is done. Without Carlos having to remember all of it."
+  },
+  {
+   "i": 38,
+   "spk": "A",
+   "start": 306.4,
+   "end": 307.44,
+   "text": "And the measure?"
+  },
+  {
+   "i": 39,
+   "spk": "P",
+   "start": 307.89,
+   "end": 317.09,
+   "text": "Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win. And average days to close a work order. Right now it's about nine days."
+  },
+  {
+   "i": 40,
+   "spk": "A",
+   "start": 317.54,
+   "end": 319.22,
+   "text": "Who would be part of the decision?"
+  },
+  {
+   "i": 41,
+   "spk": "P",
+   "start": 319.67,
+   "end": 326.63,
+   "text": "Me, and the owner of the management company, Linda Park. Carlos should be in the room too because he knows where the bodies are buried."
+  },
+  {
+   "i": 42,
+   "spk": "A",
+   "start": 327.08,
+   "end": 334.52,
+   "text": "Understood. Here's what I'd propose as next steps. Could you export one month of work orders from AppFolio, with names removed?"
+  },
+  {
+   "i": 43,
+   "spk": "P",
+   "start": 334.97,
+   "end": 337.77,
+   "text": "Yes, I can pull that report on Monday."
+  },
+  {
+   "i": 44,
+   "spk": "A",
+   "start": 338.22,
+   "end": 354.46,
+   "text": "Good. Then I'd like a short call with Linda and Carlos next week. I'll bring a proposal for one lane: request intake and resident status updates, starting as a pilot on one building. One agent, and we measure status calls and days to close."
+  },
+  {
+   "i": 45,
+   "spk": "P",
+   "start": 354.91,
+   "end": 358.59,
+   "text": "Start with the Magnolia building. It's the one with the most requests."
+  },
+  {
+   "i": 46,
+   "spk": "A",
+   "start": 359.04,
+   "end": 362.88,
+   "text": "The Magnolia building it is. Thanks for walking me through all of this."
+  },
+  {
+   "i": 47,
+   "spk": "P",
+   "start": 363.33,
+   "end": 365.89,
+   "text": "Thank you. I'll send the export Monday."
+  }
+ ]
+}

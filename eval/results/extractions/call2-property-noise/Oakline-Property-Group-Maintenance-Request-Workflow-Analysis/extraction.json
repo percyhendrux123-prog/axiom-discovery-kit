@@ -1,0 +1,389 @@
+{
+ "meeting": {
+  "id": "meeting-47c66367-711c-48b2-9325-f16fc068d662",
+  "title": "Oakline Property Group Maintenance Request Workflow Analysis",
+  "created_at": "2026-11-01T20:33:49.638022+00:00"
+ },
+ "summary_present": true,
+ "process_map": [
+  {
+   "item": "Resident submits request via Appfolio, emails leasing office, or texts Carlos | Residents | Appfolio, Email, Text",
+   "evidence": {
+    "t": "00:28",
+    "speaker": null,
+    "score": 0.62,
+    "quote": "Residents are supposed to submit requests through the Appfolio resident portal. Some do. A lot of them email the leasing office instead."
+   }
+  },
+  {
+   "item": "Carlos checks portal, email, and text; decides between in-house technician or outside vendor | Carlos | Appfolio, Gmail, Personal Cell Phone",
+   "evidence": {
+    "t": "00:47",
+    "speaker": null,
+    "score": 0.74,
+    "quote": "Carlos checks the portal, his email and his text a few times a day. it's an emergency or routine. For anything routine he either assigns it to our in-house technician or to an outside vendor."
+   }
+  },
+  {
+   "item": "Carlos assigns work order to technician/vendor from vendor list | Carlos | Excel Spreadsheet (Vendor List)",
+   "evidence": {
+    "t": "02:31",
+    "speaker": null,
+    "score": 0.67,
+    "quote": "A folio for the portal and work orders. Gmail, Carlos's phone, the Excel vendor list, and the whiteboard."
+   }
+  },
+  {
+   "item": "Vendor is contacted (call/text); resident notified of arrival time | Carlos/Leasing Office | Phone/Text",
+   "evidence": {
+    "t": "01:34",
+    "speaker": null,
+    "score": 0.46,
+    "quote": "Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong. The resident calls the office, upset, and nobody knows what happened because it was all in Carlos's texts."
+   }
+  },
+  {
+   "item": "Vendor performs repair; invoice sent (sometimes with photos) | Vendor | -",
+   "evidence": {
+    "t": "02:46",
+    "speaker": null,
+    "score": 0.57,
+    "quote": "The vendor sends an invoice sometimes with photos."
+   }
+  },
+  {
+   "item": "Carlos closes work order in Appfolio and attaches invoice | Carlos | Appfolio",
+   "evidence": {
+    "t": "02:50",
+    "speaker": null,
+    "score": 0.71,
+    "quote": "Carlos is supposed to close the work order in upfolio and attach the invoice."
+   }
+  }
+ ],
+ "volumes": [
+  {
+   "item": "340 units managed across six buildings.",
+   "evidence": {
+    "t": "00:25",
+    "speaker": null,
+    "score": 0.86,
+    "quote": "Manage about 340 units across six buildings."
+   }
+  },
+  {
+   "item": "~90 work orders per month.",
+   "evidence": {
+    "t": "01:10",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Around 90 work orders a month."
+   }
+  },
+  {
+   "item": "~15 emergency requests per month.",
+   "evidence": {
+    "t": "01:08",
+    "speaker": null,
+    "score": 0.72,
+    "quote": "How many requests do you get in a month? Around 90 work orders a month. About 15 of those are emergencies like water leaks or no heat."
+   }
+  },
+  {
+   "item": "~30 status calls per week.",
+   "evidence": {
+    "t": "01:50",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Our leasing team says they get about 30 status calls a week."
+   }
+  },
+  {
+   "item": "Status call duration: 5\u201310 minutes each.",
+   "evidence": null
+  },
+  {
+   "item": "Work order closure time: Average 9 days.",
+   "evidence": {
+    "t": "05:09",
+    "speaker": null,
+    "score": 0.46,
+    "quote": "If we cut those 30 calls a week in half that's a win and average days to close a work order."
+   }
+  },
+  {
+   "item": "Vendor show-up failure rate: 1 out of every 8 appointments.",
+   "evidence": {
+    "t": "01:32",
+    "speaker": null,
+    "score": 0.36,
+    "quote": "Vendors don't always show up. Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong."
+   }
+  },
+  {
+   "item": "Unmatched invoices frequency: 2\u20133 times per month.",
+   "evidence": null
+  },
+  {
+   "item": "Shared spreadsheet usage duration: ~3 weeks.",
+   "evidence": {
+    "t": "04:39",
+    "speaker": null,
+    "score": 0.39,
+    "quote": "We tried a shared spreadsheet for open requests about a year ago. It lasted about three weeks."
+   }
+  }
+ ],
+ "tools": [
+  {
+   "item": "Appfolio (Resident portal, work orders)",
+   "evidence": {
+    "t": "00:28",
+    "speaker": null,
+    "score": 0.6,
+    "quote": "Residents are supposed to submit requests through the Appfolio resident portal."
+   }
+  },
+  {
+   "item": "Gmail",
+   "evidence": {
+    "t": "02:33",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "Gmail, Carlos's phone, the Excel vendor list, and the whiteboard."
+   }
+  },
+  {
+   "item": "Personal Cell Phone",
+   "evidence": {
+    "t": "00:38",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "And some of them just text our maintenance coordinator, Carlos, on his personal cell phone."
+   }
+  },
+  {
+   "item": "Excel Spreadsheet (Vendor List)",
+   "evidence": {
+    "t": "01:01",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "We have a vendor list in an Excel spreadsheet with plumbers, electricians, appliance repair, and a locksmith."
+   }
+  },
+  {
+   "item": "Whiteboard (in Carlos's office)",
+   "evidence": {
+    "t": "02:23",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "There's a whiteboard in Carlos's office with the open items."
+   }
+  },
+  {
+   "item": "QuickBooks (for paying vendor invoices)",
+   "evidence": {
+    "t": "02:38",
+    "speaker": null,
+    "score": 1.0,
+    "quote": "They also use QuickBooks for paying vendor invoices, but that's the accounting side."
+   }
+  }
+ ],
+ "pains": [
+  {
+   "item": "Vendors do not show up or arrive late; no record kept in system. | Residents call upset; no one knows what happened because info was only in Carlos's texts.",
+   "evidence": null
+  },
+  {
+   "item": "High volume of status calls to leasing team. | ~30 calls per week; 5\u201310 minutes each to find Carlos and ask for updates.",
+   "evidence": {
+    "t": "01:50",
+    "speaker": null,
+    "score": 0.67,
+    "quote": "Our leasing team says they get about 30 status calls a week."
+   }
+  },
+  {
+   "item": "Open work orders take too long to close (avg 9 days). | Bad reviews from residents who feel ignored; Owner reports show unfinished work incorrectly.",
+   "evidence": {
+    "t": "02:46",
+    "speaker": null,
+    "score": 0.34,
+    "quote": "The vendor sends an invoice sometimes with photos. Carlos is supposed to close the work order in upfolio and attach the invoice. Half the time the work order stays open for weeks because nobody closed it."
+   }
+  },
+  {
+   "item": "After-hours emergency requests often lack proper documentation. | Invoices cannot be matched to units; bookkeeper must email Carlos to dig through texts.",
+   "evidence": null
+  },
+  {
+   "item": "Lack of visibility when Carlos is on vacation. | No vendor phone numbers available; unknown job schedules; residents told someone would come but nobody did.",
+   "evidence": {
+    "t": "03:50",
+    "speaker": null,
+    "score": 0.5,
+    "quote": "What happens when Carlos is on vacation?"
+   }
+  }
+ ],
+ "outcome": [
+  {
+   "item": "**Outcome:** Every request enters Appfolio within an hour regardless of source; every resident receives updates when a vendor is scheduled and when work is done without relying on Carlos's memory.",
+   "evidence": {
+    "t": "04:53",
+    "speaker": null,
+    "score": 0.57,
+    "quote": "I want every request, no matter how it comes in, to end up in Atfolio within the hour, and every resident to get an update when a vendor is scheduled and when the work is done, without Carlos having to remember all of it."
+   }
+  },
+  {
+   "item": "**Measure:** Reduce status calls to the leasing office by half (from 30/week); reduce average days to close a work order (currently 9).",
+   "evidence": {
+    "t": "05:07",
+    "speaker": null,
+    "score": 0.64,
+    "quote": "Fewer status calls to the leasing office. If we cut those 30 calls a week in half that's a win and average days to close a work order."
+   }
+  }
+ ],
+ "decision_makers": [
+  {
+   "item": "**Sign-off:** Operations Manager and Linda Park (Owner of management company).",
+   "evidence": {
+    "t": "05:19",
+    "speaker": null,
+    "score": 0.56,
+    "quote": "Me and the owner of the management company Linda Park."
+   }
+  },
+  {
+   "item": "**Required involvement:** Carlos (Maintenance Coordinator) must be present to know where issues are occurring.",
+   "evidence": null
+  }
+ ],
+ "next_steps": [
+  {
+   "item": "Speaker | Export one month of work orders from Appfolio with names removed | Monday",
+   "evidence": {
+    "t": "05:31",
+    "speaker": null,
+    "score": 0.86,
+    "quote": "Could you export one month of work orders from our folio with names removed?"
+   }
+  },
+  {
+   "item": "Speaker | Conduct a short call with Linda Park and Carlos | Next week",
+   "evidence": {
+    "t": "05:38",
+    "speaker": null,
+    "score": 0.67,
+    "quote": "Then I'd like a short call with Linda and Carlos next week."
+   }
+  },
+  {
+   "item": "Speaker | Present proposal for one-lane request intake and resident status updates as a pilot on one building, one agent | Next week",
+   "evidence": {
+    "t": "05:42",
+    "speaker": null,
+    "score": 0.83,
+    "quote": "I'll bring a proposal for one lane. Request intake and resident status updates starting as a pilot on one building. One agent, and we measure status calls and days to close."
+   }
+  }
+ ],
+ "candidate_agent_tasks": [
+  {
+   "task": "Candidate agent task: High volume of status calls to leasing team.",
+   "from": "pains",
+   "evidence": {
+    "t": "01:50",
+    "speaker": null,
+    "score": 0.67,
+    "quote": "Our leasing team says they get about 30 status calls a week."
+   }
+  },
+  {
+   "task": "Candidate agent task: Open work orders take too long to close (avg 9 days).",
+   "from": "pains",
+   "evidence": {
+    "t": "02:46",
+    "speaker": null,
+    "score": 0.34,
+    "quote": "The vendor sends an invoice sometimes with photos. Carlos is supposed to close the work order in upfolio and attach the invoice. Half the time the work order stays open for weeks because nobody closed it."
+   }
+  },
+  {
+   "task": "Candidate agent task: Lack of visibility when Carlos is on vacation.",
+   "from": "pains",
+   "evidence": {
+    "t": "03:50",
+    "speaker": null,
+    "score": 0.5,
+    "quote": "What happens when Carlos is on vacation?"
+   }
+  },
+  {
+   "task": "Candidate agent task: Resident submits request via Appfolio, emails leasing office, or texts Carlos",
+   "from": "process_map",
+   "evidence": {
+    "t": "00:28",
+    "speaker": null,
+    "score": 0.62,
+    "quote": "Residents are supposed to submit requests through the Appfolio resident portal. Some do. A lot of them email the leasing office instead."
+   }
+  },
+  {
+   "task": "Candidate agent task: Carlos checks portal, email, and text; decides between in-house technician or outside vendor",
+   "from": "process_map",
+   "evidence": {
+    "t": "00:47",
+    "speaker": null,
+    "score": 0.74,
+    "quote": "Carlos checks the portal, his email and his text a few times a day. it's an emergency or routine. For anything routine he either assigns it to our in-house technician or to an outside vendor."
+   }
+  },
+  {
+   "task": "Candidate agent task: Carlos assigns work order to technician/vendor from vendor list",
+   "from": "process_map",
+   "evidence": {
+    "t": "02:31",
+    "speaker": null,
+    "score": 0.67,
+    "quote": "A folio for the portal and work orders. Gmail, Carlos's phone, the Excel vendor list, and the whiteboard."
+   }
+  },
+  {
+   "task": "Candidate agent task: Vendor is contacted (call/text); resident notified of arrival time",
+   "from": "process_map",
+   "evidence": {
+    "t": "01:34",
+    "speaker": null,
+    "score": 0.46,
+    "quote": "Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong. The resident calls the office, upset, and nobody knows what happened because it was all in Carlos's texts."
+   }
+  },
+  {
+   "task": "Candidate agent task: Carlos closes work order in Appfolio and attaches invoice",
+   "from": "process_map",
+   "evidence": {
+    "t": "02:50",
+    "speaker": null,
+    "score": 0.71,
+    "quote": "Carlos is supposed to close the work order in upfolio and attach the invoice."
+   }
+  }
+ ],
+ "stats": {
+  "items": 33,
+  "items_with_quote": 28,
+  "items_without_quote": [
+   "Status call duration: 5\u201310 minutes each.",
+   "Unmatched invoices frequency: 2\u20133 times per month.",
+   "Vendors do not show up or arrive late; no record kept in system. | Residents call upset; no one knows what happened because info was only in Carlos's texts.",
+   "After-hours emergency requests often lack proper documentation. | Invoices cannot be matched to units; bookkeeper must email Carlos to dig through texts.",
+   "**Required involvement:** Carlos (Maintenance Coordinator) must be present to know where issues are occurring."
+  ]
+ },
+ "summary_status": "completed",
+ "summary_markdown": "**Company and People**\n\n*   **Company:** Oakline Property Group\n    *   **What it does:** Manages maintenance for 340 units across six buildings.\n*   **People:**\n    *   **Speaker (Interviewer):** Operations Manager at Oakline Property Group.\n    *   **Carlos:** Maintenance Coordinator.\n    *   **Linda Park:** Owner of the management company.\n\n**Workflow Steps**\n\n| Step | Who | Tool |\n| --- | --- | --- |\n| Resident submits request via Appfolio, emails leasing office, or texts Carlos | Residents | Appfolio, Email, Text |\n| Carlos checks portal, email, and text; decides between in-house technician or outside vendor | Carlos | Appfolio, Gmail, Personal Cell Phone |\n| Carlos assigns work order to technician/vendor from vendor list | Carlos | Excel Spreadsheet (Vendor List) |\n| Vendor is contacted (call/text); resident notified of arrival time | Carlos/Leasing Office | Phone/Text |\n| Vendor performs repair; invoice sent (sometimes with photos) | Vendor | - |\n| Carlos closes work order in Appfolio and attaches invoice | Carlos | Appfolio |\n\n**Volumes and Timing**\n\n*   340 units managed across six buildings.\n*   ~90 work orders per month.\n*   ~15 emergency requests per month.\n*   ~30 status calls per week.\n*   Status call duration: 5\u201310 minutes each.\n*   Work order closure time: Average 9 days.\n*   Vendor show-up failure rate: 1 out of every 8 appointments.\n*   Unmatched invoices frequency: 2\u20133 times per month.\n*   Shared spreadsheet usage duration: ~3 weeks.\n\n**Tools and Systems**\n\n*   Appfolio (Resident portal, work orders)\n*   Gmail\n*   Personal Cell Phone\n*   Excel Spreadsheet (Vendor List)\n*   Whiteboard (in Carlos's office)\n*   QuickBooks (for paying vendor invoices)\n\n**Pain Points**\n\n| Pain | Cost or impact |\n| --- | --- |\n| Vendors do not show up or arrive late; no record kept in system. | Residents call upset; no one knows what happened because info was only in Carlos's texts. |\n| High volume of status calls to leasing team. | ~30 calls per week; 5\u201310 minutes each to find Carlos and ask for updates. |\n| Open work orders take too long to close (avg 9 days). | Bad reviews from residents who feel ignored; Owner reports show unfinished work incorrectly. |\n| After-hours emergency requests often lack proper documentation. | Invoices cannot be matched to units; bookkeeper must email Carlos to dig through texts. |\n| Lack of visibility when Carlos is on vacation. | No vendor phone numbers available; unknown job schedules; residents told someone would come but nobody did. |\n\n**Desired Outcome and Measure**\n\n*   **Outcome:** Every request enters Appfolio within an hour regardless of source; every resident receives updates when a vendor is scheduled and when work is done without relying on Carlos's memory.\n*   **Measure:** Reduce status calls to the leasing office by half (from 30/week); reduce average days to close a work order (currently 9).\n\n**Decision Makers**\n\n*   **Sign-off:** Operations Manager and Linda Park (Owner of management company).\n*   **Required involvement:** Carlos (Maintenance Coordinator) must be present to know where issues are occurring.\n\n**Next Steps**\n\n| Owner | Action | When |\n| --- | --- | --- |\n| Speaker | Export one month of work orders from Appfolio with names removed | Monday |\n| Speaker | Conduct a short call with Linda Park and Carlos | Next week |\n| Speaker | Present proposal for one-lane request intake and resident status updates as a pilot on one building, one agent | Next week |"
+}

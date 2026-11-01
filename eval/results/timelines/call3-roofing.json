@@ -1,0 +1,389 @@
+{
+ "call": "call3-roofing",
+ "condition": "overlap",
+ "sample_rate": 24000,
+ "duration_s": 339.1,
+ "lines": 54,
+ "overlapping_turns": 12,
+ "snr_db": null,
+ "timeline": [
+  {
+   "i": 0,
+   "spk": "A",
+   "start": 0.5,
+   "end": 10.18,
+   "text": "Before we start, I want to let you know this call is being recorded on my laptop so I can keep accurate notes. It stays with us. Are you okay with that?"
+  },
+  {
+   "i": 1,
+   "spk": "P",
+   "start": 10.63,
+   "end": 11.59,
+   "text": "Yeah, no problem."
+  },
+  {
+   "i": 2,
+   "spk": "A",
+   "start": 12.04,
+   "end": 17.96,
+   "text": "Thanks. You own Ridgeline Roofing. Walk me through how a lead turns into a signed job."
+  },
+  {
+   "i": 3,
+   "spk": "P",
+   "start": 16.622,
+   "end": 31.262,
+   "text": "Sure. Leads come in three ways. We buy leads from Angi, we get form fills from our website, and we have two guys who knock doors after a big storm. Every lead goes into JobNimbus. That's our CRM."
+  },
+  {
+   "i": 4,
+   "spk": "A",
+   "start": 31.712,
+   "end": 32.992,
+   "text": "How many leads a month?"
+  },
+  {
+   "i": 5,
+   "spk": "P",
+   "start": 33.442,
+   "end": 40.322,
+   "text": "Depends on the weather. A normal month is about a hundred and twenty leads. After a hail storm it can be three hundred."
+  },
+  {
+   "i": 6,
+   "spk": "A",
+   "start": 38.794,
+   "end": 41.674,
+   "text": "What happens after the lead is in JobNimbus?"
+  },
+  {
+   "i": 7,
+   "spk": "P",
+   "start": 42.124,
+   "end": 58.604,
+   "text": "Our office coordinator, Tasha, calls the lead and books an inspection. Then one of my three estimators goes out, gets on the roof, takes photos, and measures. He builds the estimate in JobNimbus and emails the customer a PDF that night or the next day."
+  },
+  {
+   "i": 8,
+   "spk": "A",
+   "start": 59.054,
+   "end": 61.374,
+   "text": "And how many estimates go out each month?"
+  },
+  {
+   "i": 9,
+   "spk": "P",
+   "start": 61.824,
+   "end": 66.304,
+   "text": "About forty five estimates a month. We close about thirty percent of them."
+  },
+  {
+   "i": 10,
+   "spk": "A",
+   "start": 66.754,
+   "end": 68.434,
+   "text": "What's an average job worth?"
+  },
+  {
+   "i": 11,
+   "spk": "P",
+   "start": 68.884,
+   "end": 75.604,
+   "text": "Around fourteen thousand dollars for a full replacement. Repairs are smaller, maybe eight hundred."
+  },
+  {
+   "i": 12,
+   "spk": "A",
+   "start": 74.161,
+   "end": 76.641,
+   "text": "So what happens after the estimate goes out?"
+  },
+  {
+   "i": 13,
+   "spk": "P",
+   "start": 77.091,
+   "end": 87.411,
+   "text": "That's the honest problem. After the PDF goes out, follow up is up to the estimator. Some of them call back in two days. Some of them never call back. There's no system for it."
+  },
+  {
+   "i": 14,
+   "spk": "A",
+   "start": 87.861,
+   "end": 91.061,
+   "text": "Do you know how many estimates never get a follow up call?"
+  },
+  {
+   "i": 15,
+   "spk": "P",
+   "start": 90.004,
+   "end": 98.164,
+   "text": "I went through it last month. Out of forty five estimates, nineteen had no follow up at all after the first email. Nineteen."
+  },
+  {
+   "i": 16,
+   "spk": "A",
+   "start": 98.614,
+   "end": 100.534,
+   "text": "That's a lot of money sitting there."
+  },
+  {
+   "i": 17,
+   "spk": "P",
+   "start": 100.984,
+   "end": 107.304,
+   "text": "It is. If we closed even three more of those a month, that's over forty thousand dollars in revenue."
+  },
+  {
+   "i": 18,
+   "spk": "A",
+   "start": 106.194,
+   "end": 107.954,
+   "text": "Where does insurance come in?"
+  },
+  {
+   "i": 19,
+   "spk": "P",
+   "start": 108.404,
+   "end": 128.724,
+   "text": "A lot of our replacement jobs are insurance claims. The homeowner files a claim, and the adjuster has to come out. We try to have our estimator at the house when the adjuster is there. Scheduling that is a nightmare. Tasha goes back and forth with the homeowner and the adjuster by phone and text, sometimes eight or nine messages to set one meeting."
+  },
+  {
+   "i": 20,
+   "spk": "A",
+   "start": 129.174,
+   "end": 130.774,
+   "text": "How many adjuster meetings a month?"
+  },
+  {
+   "i": 21,
+   "spk": "P",
+   "start": 131.224,
+   "end": 132.984,
+   "text": "Maybe twenty in a normal month."
+  },
+  {
+   "i": 22,
+   "spk": "A",
+   "start": 133.434,
+   "end": 135.194,
+   "text": "And what tools are involved there?"
+  },
+  {
+   "i": 23,
+   "spk": "P",
+   "start": 135.644,
+   "end": 143.724,
+   "text": "JobNimbus, Tasha's phone, Google Calendar for the estimators, and email. We also use CompanyCam for the roof photos."
+  },
+  {
+   "i": 24,
+   "spk": "A",
+   "start": 142.212,
+   "end": 144.772,
+   "text": "Tell me more about how the estimators work day to day."
+  },
+  {
+   "i": 25,
+   "spk": "P",
+   "start": 145.222,
+   "end": 159.062,
+   "text": "Each estimator does three or four inspections a day when it's busy. They write the estimate at night from home, usually after eight. So by the time they're done they're tired, and following up on old estimates is the last thing on their mind."
+  },
+  {
+   "i": 26,
+   "spk": "A",
+   "start": 159.512,
+   "end": 161.512,
+   "text": "Do they log their follow up calls anywhere?"
+  },
+  {
+   "i": 27,
+   "spk": "P",
+   "start": 161.962,
+   "end": 176.362,
+   "text": "They're supposed to make a note in JobNimbus. Some do, some don't. Jake is good about it. The other two, not so much. So when a customer calls back and asks for their estimator, Tasha has no idea what was already said."
+  },
+  {
+   "i": 28,
+   "spk": "A",
+   "start": 176.812,
+   "end": 179.852,
+   "text": "What happens when a customer says they want to think about it?"
+  },
+  {
+   "i": 29,
+   "spk": "P",
+   "start": 180.302,
+   "end": 194.542,
+   "text": "Usually the estimator says he'll check back next week, and then the week gets busy. A lot of those customers end up signing with whoever called them back first. We lose jobs to companies that are more organized, not cheaper."
+  },
+  {
+   "i": 30,
+   "spk": "A",
+   "start": 193.638,
+   "end": 194.598,
+   "text": "How do you know that?"
+  },
+  {
+   "i": 31,
+   "spk": "P",
+   "start": 195.048,
+   "end": 205.608,
+   "text": "We call some of the lost ones at the end of the season and ask. Most of them say the other company just stayed in touch. Price comes up maybe one time in five."
+  },
+  {
+   "i": 32,
+   "spk": "A",
+   "start": 206.058,
+   "end": 210.138,
+   "text": "And on the insurance side, what makes the adjuster meetings so hard to set?"
+  },
+  {
+   "i": 33,
+   "spk": "P",
+   "start": 208.664,
+   "end": 224.424,
+   "text": "The adjuster gives the homeowner a window, sometimes with one day's notice. Then the homeowner calls Tasha, Tasha checks the estimator's Google Calendar, and if he's booked she has to move something else. Then she confirms with the homeowner, and sometimes the adjuster changes the time again."
+  },
+  {
+   "i": 34,
+   "spk": "A",
+   "start": 224.874,
+   "end": 227.594,
+   "text": "What does it cost you when the estimator misses an adjuster meeting?"
+  },
+  {
+   "i": 35,
+   "spk": "P",
+   "start": 228.044,
+   "end": 236.924,
+   "text": "The adjuster writes the claim without us there, and he usually misses damage. Then we have to file a supplement, which can take another three or four weeks."
+  },
+  {
+   "i": 36,
+   "spk": "A",
+   "start": 235.466,
+   "end": 237.306,
+   "text": "What happens when a job is signed?"
+  },
+  {
+   "i": 37,
+   "spk": "P",
+   "start": 237.756,
+   "end": 248.956,
+   "text": "Then it goes to production. Ordering materials from ABC Supply, scheduling the crew, the permit. That part runs pretty well, actually. My production manager has it under control."
+  },
+  {
+   "i": 38,
+   "spk": "A",
+   "start": 249.406,
+   "end": 252.686,
+   "text": "So the gap is between the estimate and the signature."
+  },
+  {
+   "i": 39,
+   "spk": "P",
+   "start": 251.458,
+   "end": 259.058,
+   "text": "Exactly. The work after signing is fine. The work before the estimate is fine. It's the follow up and the adjuster scheduling in the middle."
+  },
+  {
+   "i": 40,
+   "spk": "A",
+   "start": 259.508,
+   "end": 262.548,
+   "text": "If you could fix one thing, what would it be?"
+  },
+  {
+   "i": 41,
+   "spk": "P",
+   "start": 262.998,
+   "end": 275.478,
+   "text": "Every estimate gets a follow up on day two, day five and day ten, until the customer says yes or no. And the estimator gets a heads up when the customer replies, so he can call while it's hot."
+  },
+  {
+   "i": 42,
+   "spk": "A",
+   "start": 274.366,
+   "end": 275.486,
+   "text": "How would you measure it?"
+  },
+  {
+   "i": 43,
+   "spk": "P",
+   "start": 275.936,
+   "end": 285.296,
+   "text": "The close rate. Get it from thirty percent to thirty five percent. And no estimate with zero follow up. That number should be zero, not nineteen."
+  },
+  {
+   "i": 44,
+   "spk": "A",
+   "start": 285.746,
+   "end": 287.106,
+   "text": "Who would sign off?"
+  },
+  {
+   "i": 45,
+   "spk": "P",
+   "start": 287.556,
+   "end": 293.796,
+   "text": "Me. I'm the owner. But I want Tasha and my lead estimator, Jake, to see it first, because they'll live with it."
+  },
+  {
+   "i": 46,
+   "spk": "A",
+   "start": 294.246,
+   "end": 301.206,
+   "text": "Makes sense. For next steps, can you pull a list of last quarter's estimates from JobNimbus with the status of each one?"
+  },
+  {
+   "i": 47,
+   "spk": "P",
+   "start": 301.656,
+   "end": 303.656,
+   "text": "I'll have Tasha pull it this week."
+  },
+  {
+   "i": 48,
+   "spk": "A",
+   "start": 304.106,
+   "end": 318.826,
+   "text": "Great. Then I'll put together a one page plan for a single lane, which is estimate follow up, and we can do a two week trial on new estimates only. The adjuster scheduling we keep as a possible second phase, not part of this one."
+  },
+  {
+   "i": 49,
+   "spk": "P",
+   "start": 319.276,
+   "end": 321.996,
+   "text": "I like that. Keep it to one thing."
+  },
+  {
+   "i": 50,
+   "spk": "A",
+   "start": 322.446,
+   "end": 330.686,
+   "text": "One agent, one lane, one number, the close rate. Can we meet again next Tuesday with Tasha and Jake?"
+  },
+  {
+   "i": 51,
+   "spk": "P",
+   "start": 329.591,
+   "end": 332.791,
+   "text": "Tuesday morning works. Let's say ten."
+  },
+  {
+   "i": 52,
+   "spk": "A",
+   "start": 333.241,
+   "end": 336.281,
+   "text": "Tuesday at ten. Thanks for your time."
+  },
+  {
+   "i": 53,
+   "spk": "P",
+   "start": 336.731,
+   "end": 338.331,
+   "text": "Thank you, appreciate it."
+  }
+ ]
+}

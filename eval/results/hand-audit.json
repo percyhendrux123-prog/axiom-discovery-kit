@@ -1,0 +1,67 @@
+{
+ "_how": "Hand audit by the axiomops agent of each Qwen 3.5 4B summary (Axiom Discovery template) against the script. Counts factual errors a human must fix before using the summary. 'owner' = wrong or vague owner on a next step or a role swapped between interviewer and prospect.",
+ "call1-hvac-clean": {
+  "factual_errors": [
+   "People: says the dispatchers 'rotate on-call each week' (the script says two technicians rotate on call)"
+  ],
+  "owner_errors": [
+   "Next steps: 'Interviewer' sends the 10 answering-service emails (the prospect sends them)",
+   "Next steps: 'Interviewer' schedules the Thursday meeting (the meeting was agreed jointly; Thursday at two is right)"
+  ],
+  "missed": []
+ },
+ "call2-property-noise": {
+  "factual_errors": [],
+  "owner_errors": [
+   "People: labels the Operations Manager as 'Speaker (Interviewer)'; the Operations Manager is the prospect",
+   "Next steps: every owner is 'Speaker', so it can't tell who exports the work orders (prospect) from who brings the proposal (Axiom)"
+  ],
+  "missed": [
+   "Owner approval for repairs over $500 missing from the workflow and volumes",
+   "The pilot building (Magnolia) is not named"
+  ]
+ },
+ "call2-property-clean": {
+  "factual_errors": [
+   "Next steps: export is 'sent to Operations Manager' (the prospect is the Operations Manager; it goes to Axiom)"
+  ],
+  "owner_errors": [
+   "Next steps: 'Speaker (Operations Manager)' presents the proposal (Axiom brings it)"
+  ],
+  "missed": []
+ },
+ "call3-roofing-overlap": {
+  "factual_errors": [
+   "Pains: a supplement 'delays work by another two years' (the script says three or four weeks; the transcript lost those words in an overlap and the model filled the gap)",
+   "Volumes: the after-hail figure (300 leads) is missing because the words were lost in an overlap"
+  ],
+  "owner_errors": [
+   "Next steps: 'Owner' writes the one-page plan (Axiom writes it)"
+  ],
+  "missed": [
+   "CompanyCam: transcribed as 'company can be a little bit more' during an overlap",
+   "Three or four inspections a day per estimator (lost in an overlap)",
+   "Repairs about $800 (lost in an overlap)"
+  ]
+ },
+ "call3-roofing-clean": {
+  "factual_errors": [
+   "Tools: 'Angie's List' (the prospect said Angi; the model expanded the name)",
+   "Next steps: puts the two-week trial at 'next Tuesday at 10 AM' (Tuesday at ten is the follow-up meeting)"
+  ],
+  "owner_errors": [
+   "Next steps: '[Meeting Organizer]' writes the plan (vague; it's Axiom)"
+  ],
+  "missed": []
+ },
+ "call1-hvac-live": {
+  "factual_errors": [
+   "People: says one dispatcher rotates on call each week (the script says two technicians rotate on call)",
+   "Volumes: lists next-step items (10 emails, Thursday meeting) as volumes"
+  ],
+  "owner_errors": [
+   "Next steps: every owner is 'Meeting Partner', so it can't tell the prospect's action from Axiom's"
+  ],
+  "missed": []
+ }
+}

@@ -1,0 +1,49 @@
+# call2-property | condition: noise | synthetic, fictional company and people
+A: Before we get going, I want to let you know I'm recording this call on my laptop so I can keep good notes. It stays with us and isn't shared with anyone. Is that all right?
+P: Sure, that's fine with me.
+A: Thanks. You're the operations manager at Oakline Property Group. Tell me how a maintenance request moves through your company today, from the moment a resident has a problem.
+P: Okay. We manage about three hundred and forty units across six buildings. Residents are supposed to submit requests through the AppFolio resident portal. Some do. A lot of them email the leasing office instead, and some of them just text our maintenance coordinator, Carlos, on his personal cell phone.
+A: So three ways in. What happens next?
+P: Carlos checks the portal, his email and his texts a few times a day. He decides whether it's an emergency or routine. For anything routine he either assigns it to our in house technician or to an outside vendor. We have a vendor list in an Excel spreadsheet with plumbers, electricians, appliance repair and a locksmith.
+A: How many requests do you get in a month?
+P: Around ninety work orders a month. About fifteen of those are emergencies, like water leaks or no heat.
+A: How does Carlos get the vendor scheduled?
+P: He calls them or texts them. Then he has to tell the resident when someone is coming. Then he has to remember to check whether the vendor actually showed up. That last part is where things fall apart.
+A: Tell me more about that.
+P: Vendors don't always show up. Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong day. The resident calls the office, upset, and nobody knows what happened because it was all in Carlos's texts.
+A: How much of the office's time goes to residents calling for status?
+P: Our leasing team says they get about thirty status calls a week. Each one takes five or ten minutes because they have to find Carlos and ask him.
+A: Are there approval steps?
+P: Yes. Any repair over five hundred dollars needs the property owner's approval. We have eleven owners. Carlos emails them a quote and waits. Some owners answer in an hour. Some take a week. Meanwhile the resident is waiting with a broken dishwasher.
+A: How do you track which requests are waiting on an owner?
+P: Honestly, we don't track it well. There's a whiteboard in Carlos's office with the open items. It's usually out of date.
+A: What tools are involved altogether?
+P: AppFolio for the portal and work orders, Gmail, Carlos's phone, the Excel vendor list, and the whiteboard. We also use QuickBooks for paying vendor invoices, but that's the accounting side.
+A: When a work order is done, how does it get closed?
+P: The vendor sends an invoice, sometimes with photos. Carlos is supposed to close the work order in AppFolio and attach the invoice. Half the time the work order stays open for weeks because nobody closed it.
+A: What does that cost you?
+P: Two things. Residents give us bad reviews because they think we ignored them. And at the end of the month our reports to owners are wrong, because open work orders look like unfinished work.
+A: Walk me through an emergency, say a water leak at night.
+P: The resident is supposed to call our after hours line, which forwards to Carlos's cell phone. He decides whether to send our technician or call an emergency plumber. Then in the morning he's supposed to create the work order in AppFolio after the fact, so we have a record. Sometimes that never happens, and then the plumber's invoice shows up and nobody knows which unit it was for.
+A: How often does that happen?
+P: I'd guess two or three times a month we get an invoice we can't match to a work order. Our bookkeeper has to email Carlos and he has to dig through his texts.
+A: What happens when Carlos is on vacation?
+P: Honestly, that's my biggest fear. Last summer he took a week off, and I covered for him. I didn't have half the vendor phone numbers, I didn't know which jobs were already scheduled, and three residents told me someone had promised to come and nobody did.
+A: How do residents usually find out their request is done?
+P: Most of the time they don't, unless they're home when the vendor comes. AppFolio can send a notice when the work order is closed, but since the work orders stay open, the notice never goes out.
+A: What does the leasing team do when a resident calls for status?
+P: They put the resident on hold, walk down the hall to Carlos's office or text him, and then wait. If Carlos is out at a property, the resident gets a callback later, which is one more thing to remember.
+A: Have you tried to fix any of this before?
+P: We tried a shared spreadsheet for open requests about a year ago. It lasted about three weeks. Nobody kept it updated because it was one more place to type the same thing.
+A: If you could change one thing in the next quarter, what would it be?
+P: I want every request, no matter how it comes in, to end up in AppFolio within the hour, and every resident to get an update when a vendor is scheduled and when the work is done. Without Carlos having to remember all of it.
+A: And the measure?
+P: Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win. And average days to close a work order. Right now it's about nine days.
+A: Who would be part of the decision?
+P: Me, and the owner of the management company, Linda Park. Carlos should be in the room too because he knows where the bodies are buried.
+A: Understood. Here's what I'd propose as next steps. Could you export one month of work orders from AppFolio, with names removed?
+P: Yes, I can pull that report on Monday.
+A: Good. Then I'd like a short call with Linda and Carlos next week. I'll bring a proposal for one lane: request intake and resident status updates, starting as a pilot on one building. One agent, and we measure status calls and days to close.
+P: Start with the Magnolia building. It's the one with the most requests.
+A: The Magnolia building it is. Thanks for walking me through all of this.
+P: Thank you. I'll send the export Monday.

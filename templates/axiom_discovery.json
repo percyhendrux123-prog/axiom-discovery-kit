@@ -1,0 +1,49 @@
+{
+  "name": "Axiom Discovery Call",
+  "description": "Capture the prospect's workflow, volumes, tools, pains and next steps in their own words, for one-lane agent design.",
+  "sections": [
+    {
+      "title": "Company and People",
+      "instruction": "Company name, what it does, and every person named on the call with their role. Use only names and roles said in the transcript.",
+      "format": "list"
+    },
+    {
+      "title": "Workflow Steps",
+      "instruction": "The current process step by step, in the order the prospect described it. For each step say who does it and which tool they use. Do not invent steps.",
+      "format": "list",
+      "item_format": "| **Step** | **Who** | **Tool** |\n| --- | --- | --- |"
+    },
+    {
+      "title": "Volumes and Timing",
+      "instruction": "Every number the prospect gave: calls, requests, jobs, leads, estimates per day, week or month; time taken; money amounts; percentages. Copy the numbers exactly as spoken.",
+      "format": "list"
+    },
+    {
+      "title": "Tools and Systems",
+      "instruction": "Every software product, service, device or manual tool mentioned (for example CRM, phone system, spreadsheet, whiteboard, sticky notes).",
+      "format": "list"
+    },
+    {
+      "title": "Pain Points",
+      "instruction": "Where the process breaks, what it costs, and the prospect's own evidence for it. One row per pain.",
+      "format": "list",
+      "item_format": "| **Pain** | **Cost or impact** |\n| --- | --- |"
+    },
+    {
+      "title": "Desired Outcome and Measure",
+      "instruction": "The one thing the prospect wants fixed and the number they would use to measure it.",
+      "format": "paragraph"
+    },
+    {
+      "title": "Decision Makers",
+      "instruction": "Who signs off and who else must be involved, as stated.",
+      "format": "list"
+    },
+    {
+      "title": "Next Steps",
+      "instruction": "Agreed actions with owner and date or day, exactly as agreed on the call.",
+      "format": "list",
+      "item_format": "| **Owner** | **Action** | **When** |\n| --- | --- | --- |"
+    }
+  ]
+}

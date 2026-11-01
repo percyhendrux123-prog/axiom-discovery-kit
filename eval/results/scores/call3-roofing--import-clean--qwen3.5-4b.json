@@ -1,0 +1,267 @@
+{
+ "call": "call3-roofing",
+ "method": "import-clean",
+ "meeting_id": "meeting-97f6214f-89f3-42f5-9c3f-eb1d6f8770fe",
+ "meeting_title": "Ridgeline Roofing Lead Conversion and Follow-Up Process Review",
+ "summary_model": "qwen3.5-4b",
+ "summary_status": "completed",
+ "wer": {
+  "ref_words": 1006,
+  "hyp_words": 975,
+  "sub": 4,
+  "del": 31,
+  "ins": 0,
+  "wer": 0.0348
+ },
+ "source_split": {
+  "segments": 15,
+  "labels": {
+   "unlabelled": 15
+  },
+  "expected": null
+ },
+ "summary_checklist": {
+  "captured": 24,
+  "total": 24,
+  "by_category": {
+   "workflow": "5/5",
+   "volume": "6/6",
+   "tool": "4/4",
+   "pain": "4/4",
+   "outcome": "1/1",
+   "decision": "1/1",
+   "next_step": "3/3"
+  },
+  "items": [
+   {
+    "id": "w1",
+    "cat": "workflow",
+    "item": "Leads from Angi, website forms, and door knocking go into JobNimbus",
+    "captured": true,
+    "matched": [
+     "angi",
+     "jobnimbus"
+    ]
+   },
+   {
+    "id": "w2",
+    "cat": "workflow",
+    "item": "Tasha calls the lead and books an inspection",
+    "captured": true,
+    "matched": [
+     "inspection"
+    ]
+   },
+   {
+    "id": "w3",
+    "cat": "workflow",
+    "item": "Estimator inspects roof, builds estimate in JobNimbus, emails PDF",
+    "captured": true,
+    "matched": [
+     "estimat",
+     "pdf"
+    ]
+   },
+   {
+    "id": "w4",
+    "cat": "workflow",
+    "item": "Follow up after estimate is up to the estimator, no system",
+    "captured": true,
+    "matched": [
+     "follow"
+    ]
+   },
+   {
+    "id": "w5",
+    "cat": "workflow",
+    "item": "Insurance adjuster meeting scheduling",
+    "captured": true,
+    "matched": [
+     "adjuster"
+    ]
+   },
+   {
+    "id": "v1",
+    "cat": "volume",
+    "item": "About 120 leads a month (300 after hail)",
+    "captured": true,
+    "matched": [
+     "one hundred twenty"
+    ]
+   },
+   {
+    "id": "v2",
+    "cat": "volume",
+    "item": "About 45 estimates a month",
+    "captured": true,
+    "matched": [
+     "forty five"
+    ]
+   },
+   {
+    "id": "v3",
+    "cat": "volume",
+    "item": "Close about 30 percent",
+    "captured": true,
+    "matched": [
+     "thirty percent"
+    ]
+   },
+   {
+    "id": "v4",
+    "cat": "volume",
+    "item": "Average job about $14,000",
+    "captured": true,
+    "matched": [
+     "fourteen thousand"
+    ]
+   },
+   {
+    "id": "v5",
+    "cat": "volume",
+    "item": "19 of 45 estimates had no follow up",
+    "captured": true,
+    "matched": [
+     "nineteen"
+    ]
+   },
+   {
+    "id": "v6",
+    "cat": "volume",
+    "item": "Three or four inspections a day per estimator",
+    "captured": true,
+    "matched": [
+     "four inspections"
+    ]
+   },
+   {
+    "id": "t1",
+    "cat": "tool",
+    "item": "JobNimbus",
+    "captured": true,
+    "matched": [
+     "jobnimbus"
+    ]
+   },
+   {
+    "id": "t2",
+    "cat": "tool",
+    "item": "Google Calendar",
+    "captured": true,
+    "matched": [
+     "google calendar"
+    ]
+   },
+   {
+    "id": "t3",
+    "cat": "tool",
+    "item": "CompanyCam",
+    "captured": true,
+    "matched": [
+     "companycam"
+    ]
+   },
+   {
+    "id": "t4",
+    "cat": "tool",
+    "item": "Angi lead service",
+    "captured": true,
+    "matched": [
+     "angi"
+    ]
+   },
+   {
+    "id": "p1",
+    "cat": "pain",
+    "item": "No follow up system after estimate",
+    "captured": true,
+    "matched": [
+     "follow",
+     "no "
+    ]
+   },
+   {
+    "id": "p2",
+    "cat": "pain",
+    "item": "Adjuster scheduling takes 8-9 messages",
+    "captured": true,
+    "matched": [
+     "adjuster",
+     "schedul"
+    ]
+   },
+   {
+    "id": "p3",
+    "cat": "pain",
+    "item": "Lost revenue (3 more closes = over $40,000)",
+    "captured": true,
+    "matched": [
+     "forty thousand"
+    ]
+   },
+   {
+    "id": "o1",
+    "cat": "outcome",
+    "item": "Follow up day 2, 5, 10; close rate 30 to 35 percent",
+    "captured": true,
+    "matched": [
+     "thirty five"
+    ]
+   },
+   {
+    "id": "p4",
+    "cat": "pain",
+    "item": "Missed adjuster meeting leads to supplement taking 3-4 weeks",
+    "captured": true,
+    "matched": [
+     "supplement"
+    ]
+   },
+   {
+    "id": "d1",
+    "cat": "decision",
+    "item": "Owner decides; Tasha and Jake see it first",
+    "captured": true,
+    "matched": [
+     "jake"
+    ]
+   },
+   {
+    "id": "n1",
+    "cat": "next_step",
+    "item": "Tasha pulls last quarter's estimates this week",
+    "captured": true,
+    "matched": [
+     "estimate",
+     "list"
+    ]
+   },
+   {
+    "id": "n2",
+    "cat": "next_step",
+    "item": "Two-week trial on new estimates; adjuster scheduling kept as phase two",
+    "captured": true,
+    "matched": [
+     "trial"
+    ]
+   },
+   {
+    "id": "n3",
+    "cat": "next_step",
+    "item": "Meet Tuesday at ten with Tasha and Jake",
+    "captured": true,
+    "matched": [
+     "tuesday"
+    ]
+   }
+  ]
+ },
+ "quote_linking": {
+  "items": 35,
+  "items_with_quote": 33,
+  "items_without_quote": [
+   "**Potential revenue impact:** If 3 more of those 19 were closed monthly, over $40,000 in additional revenue.",
+   "Price is rarely a reason for losing a job (only 1 in 5). | Lost revenue due to lack of follow-up outweighs price competition issues."
+  ]
+ }
+}

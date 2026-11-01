@@ -1,0 +1,347 @@
+{
+ "call": "call1-hvac",
+ "condition": "clean",
+ "sample_rate": 24000,
+ "duration_s": 358.9,
+ "lines": 48,
+ "overlapping_turns": 0,
+ "snr_db": null,
+ "timeline": [
+  {
+   "i": 0,
+   "spk": "A",
+   "start": 0.5,
+   "end": 10.02,
+   "text": "Before we start, I want to let you know this call is being recorded on my laptop so I can keep accurate notes. The recording stays with us and is not shared. Is that okay with you?"
+  },
+  {
+   "i": 1,
+   "spk": "P",
+   "start": 10.47,
+   "end": 12.79,
+   "text": "Yes, that's fine. Go ahead and record it."
+  },
+  {
+   "i": 2,
+   "spk": "A",
+   "start": 13.24,
+   "end": 20.6,
+   "text": "Thank you. So you run the office at Bayou Comfort Heating and Air. Walk me through what happens when a customer calls in with a problem."
+  },
+  {
+   "i": 3,
+   "spk": "P",
+   "start": 21.05,
+   "end": 38.41,
+   "text": "Sure. During business hours the phone rings at the front desk. We use RingCentral for the phones. One of my two dispatchers picks up, asks what's going on with the unit, gets the address, and then creates a job in ServiceTitan. After that they look at the board and slot the job with whichever technician is closest."
+  },
+  {
+   "i": 4,
+   "spk": "A",
+   "start": 38.86,
+   "end": 41.42,
+   "text": "How many calls are we talking about on a normal day?"
+  },
+  {
+   "i": 5,
+   "spk": "P",
+   "start": 41.87,
+   "end": 51.71,
+   "text": "In the summer it's around sixty calls a day. In the spring and fall it drops to maybe thirty five. Not every call is a new job. A lot of them are people asking when the tech is showing up."
+  },
+  {
+   "i": 6,
+   "spk": "A",
+   "start": 52.16,
+   "end": 56.64,
+   "text": "And what happens after hours, after the office closes?"
+  },
+  {
+   "i": 7,
+   "spk": "P",
+   "start": 57.09,
+   "end": 73.65,
+   "text": "That's the problem area. After six in the evening the calls roll over to an answering service. They take a message, and they email it to a shared inbox. Then the next morning one of my dispatchers reads every message, calls each person back, and enters the job in ServiceTitan by hand."
+  },
+  {
+   "i": 8,
+   "spk": "A",
+   "start": 74.1,
+   "end": 77.14,
+   "text": "How many after hours calls come in during a typical week?"
+  },
+  {
+   "i": 9,
+   "spk": "P",
+   "start": 77.59,
+   "end": 81.11,
+   "text": "About twenty five a week. On a hot weekend it can be forty."
+  },
+  {
+   "i": 10,
+   "spk": "A",
+   "start": 81.56,
+   "end": 84.2,
+   "text": "How long does it take to work through those messages in the morning?"
+  },
+  {
+   "i": 11,
+   "spk": "P",
+   "start": 84.65,
+   "end": 94.49,
+   "text": "Usually until ten or ten thirty. So someone whose air went out at nine at night doesn't hear from us for thirteen hours. By then a lot of them have already called somebody else."
+  },
+  {
+   "i": 12,
+   "spk": "A",
+   "start": 94.94,
+   "end": 97.5,
+   "text": "Do you have a sense of how many jobs you lose that way?"
+  },
+  {
+   "i": 13,
+   "spk": "P",
+   "start": 97.95,
+   "end": 108.35,
+   "text": "We tracked it for a month in a Google Sheet. We lost about eight jobs a week that we know of. An average repair ticket for us is around four hundred dollars, and a replacement can be eight or nine thousand."
+  },
+  {
+   "i": 14,
+   "spk": "A",
+   "start": 108.8,
+   "end": 112.8,
+   "text": "That's real money. What does the answering service actually capture?"
+  },
+  {
+   "i": 15,
+   "spk": "P",
+   "start": 113.25,
+   "end": 124.93,
+   "text": "Name, phone number, and a sentence about the problem. Half the time the address is wrong or missing. They can't book anything, they can't see the schedule, and they can't tell if it's an emergency. So everything waits for the morning."
+  },
+  {
+   "i": 16,
+   "spk": "A",
+   "start": 125.38,
+   "end": 127.54,
+   "text": "Who decides what counts as an emergency?"
+  },
+  {
+   "i": 17,
+   "spk": "P",
+   "start": 127.99,
+   "end": 141.75,
+   "text": "Our on call technician. If the answering service thinks it sounds urgent they call him directly, but they're guessing. Last month they woke him up twice for a thermostat battery, and they missed a real one where a family had no heat with a newborn."
+  },
+  {
+   "i": 18,
+   "spk": "A",
+   "start": 142.2,
+   "end": 150.52,
+   "text": "Let's go back to the morning routine for a second. After the dispatcher reads the email, what are the exact steps?"
+  },
+  {
+   "i": 19,
+   "spk": "P",
+   "start": 150.97,
+   "end": 166.81,
+   "text": "First they open the email. Then they search ServiceTitan to see if the customer already exists. If not, they create the customer. Then they call the person. If the person answers, they book the job. If not, they leave a voicemail and put a sticky note on the monitor to try again at noon."
+  },
+  {
+   "i": 20,
+   "spk": "A",
+   "start": 167.26,
+   "end": 168.06,
+   "text": "A sticky note."
+  },
+  {
+   "i": 21,
+   "spk": "P",
+   "start": 168.51,
+   "end": 172.51,
+   "text": "I know. It's not great. We lose some of those too."
+  },
+  {
+   "i": 22,
+   "spk": "A",
+   "start": 172.96,
+   "end": 177.84,
+   "text": "What tools besides ServiceTitan, RingCentral, the answering service and the Google Sheet?"
+  },
+  {
+   "i": 23,
+   "spk": "P",
+   "start": 178.29,
+   "end": 184.61,
+   "text": "We use Podium for text messages and reviews. And the techs use the ServiceTitan mobile app in the field. That's about it."
+  },
+  {
+   "i": 24,
+   "spk": "A",
+   "start": 185.06,
+   "end": 190.5,
+   "text": "Let's talk about the technicians for a minute. How many do you have, and how do they find out about a new job?"
+  },
+  {
+   "i": 25,
+   "spk": "P",
+   "start": 190.95,
+   "end": 204.55,
+   "text": "We have nine technicians. Two of them rotate on call each week. During the day a new job shows up in the ServiceTitan mobile app, and the dispatcher usually sends a text too, because the techs don't always look at the app while they're on a roof."
+  },
+  {
+   "i": 26,
+   "spk": "A",
+   "start": 205.0,
+   "end": 205.64,
+   "text": "And at night?"
+  },
+  {
+   "i": 27,
+   "spk": "P",
+   "start": 206.09,
+   "end": 216.73,
+   "text": "At night it's whatever the answering service decides. If they call the on call tech, he gets a name and a phone number and that's it. He has to call the customer himself, figure out the address, and decide if it can wait until morning."
+  },
+  {
+   "i": 28,
+   "spk": "A",
+   "start": 217.18,
+   "end": 220.94,
+   "text": "What about customers who call during the day asking when the technician will arrive?"
+  },
+  {
+   "i": 29,
+   "spk": "P",
+   "start": 221.39,
+   "end": 236.59,
+   "text": "That's a big one. In the summer we get maybe fifteen of those calls a day. The dispatcher has to stop what she's doing, look at the board, sometimes call the technician to ask how long he'll be, and then call the customer back. Each one is five minutes, easy."
+  },
+  {
+   "i": 30,
+   "spk": "A",
+   "start": 237.04,
+   "end": 240.0,
+   "text": "Have you tried anything before to fix the after hours problem?"
+  },
+  {
+   "i": 31,
+   "spk": "P",
+   "start": 240.45,
+   "end": 253.81,
+   "text": "Last year we switched to a more expensive answering service. It cost about twelve hundred dollars a month and it didn't change much, because they still can't book. Before that, Ray had the techs take the calls on their cell phones, and two of them almost quit over it."
+  },
+  {
+   "i": 32,
+   "spk": "A",
+   "start": 254.26,
+   "end": 259.62,
+   "text": "So the problem isn't really who answers the phone. It's that whoever answers can't finish the job."
+  },
+  {
+   "i": 33,
+   "spk": "P",
+   "start": 260.07,
+   "end": 270.79,
+   "text": "Exactly. They can't see the schedule, they can't book, and they can't tell a real emergency from a nuisance call. It all lands on my dispatchers the next morning, on top of the new calls that are already ringing at eight."
+  },
+  {
+   "i": 34,
+   "spk": "A",
+   "start": 271.24,
+   "end": 272.6,
+   "text": "What does a bad morning look like?"
+  },
+  {
+   "i": 35,
+   "spk": "P",
+   "start": 273.05,
+   "end": 284.97,
+   "text": "A bad morning is Monday after a hot weekend. Forty messages in the inbox, the phones ringing at eight, two technicians already asking where to go, and Monique trying to call back people who have been waiting since Friday night."
+  },
+  {
+   "i": 36,
+   "spk": "A",
+   "start": 285.42,
+   "end": 289.34,
+   "text": "If you could fix one thing in the next ninety days, what would it be?"
+  },
+  {
+   "i": 37,
+   "spk": "P",
+   "start": 289.79,
+   "end": 302.75,
+   "text": "Every after hours caller gets a real response within fifteen minutes, with the basic information captured correctly, and a booked slot for the morning when it isn't an emergency. And the real emergencies get to the on call tech, with the right details."
+  },
+  {
+   "i": 38,
+   "spk": "A",
+   "start": 303.2,
+   "end": 304.32,
+   "text": "How would you measure that?"
+  },
+  {
+   "i": 39,
+   "spk": "P",
+   "start": 304.77,
+   "end": 311.57,
+   "text": "Time to first response, and how many after hours calls turn into booked jobs. Right now I'd guess we book maybe half of them."
+  },
+  {
+   "i": 40,
+   "spk": "A",
+   "start": 312.02,
+   "end": 314.5,
+   "text": "Who else would need to be involved in a decision like this?"
+  },
+  {
+   "i": 41,
+   "spk": "P",
+   "start": 314.95,
+   "end": 321.83,
+   "text": "The owner, Ray. He signs off on anything that touches customers. And my lead dispatcher, Monique, because she'd be working with it every morning."
+  },
+  {
+   "i": 42,
+   "spk": "A",
+   "start": 322.28,
+   "end": 331.32,
+   "text": "That's helpful. Here's what I'd suggest for next steps. Can you send me a few anonymized examples of the answering service emails, maybe ten of them?"
+  },
+  {
+   "i": 43,
+   "spk": "P",
+   "start": 331.77,
+   "end": 333.29,
+   "text": "I can do that by Wednesday."
+  },
+  {
+   "i": 44,
+   "spk": "A",
+   "start": 333.74,
+   "end": 349.58,
+   "text": "Great. And let's get thirty minutes with Ray and Monique on Thursday afternoon. I'll come back with a one page proposal for a single lane: after hours intake and morning booking. One agent, one measurable outcome, which is response time and booked jobs."
+  },
+  {
+   "i": 45,
+   "spk": "P",
+   "start": 350.03,
+   "end": 352.19,
+   "text": "That works. Thursday at two is good for Ray."
+  },
+  {
+   "i": 46,
+   "spk": "A",
+   "start": 352.64,
+   "end": 356.24,
+   "text": "Thursday at two. Thank you, this was very clear."
+  },
+  {
+   "i": 47,
+   "spk": "P",
+   "start": 356.69,
+   "end": 358.13,
+   "text": "Thank you. Talk soon."
+  }
+ ]
+}
