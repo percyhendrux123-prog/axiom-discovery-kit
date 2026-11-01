@@ -32,7 +32,7 @@
  },
  "call3-roofing-overlap": {
   "factual_errors": [
-   "Pains: a supplement 'delays work by another two years' (the script says three or four weeks; the transcript lost those words in an overlap and the model filled the gap)",
+   "Pains: a supplement 'delays work by another two years' (the script says three or four weeks; the overlap transcript itself reads 'another two years', and the summary repeated it)",
    "Volumes: the after-hail figure (300 leads) is missing because the words were lost in an overlap"
   ],
   "owner_errors": [

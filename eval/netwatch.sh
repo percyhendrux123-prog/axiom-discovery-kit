@@ -1,7 +1,8 @@
 #!/bin/bash
 # netwatch.sh <outfile> <seconds>
-# Polls every second for internet sockets owned by Meetily and its child processes
-# (llama-helper, ffmpeg) and logs them; also takes nettop per-process byte snapshots.
+# Polls in a loop meant to run once a second (about 1.3 s per pass in practice, so short connections
+# can be missed) for internet sockets owned by Meetily and its child processes (llama-helper, ffmpeg)
+# and logs them; also takes nettop per-process byte snapshots every 30 passes.
 OUT="$1"; SECS="${2:-600}"
 : > "$OUT"
 echo "netwatch start $(date '+%F %T')  secs=$SECS" >> "$OUT"

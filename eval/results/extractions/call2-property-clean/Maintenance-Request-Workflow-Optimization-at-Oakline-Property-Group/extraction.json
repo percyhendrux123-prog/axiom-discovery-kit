@@ -12,6 +12,8 @@
     "t": "00:26",
     "speaker": null,
     "score": 0.84,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Residents are supposed to submit requests through the App Folio Resident Portal. Some do. A lot of them email the leasing office instead, and some of them just text our maintenance coordinator, Carlos, on his personal cell phone."
    }
   },
@@ -21,6 +23,8 @@
     "t": "00:47",
     "speaker": null,
     "score": 0.83,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Carlos checks the portal, his email, and his tex a few times a day. He decides whether it's an emergency or routine."
    }
   },
@@ -30,6 +34,8 @@
     "t": "00:54",
     "speaker": null,
     "score": 0.92,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "For anything routine, he either assigns it to our in-house technician or to an outside vendor. We have a vendor list in an Excel spreadsheet with plumbers, electricians, appliance repair, and a locksmith. How many requests do you get in a month?"
    }
   },
@@ -39,6 +45,8 @@
     "t": "01:35",
     "speaker": null,
     "score": 0.79,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong day. The resident calls the office, upset, and nobody knows what happened because it was all in Carlos's texts."
    }
   },
@@ -48,6 +56,8 @@
     "t": "04:53",
     "speaker": null,
     "score": 0.57,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "I want every request, no matter how it comes in, to end up in that folio within the hour, and every resident to get an update when a vendor is scheduled and when the work is done, without Carlos having to remember all of it."
    }
   },
@@ -57,6 +67,8 @@
     "t": "01:16",
     "speaker": null,
     "score": 0.59,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "How does Carlos get the vendor scheduled? He calls them or texts them, then he has to tell the resident when someone is coming. Then he has to remember to check whether the vendor actually showed up."
    }
   }
@@ -68,6 +80,8 @@
     "t": "00:23",
     "speaker": null,
     "score": 0.86,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We manage about 340 units across six buildings."
    }
   },
@@ -77,6 +91,8 @@
     "t": "01:09",
     "speaker": null,
     "score": 0.6,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Around ninety work orders a month."
    }
   },
@@ -86,6 +102,8 @@
     "t": "01:09",
     "speaker": null,
     "score": 0.52,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Around ninety work orders a month. About fifteen of those are emergencies like water leaks or no heat."
    }
   },
@@ -95,6 +113,8 @@
     "t": "02:00",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Any repair over$500 needs the property owner's approval."
    }
   },
@@ -104,6 +124,8 @@
     "t": "02:00",
     "speaker": null,
     "score": 0.79,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Any repair over$500 needs the property owner's approval. We have 11 owners."
    }
   },
@@ -112,8 +134,10 @@
    "evidence": {
     "t": "05:09",
     "speaker": null,
-    "score": 0.71,
-    "quote": "If we cut those thirty calls a week in half, that's a win, and average days to close a work order."
+    "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "If we cut those thirty calls a week in half, that's a win, and average days to close a work order. Right now it's about nine days."
    }
   },
   {
@@ -122,6 +146,8 @@
     "t": "05:07",
     "speaker": null,
     "score": 0.58,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win, and average days to close a work order."
    }
   },
@@ -135,6 +161,8 @@
     "t": "03:41",
     "speaker": null,
     "score": 0.4,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "I guess two or three times a month we get an invoice we can't match to a work order."
    }
   }
@@ -146,6 +174,8 @@
     "t": "04:13",
     "speaker": null,
     "score": 0.79,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "App Folio can send a notice when the work order is closed, but since the work orders stay open, the notice never goes out. What does the leasing team do when a resident calls for status?"
    }
   },
@@ -155,6 +185,8 @@
     "t": "02:30",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Up folio for the portal and work orders, Gmail, Carlos's phone, the Excel vendor list, and the whiteboard."
    }
   },
@@ -164,6 +196,8 @@
     "t": "00:33",
     "speaker": null,
     "score": 0.8,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "A lot of them email the leasing office instead, and some of them just text our maintenance coordinator, Carlos, on his personal cell phone."
    }
   },
@@ -173,6 +207,8 @@
     "t": "01:00",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We have a vendor list in an Excel spreadsheet with plumbers, electricians, appliance repair, and a locksmith."
    }
   },
@@ -182,6 +218,8 @@
     "t": "02:19",
     "speaker": null,
     "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Honestly, we don't track it well. There's a whiteboard in Carlos's office with the open items."
    }
   },
@@ -191,6 +229,8 @@
     "t": "02:38",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We also use QuickBooks for paying vendor invoices, but that's the accounting side."
    }
   }
@@ -203,10 +243,12 @@
   {
    "item": "Status calls consume significant office time. | ~30 calls per week to leasing office.",
    "evidence": {
-    "t": "01:52",
+    "t": "05:07",
     "speaker": null,
-    "score": 0.67,
-    "quote": "How much of the office's time goes to residents calling for status?"
+    "score": 0.46,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win, and average days to close a work order."
    }
   },
   {
@@ -215,6 +257,8 @@
     "t": "02:00",
     "speaker": null,
     "score": 0.5,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Any repair over$500 needs the property owner's approval."
    }
   },
@@ -224,6 +268,8 @@
     "t": "02:30",
     "speaker": null,
     "score": 0.43,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Up folio for the portal and work orders, Gmail, Carlos's phone, the Excel vendor list, and the whiteboard."
    }
   },
@@ -233,6 +279,8 @@
     "t": "02:54",
     "speaker": null,
     "score": 0.71,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Half the time the work order stays open for weeks because nobody closed it."
    }
   },
@@ -242,16 +290,20 @@
     "t": "03:21",
     "speaker": null,
     "score": 0.5,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "He decides whether to send our technician or call an emergency plumber. Then in the morning, he's supposed to create the work order in a folio after the fact, so we have a record. Sometimes that never happens, and then the plumber's invoice shows up and nobody knows which unit it was for."
    }
   },
   {
    "item": "Lack of continuity when Carlos is on vacation. | Operations manager covered, but lacked vendor numbers, job schedule visibility, and resident expectations were broken (e.g., promised vendors didn't show).",
    "evidence": {
-    "t": "03:49",
+    "t": "03:45",
     "speaker": null,
-    "score": 0.5,
-    "quote": "What happens when Carlos is on vacation?"
+    "score": 0.46,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Our bookkeeper has to email Carlos and he has to dig through his texts. What happens when Carlos is on vacation?"
    }
   }
  ],
@@ -262,6 +314,8 @@
     "t": "04:53",
     "speaker": null,
     "score": 0.57,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "I want every request, no matter how it comes in, to end up in that folio within the hour, and every resident to get an update when a vendor is scheduled and when the work is done, without Carlos having to remember all of it."
    }
   },
@@ -271,6 +325,10 @@
     "t": "05:06",
     "speaker": null,
     "score": 0.38,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "fifty"
+    ],
     "quote": "And the measure. Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win, and average days to close a work order."
    }
   },
@@ -280,6 +338,11 @@
     "t": "05:06",
     "speaker": null,
     "score": 0.47,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "nine",
+     "two"
+    ],
     "quote": "And the measure. Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win, and average days to close a work order."
    }
   }
@@ -291,6 +354,8 @@
     "t": "00:12",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "You're the operations manager at Oakline Property Group."
    }
   },
@@ -300,6 +365,8 @@
     "t": "05:19",
     "speaker": null,
     "score": 0.8,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Me and the owner company, Linda Park."
    }
   },
@@ -309,6 +376,8 @@
     "t": "00:33",
     "speaker": null,
     "score": 0.43,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "A lot of them email the leasing office instead, and some of them just text our maintenance coordinator, Carlos, on his personal cell phone."
    }
   }
@@ -317,10 +386,12 @@
   {
    "item": "Speaker (Operations Manager) | Export one month of work orders from Appfolio with names removed and send to Operations Manager | Monday",
    "evidence": {
-    "t": "05:30",
+    "t": "05:28",
     "speaker": null,
-    "score": 0.7,
-    "quote": "Could you export one month of work orders from Appfolio, with names removed?"
+    "score": 0.66,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Here's what I'd propose as next steps. Could you export one month of work orders from Appfolio, with names removed?"
    }
   },
   {
@@ -329,6 +400,8 @@
     "t": "05:38",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then I'd like a short call with Linda and Carlos next week."
    }
   },
@@ -338,6 +411,8 @@
     "t": "05:42",
     "speaker": null,
     "score": 0.69,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "I'll bring a proposal for one lane, request intake and resident status updates, starting as a pilot on one building."
    }
   }
@@ -347,10 +422,12 @@
    "task": "Candidate agent task: Status calls consume significant office time.",
    "from": "pains",
    "evidence": {
-    "t": "01:52",
+    "t": "05:07",
     "speaker": null,
-    "score": 0.67,
-    "quote": "How much of the office's time goes to residents calling for status?"
+    "score": 0.46,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Fewer status calls to the leasing office. If we cut those thirty calls a week in half, that's a win, and average days to close a work order."
    }
   },
   {
@@ -360,6 +437,8 @@
     "t": "02:00",
     "speaker": null,
     "score": 0.5,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Any repair over$500 needs the property owner's approval."
    }
   },
@@ -370,6 +449,8 @@
     "t": "02:30",
     "speaker": null,
     "score": 0.43,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Up folio for the portal and work orders, Gmail, Carlos's phone, the Excel vendor list, and the whiteboard."
    }
   },
@@ -380,6 +461,8 @@
     "t": "03:21",
     "speaker": null,
     "score": 0.5,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "He decides whether to send our technician or call an emergency plumber. Then in the morning, he's supposed to create the work order in a folio after the fact, so we have a record. Sometimes that never happens, and then the plumber's invoice shows up and nobody knows which unit it was for."
    }
   },
@@ -387,10 +470,12 @@
    "task": "Candidate agent task: Lack of continuity when Carlos is on vacation.",
    "from": "pains",
    "evidence": {
-    "t": "03:49",
+    "t": "03:45",
     "speaker": null,
-    "score": 0.5,
-    "quote": "What happens when Carlos is on vacation?"
+    "score": 0.46,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Our bookkeeper has to email Carlos and he has to dig through his texts. What happens when Carlos is on vacation?"
    }
   },
   {
@@ -400,6 +485,8 @@
     "t": "00:26",
     "speaker": null,
     "score": 0.84,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Residents are supposed to submit requests through the App Folio Resident Portal. Some do. A lot of them email the leasing office instead, and some of them just text our maintenance coordinator, Carlos, on his personal cell phone."
    }
   },
@@ -410,6 +497,8 @@
     "t": "00:47",
     "speaker": null,
     "score": 0.83,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Carlos checks the portal, his email, and his tex a few times a day. He decides whether it's an emergency or routine."
    }
   },
@@ -420,6 +509,8 @@
     "t": "00:54",
     "speaker": null,
     "score": 0.92,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "For anything routine, he either assigns it to our in-house technician or to an outside vendor. We have a vendor list in an Excel spreadsheet with plumbers, electricians, appliance repair, and a locksmith. How many requests do you get in a month?"
    }
   },
@@ -430,6 +521,8 @@
     "t": "01:35",
     "speaker": null,
     "score": 0.79,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Maybe one out of every eight appointments, the vendor doesn't come or comes on the wrong day. The resident calls the office, upset, and nobody knows what happened because it was all in Carlos's texts."
    }
   },
@@ -440,17 +533,24 @@
     "t": "04:53",
     "speaker": null,
     "score": 0.57,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "I want every request, no matter how it comes in, to end up in that folio within the hour, and every resident to get an update when a vendor is scheduled and when the work is done, without Carlos having to remember all of it."
    }
   }
  ],
  "stats": {
   "items": 37,
-  "items_with_quote": 35,
+  "items_with_candidate_quote": 33,
+  "items_numbers_missing": [
+   "**Measure 1:** Reduce status calls to the leasing office from ~30 per week by 50%.",
+   "**Measure 2:** Reduce average days to close a work order from ~9 days."
+  ],
   "items_without_quote": [
    "Vendor non-attendance rate: ~1 out of every 8 appointments.",
    "Vendors do not show up or arrive on wrong days; no record exists in the system. | Resident calls leasing office upset; status unknown because info is only in Carlos's texts."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  },
  "summary_status": "completed",
  "summary_markdown": "**Company and People**\n\n*   **Company:** Oakline Property Group\n    *   **What it does:** Manages approximately 340 units across six buildings.\n*   **People:**\n    *   Operations Manager (Speaker)\n    *   Carlos (Maintenance Coordinator)\n    *   Linda Park (Owner company representative)\n\n**Workflow Steps**\n\n| **Step** | **Who** | **Tool** |\n| --- | --- | --- |\n| Resident submits request via App Folio portal, email to leasing office, or text to Carlos | Resident | App Folio / Gmail / Text Message |\n| Carlos checks portal, email, and texts; decides if emergency or routine | Carlos | App Folio / Gmail / Personal Cell Phone |\n| For routine requests, assign to in-house technician or outside vendor from Excel list | Carlos | Excel Spreadsheet |\n| Carlos calls or texts vendor to schedule appointment | Carlos | Personal Cell Phone |\n| Carlos informs resident of scheduled vendor arrival time | Carlos | Personal Cell Phone |\n| Carlos verifies vendor showed up (manual check) | Carlos | Memory / Notes |\n\n**Volumes and Timing**\n\n*   340 units managed across six buildings.\n*   ~90 work orders per month.\n*   ~15 emergencies per month (e.g., water leaks, no heat).\n*   Repair approval required for any request over $500.\n*   11 property owners involved in approvals.\n*   Average days to close a work order: ~9 days.\n*   Estimated status calls to leasing office: ~30 calls per week.\n*   Vendor non-attendance rate: ~1 out of every 8 appointments.\n*   Invoice matching issues occur ~2\u20133 times per month.\n\n**Tools and Systems**\n\n*   App Folio (Resident Portal and Work Orders)\n*   Gmail\n*   Personal Cell Phone (Carlos's)\n*   Excel Spreadsheet (Vendor List)\n*   Whiteboard (Open items tracking)\n*   QuickBooks (Accounting/Vendor Invoices)\n\n**Pain Points**\n\n| **Pain** | **Cost or impact** |\n| --- | --- |\n| Vendors do not show up or arrive on wrong days; no record exists in the system. | Resident calls leasing office upset; status unknown because info is only in Carlos's texts. |\n| Status calls consume significant office time. | ~30 calls per week to leasing office. |\n| Approval delays for repairs over $500 due to varying owner response times. | Work orders remain open while residents wait; some take a week for approval. |\n| Manual tracking of pending work orders via whiteboard. | Whiteboard is usually out of date. |\n| Work orders stay open for weeks without closure. | Residents receive bad reviews thinking requests are ignored; monthly reports to owners show incorrect unfinished work counts. |\n| After-hours emergency invoices cannot be matched to units because work orders were never created. | Bookkeeper must email Carlos; he must dig through texts to match invoice to unit. |\n| Lack of continuity when Carlos is on vacation. | Operations manager covered, but lacked vendor numbers, job schedule visibility, and resident expectations were broken (e.g., promised vendors didn't show). |\n\n**Desired Outcome and Measure**\n\n*   **Outcome:** Every request (regardless of entry method) ends up in the App Folio within one hour, and every resident receives updates when a vendor is scheduled and when work is done without manual memory reliance by Carlos.\n*   **Measure 1:** Reduce status calls to the leasing office from ~30 per week by 50%.\n*   **Measure 2:** Reduce average days to close a work order from ~9 days.\n\n**Decision Makers**\n\n*   Operations Manager (Speaker)\n*   Linda Park (Owner company representative)\n*   Carlos (Maintenance Coordinator - required for input on operational details)\n\n**Next Steps**\n\n| **Owner** | **Action** | **When** |\n| --- | --- | --- |\n| Speaker (Operations Manager) | Export one month of work orders from Appfolio with names removed and send to Operations Manager | Monday |\n| Speaker (Operations Manager) | Conduct short call with Linda Park and Carlos | Next week |\n| Speaker (Operations Manager) | Present proposal for One Lane solution covering request intake and resident status updates as a pilot on the Magnolia Building | Following the next-week call |"

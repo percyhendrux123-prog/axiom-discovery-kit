@@ -1,0 +1,37 @@
+{
+ "_how": "Hand adjudication by the axiomops agent of every automatic keyword-checklist result that changed when the scorer moved from global substring matching to whole-word, same-line, non-negated matching (2026-11-01), plus the earlier live-session note. Each entry reads the saved summary in eval/results/meetily-out/. 'scorer_false_negative' = the summary states the item but the keywords sit on different lines or use other words. 'true_miss' = the summary does not state the item; the old substring scorer had credited it wrongly.",
+ "call1-hvac-clean": [
+  {"id": "w3", "auto": false, "hand": true, "kind": "scorer_false_negative",
+   "why": "Workflow row 'Email to shared inbox' and pain row 'All messages wait until next morning' are separate lines."},
+  {"id": "v6", "auto": false, "hand": false, "kind": "true_miss",
+   "why": "The ~15 arrival-time status calls a day are not stated. The old scorer matched '15' from the 15-minute outcome."}
+ ],
+ "call1-hvac-live": [
+  {"id": "w3", "auto": false, "hand": true, "kind": "scorer_false_negative",
+   "why": "'Answering service emails message to shared inbox' and 'Next morning, dispatcher reads messages' are separate rows."},
+  {"id": "v6", "auto": false, "hand": true, "kind": "scorer_false_negative",
+   "why": "'Customer inquiry calls (during day): ~15/day in summer' states it without the words status or arrival."},
+  {"id": "w4", "auto": false, "hand": true, "kind": "scorer_false_negative",
+   "why": "'Dispatcher calls customer to book job' states the callback without the word 'back' (noted in the first run)."}
+ ],
+ "call2-property-noise": [
+  {"id": "p3", "auto": false, "hand": false, "kind": "true_miss",
+   "why": "Slow owner approvals are not stated (also in hand-audit.json 'missed'). The old scorer joined 'owner' and 'week' from unrelated lines."}
+ ],
+ "call3-roofing-clean": [
+  {"id": "w1", "auto": false, "hand": true, "kind": "scorer_false_negative",
+   "why": "Row 'Leads come in from three sources: Angie's List, website, door knocking' and row 'Leads are entered into Job Nimbus CRM' are separate lines."}
+ ],
+ "call3-roofing-overlap": [
+  {"id": "w1", "auto": false, "hand": false, "kind": "true_miss",
+   "why": "Only 'Leads enter system | Job Nimbus'; the lead sources are not named."},
+  {"id": "t4", "auto": false, "hand": false, "kind": "true_miss",
+   "why": "Angi is never named. The old scorer matched 'angi' inside another word."}
+ ],
+ "hand_adjusted_totals": {
+  "call1-hvac-clean": "22/23", "call1-hvac-live": "23/23", "call2-property-clean": "24/24",
+  "call2-property-noise": "22/24", "call3-roofing-clean": "24/24", "call3-roofing-overlap": "20/24"
+ },
+ "gemma3_1b_sales_template": {"old_auto": "8/23", "new_auto": "7/23",
+   "why": "w3 dropped: 'emails' and 'morning booking' sit on different lines, and 'morning booking' is not the workflow step."}
+}

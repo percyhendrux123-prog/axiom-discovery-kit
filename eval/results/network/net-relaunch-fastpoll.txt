@@ -1,0 +1,5 @@
+relaunch fast poll 2026-11-01 14:49:53 (lsof every 0.2s for 40s, meetily + children)
+14:49:56 meetily 27215 <user>   30u  IPv4 0x7c02fb60bcbd7ae6      0t0  TCP <lan-ip>:62234->140.82.114.3:443 (ESTABLISHED)
+14:49:56 meetily 27215 <user>   30u  IPv4 0x7c02fb60bcbd7ae6      0t0  TCP <lan-ip>:62234->140.82.114.3:443 (ESTABLISHED)
+14:49:56 meetily 27215 <user>   31u  IPv4 0x5a5cff408559d5b7      0t0  TCP <lan-ip>:62235->185.199.109.133:443 (SYN_SENT)
+socket lines: 3

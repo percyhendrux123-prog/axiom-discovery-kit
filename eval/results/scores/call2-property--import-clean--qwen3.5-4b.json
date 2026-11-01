@@ -21,6 +21,7 @@
   "expected": null
  },
  "summary_checklist": {
+  "metric": "automatic keyword-checklist hits (not factual accuracy)",
   "captured": 24,
   "total": 24,
   "by_category": {
@@ -49,7 +50,7 @@
     "item": "Carlos triages emergency vs routine",
     "captured": true,
     "matched": [
-     "emergenc"
+     "emergenc*"
     ]
    },
    {
@@ -68,7 +69,7 @@
     "captured": true,
     "matched": [
      "five hundred",
-     "approv"
+     "approv*"
     ]
    },
    {
@@ -78,7 +79,7 @@
     "captured": true,
     "matched": [
      "close",
-     "invoice"
+     "work order"
     ]
    },
    {
@@ -179,7 +180,7 @@
     "item": "Vendor no-shows (about 1 in 8)",
     "captured": true,
     "matched": [
-     "show"
+     "vendor"
     ]
    },
    {
@@ -189,7 +190,7 @@
     "captured": true,
     "matched": [
      "owner",
-     "approv"
+     "approv*"
     ]
    },
    {
@@ -216,7 +217,7 @@
     "item": "Every request in AppFolio within the hour; halve status calls",
     "captured": true,
     "matched": [
-     "hour"
+     "status"
     ]
    },
    {
@@ -243,7 +244,7 @@
     "item": "Call with Linda and Carlos next week",
     "captured": true,
     "matched": [
-     "next week"
+     "linda"
     ]
    },
    {
@@ -259,10 +260,15 @@
  },
  "quote_linking": {
   "items": 37,
-  "items_with_quote": 35,
+  "items_with_candidate_quote": 33,
+  "items_numbers_missing": [
+   "**Measure 1:** Reduce status calls to the leasing office from ~30 per week by 50%.",
+   "**Measure 2:** Reduce average days to close a work order from ~9 days."
+  ],
   "items_without_quote": [
    "Vendor non-attendance rate: ~1 out of every 8 appointments.",
    "Vendors do not show up or arrive on wrong days; no record exists in the system. | Resident calls leasing office upset; status unknown because info is only in Carlos's texts."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  }
 }

@@ -16,6 +16,8 @@
     "t": "00:40",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Our office coordinator, Tasha, calls the lead and books an inspection."
    }
   },
@@ -29,16 +31,20 @@
     "t": "00:52",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "He builds the estimate in Job Nimbus and email the customer a PDF that night or the next day."
    }
   },
   {
    "item": "Follow-up on estimate | Estimator (supposedly) | Job Nimbus (supposed notes)",
    "evidence": {
-    "t": "01:28",
+    "t": "01:31",
     "speaker": null,
     "score": 1.0,
-    "quote": "Do you know how many estimates never get a follow up?"
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Out of forty five estimates, nineteen had no follow up at all after the first email."
    }
   },
   {
@@ -47,6 +53,8 @@
     "t": "03:24",
     "speaker": null,
     "score": 0.75,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "And on the insurance side, what makes the adjuster meeting it's a good idea."
    }
   },
@@ -56,6 +64,8 @@
     "t": "04:12",
     "speaker": null,
     "score": 0.5,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "The work after signing is fine, the work before the estimate is fine."
    }
   }
@@ -67,16 +77,20 @@
     "t": "00:31",
     "speaker": null,
     "score": 0.71,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Depends on the weather. A normal month is about 120 leads."
    }
   },
   {
    "item": "**Estimates sent per month:** ~45.",
    "evidence": {
-    "t": "00:59",
+    "t": "01:01",
     "speaker": null,
     "score": 0.4,
-    "quote": "And how many estimates go out each month?"
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "About forty-five estimates a month."
    }
   },
   {
@@ -85,6 +99,8 @@
     "t": "04:35",
     "speaker": null,
     "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "The close rate. Get it from 30% to 35%."
    }
   },
@@ -94,6 +110,8 @@
     "t": "01:07",
     "speaker": null,
     "score": 0.82,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "What's an average job worth? Around$14,000 for a full replacement."
    }
   },
@@ -103,6 +121,11 @@
     "t": "04:38",
     "speaker": null,
     "score": 0.63,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "five",
+     "forty"
+    ],
     "quote": "And no estimate with zero. Follow up. That number should be zero, not 19."
    }
   },
@@ -116,6 +139,8 @@
     "t": "02:09",
     "speaker": null,
     "score": 0.63,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "How many adjuster meetings a month? Maybe twenty in a normal month."
    }
   }
@@ -127,6 +152,8 @@
     "t": "00:26",
     "speaker": null,
     "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Every lead goes into Job Nimbus. That's our CRM How many leads a month?"
    }
   },
@@ -136,6 +163,8 @@
     "t": "02:16",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Job Nimbus, Tasha's phone, Google Calendar for the estimators, and email."
    }
   },
@@ -145,6 +174,8 @@
     "t": "02:16",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Job Nimbus, Tasha's phone, Google Calendar for the estimators, and email."
    }
   },
@@ -154,6 +185,8 @@
     "t": "00:52",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "He builds the estimate in Job Nimbus and email the customer a PDF that night or the next day."
    }
   },
@@ -163,6 +196,8 @@
     "t": "03:57",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then it goes to production, ordering materials from ABC supply, scheduling the crew, the permit."
    }
   }
@@ -174,6 +209,13 @@
     "t": "02:50",
     "speaker": null,
     "score": 0.5,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "five",
+     "forty",
+     "nineteen",
+     "thousand"
+    ],
     "quote": "So when a customer calls back and asks for their estimator, Tasha has no idea what was already said."
    }
   },
@@ -183,6 +225,8 @@
     "t": "02:25",
     "speaker": null,
     "score": 0.34,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Tell me more about how the estimators work day to day. They write the estimate at night from home, usually after eight. So by the time they're done they're tired, and following up on old estimates is the last thing on their mind."
    }
   },
@@ -192,16 +236,20 @@
     "t": "02:40",
     "speaker": null,
     "score": 0.53,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Do they log their follow up calls anywhere? They're supposed to make a note in Job Nimbus."
    }
   },
   {
    "item": "Scheduling adjuster meetings is chaotic (\"nightmare\"). | Eight or nine messages required to set one meeting; adjusters change times frequently.",
    "evidence": {
-    "t": "01:53",
+    "t": "01:58",
     "speaker": null,
-    "score": 0.56,
-    "quote": "We try to have our estimator at the house when the adjuster is there. Scheduling that is a nightmare."
+    "score": 0.52,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Scheduling that is a nightmare. Dasha goes back and forth with the homeowner and the adjuster by phone and text. Sometimes eight or nine messages to set one meeting."
    }
   },
   {
@@ -209,8 +257,10 @@
    "evidence": {
     "t": "03:44",
     "speaker": null,
-    "score": 0.75,
-    "quote": "What does it cost you when the estimator misses an adjuster meeting?"
+    "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "What does it cost you when the estimator misses an adjuster meeting? The adjuster writes the claim without us there and he usually misses damage. Then we have to file a supplement, which can take another two years."
    }
   }
  ],
@@ -221,6 +271,8 @@
     "t": "04:23",
     "speaker": null,
     "score": 0.5,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Every estimate gets a follow up on day two, day five, and day ten until the customer says yes or no, and the estimator gets a heads up when the customer replies, so he can call it."
    }
   },
@@ -230,6 +282,8 @@
     "t": "04:23",
     "speaker": null,
     "score": 0.42,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Every estimate gets a follow up on day two, day five, and day ten until the customer says yes or no, and the estimator gets a heads up when the customer replies, so he can call it. The close rate. Get it from 30% to 35%."
    }
   }
@@ -241,6 +295,8 @@
     "t": "04:43",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Who would sign off? Me. I'm the owner."
    }
   },
@@ -250,6 +306,8 @@
     "t": "04:45",
     "speaker": null,
     "score": 0.46,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "But I want Tasha and my lead estimator, Jake, to see it first, because they'll live with it."
    }
   }
@@ -258,10 +316,12 @@
   {
    "item": "Tasha | Pull a list of last quarter's estimates from Job Nimbus with the status of each one. | This week",
    "evidence": {
-    "t": "04:53",
+    "t": "04:52",
     "speaker": null,
-    "score": 1.0,
-    "quote": "For next steps, can you pull a list of last quarter's estimates from Job Nimbus with the status of each one?"
+    "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Makes sense. For next steps, can you pull a list of last quarter's estimates from Job Nimbus with the status of each one?"
    }
   },
   {
@@ -270,21 +330,13 @@
     "t": "05:04",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then I'll put together a one page plan for a single lane, which is estimate follow up, and we can do a two week trial on new estimates only."
    }
   }
  ],
  "candidate_agent_tasks": [
-  {
-   "task": "Candidate agent task: No system for follow-ups; estimators forget to call back customers.",
-   "from": "pains",
-   "evidence": {
-    "t": "02:50",
-    "speaker": null,
-    "score": 0.5,
-    "quote": "So when a customer calls back and asks for their estimator, Tasha has no idea what was already said."
-   }
-  },
   {
    "task": "Candidate agent task: Estimator fatigue leads to missed follow-ups (writing estimates late at night).",
    "from": "pains",
@@ -292,6 +344,8 @@
     "t": "02:25",
     "speaker": null,
     "score": 0.34,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Tell me more about how the estimators work day to day. They write the estimate at night from home, usually after eight. So by the time they're done they're tired, and following up on old estimates is the last thing on their mind."
    }
   },
@@ -302,6 +356,8 @@
     "t": "02:40",
     "speaker": null,
     "score": 0.53,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Do they log their follow up calls anywhere? They're supposed to make a note in Job Nimbus."
    }
   },
@@ -309,10 +365,12 @@
    "task": "Candidate agent task: Scheduling adjuster meetings is chaotic (\"nightmare\").",
    "from": "pains",
    "evidence": {
-    "t": "01:53",
+    "t": "01:58",
     "speaker": null,
-    "score": 0.56,
-    "quote": "We try to have our estimator at the house when the adjuster is there. Scheduling that is a nightmare."
+    "score": 0.52,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Scheduling that is a nightmare. Dasha goes back and forth with the homeowner and the adjuster by phone and text. Sometimes eight or nine messages to set one meeting."
    }
   },
   {
@@ -322,6 +380,8 @@
     "t": "00:40",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Our office coordinator, Tasha, calls the lead and books an inspection."
    }
   },
@@ -332,6 +392,8 @@
     "t": "00:52",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "He builds the estimate in Job Nimbus and email the customer a PDF that night or the next day."
    }
   },
@@ -339,10 +401,12 @@
    "task": "Candidate agent task: Follow-up on estimate",
    "from": "process_map",
    "evidence": {
-    "t": "01:28",
+    "t": "01:31",
     "speaker": null,
     "score": 1.0,
-    "quote": "Do you know how many estimates never get a follow up?"
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Out of forty five estimates, nineteen had no follow up at all after the first email."
    }
   },
   {
@@ -352,18 +416,25 @@
     "t": "03:24",
     "speaker": null,
     "score": 0.75,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "And on the insurance side, what makes the adjuster meeting it's a good idea."
    }
   }
  ],
  "stats": {
   "items": 30,
-  "items_with_quote": 27,
+  "items_with_candidate_quote": 25,
+  "items_numbers_missing": [
+   "**Estimates with zero follow-up:** 19 out of 45.",
+   "No system for follow-ups; estimators forget to call back customers. | 19 out of 45 estimates receive no follow-up. Potential loss of $40,000+/month if more close."
+  ],
   "items_without_quote": [
    "Leads enter system | System | Job Nimbus (CRM)",
    "Estimator visits site | Estimator | Job Nimbus (for building estimate)",
    "**Potential revenue loss estimate:** Over $40,000/month if three more estimates from the \"zero follow-up\" group close."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  },
  "summary_status": "completed",
  "summary_markdown": "**Company and People**\n\n*   **Company Name:** Ridgeline Roofing\n    *   **What it does:** Residential roofing, including full replacements, repairs, and insurance claim management.\n*   **People Mentioned:**\n    *   **Owner:** (Speaker)\n    *   **Tasha:** Office Coordinator\n    *   **Jake:** Lead Estimator\n    *   **Estimators:** Three estimators in total (one is Jake; the other two are unnamed).\n    *   **Production Manager:** Manages production, ordering materials, scheduling crew, and permits.\n\n**Workflow Steps**\n\n| **Step** | **Who** | **Tool** |\n| --- | --- | --- |\n| Leads enter system | System | Job Nimbus (CRM) |\n| Lead books inspection | Tasha (Office Coordinator) | Phone |\n| Estimator visits site | Estimator | Job Nimbus (for building estimate) |\n| Estimate sent to customer | Estimator | Email (PDF) |\n| Follow-up on estimate | Estimator (supposedly) | Job Nimbus (supposed notes) |\n| Insurance adjuster meeting scheduled | Tasha | Tasha's phone, Google Calendar, Email |\n| Work execution and sign-off | Production Manager/Crew | N/A |\n\n**Volumes and Timing**\n\n*   **Leads per month:** ~120 (normal months); variable based on weather.\n*   **Estimates sent per month:** ~45.\n*   **Close rate:** ~30%.\n*   **Average job value:** ~$14,000 (full replacement).\n*   **Estimates with zero follow-up:** 19 out of 45.\n*   **Potential revenue loss estimate:** Over $40,000/month if three more estimates from the \"zero follow-up\" group close.\n*   **Adjuster meetings per month:** ~20 (normal months).\n\n**Tools and Systems**\n\n*   Job Nimbus (CRM)\n*   Phone (Tasha's phone)\n*   Google Calendar (for estimators)\n*   Email\n*   ABC Supply (ordering materials)\n\n**Pain Points**\n\n| **Pain** | **Cost or impact** |\n| --- | --- |\n| No system for follow-ups; estimators forget to call back customers. | 19 out of 45 estimates receive no follow-up. Potential loss of $40,000+/month if more close. |\n| Estimator fatigue leads to missed follow-ups (writing estimates late at night). | Follow-ups are often the last thing on estimators' minds after a long day. |\n| Lack of documentation in Job Nimbus regarding follow-up calls. | Tasha cannot recall what was discussed; customers may be left hanging until next week. |\n| Scheduling adjuster meetings is chaotic (\"nightmare\"). | Eight or nine messages required to set one meeting; adjusters change times frequently. |\n| Estimator missing an adjuster meeting. | Adjuster writes claim without estimator present, missing damage details; requires filing a supplement that delays work by another two years. |\n\n**Desired Outcome and Measure**\n\n*   **Goal:** Every estimate receives a follow-up on Day 2, Day 5, and Day 10 until the customer says yes or no.\n*   **Measure:** Increase close rate from 30% to 35%. Eliminate estimates with zero follow-ups (target: 0).\n\n**Decision Makers**\n\n*   **Owner:** Signs off on the solution.\n*   **Stakeholders for review:** Tasha (Office Coordinator) and Jake (Lead Estimator) must see the plan first as they will implement it.\n\n**Next Steps**\n\n| **Owner** | **Action** | **When** |\n| --- | --- | --- |\n| Tasha | Pull a list of last quarter's estimates from Job Nimbus with the status of each one. | This week |\n| Owner | Put together a one-page plan for estimate follow-up (single lane/trial on new estimates only). | After receiving Tasha's list (implied next Tuesday morning) |"

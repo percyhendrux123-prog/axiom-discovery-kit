@@ -1,0 +1,81 @@
+{
+ "total": {
+  "meetings": 8,
+  "segments": 120,
+  "speaker_empty": 120
+ },
+ "meetings": [
+  {
+   "run": "live-test-1min",
+   "meeting_id": "meeting-1acfb296-c790-4507-9af5-1fc3322e283e",
+   "title": "Meeting 01_11_26_14_01_03",
+   "created_at": "2026-11-01T20:02:35.085236+00:00",
+   "segments": 2,
+   "speaker_empty": 2,
+   "speaker_values": null
+  },
+  {
+   "run": "call1-hvac-clean",
+   "meeting_id": "meeting-8356f609-cfad-4d4a-9d5f-edb42464d5e9",
+   "title": "Meeting Summary: Bayou Comfort Heating and Air After-Hours Booking Process",
+   "created_at": "2026-11-01T20:24:09.636144+00:00",
+   "segments": 15,
+   "speaker_empty": 15,
+   "speaker_values": null
+  },
+  {
+   "run": "call2-property-noise",
+   "meeting_id": "meeting-47c66367-711c-48b2-9325-f16fc068d662",
+   "title": "Oakline Property Group Maintenance Request Workflow Analysis",
+   "created_at": "2026-11-01T20:33:49.638022+00:00",
+   "segments": 14,
+   "speaker_empty": 14,
+   "speaker_values": null
+  },
+  {
+   "run": "call3-roofing-overlap",
+   "meeting_id": "meeting-abc25f79-a759-44f8-9a4e-85ad5e60f0f5",
+   "title": "Ridgeline Roofing Lead-to-Sign Job Process Review",
+   "created_at": "2026-11-01T20:34:44.685373+00:00",
+   "segments": 14,
+   "speaker_empty": 14,
+   "speaker_values": null
+  },
+  {
+   "run": "call2-property-clean",
+   "meeting_id": "meeting-274c6af5-66e7-4b59-b762-edc4cbc17682",
+   "title": "Maintenance Request Workflow Optimization at Oakline Property Group",
+   "created_at": "2026-11-01T20:35:40.858602+00:00",
+   "segments": 15,
+   "speaker_empty": 15,
+   "speaker_values": null
+  },
+  {
+   "run": "call3-roofing-clean",
+   "meeting_id": "meeting-97f6214f-89f3-42f5-9c3f-eb1d6f8770fe",
+   "title": "Ridgeline Roofing Lead Conversion and Follow-Up Process Review",
+   "created_at": "2026-11-01T20:36:35.919457+00:00",
+   "segments": 15,
+   "speaker_empty": 15,
+   "speaker_values": null
+  },
+  {
+   "run": "call1-hvac-live",
+   "meeting_id": "meeting-001aaa37-d38b-443e-a0b6-47e491e2e89c",
+   "title": "Meeting Report: Bayou Comfort Heating and Air After-Hours Intake Process",
+   "created_at": "2026-11-01T20:49:18.809742+00:00",
+   "segments": 30,
+   "speaker_empty": 30,
+   "speaker_values": null
+  },
+  {
+   "run": "call2-property-clean-rep2",
+   "meeting_id": "meeting-1c10ec1e-3442-4f70-9d68-c3c1d4a751ad",
+   "title": "call2-property-clean-rep2",
+   "created_at": "2026-11-01T20:52:57.921368+00:00",
+   "segments": 15,
+   "speaker_empty": 15,
+   "speaker_values": null
+  }
+ ]
+}

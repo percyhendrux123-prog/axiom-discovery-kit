@@ -39,6 +39,7 @@ COMPOUNDS = ["job nimbus", "app folio", "service titan", "ring central", "compan
 
 def normalise(text: str) -> list[str]:
     t = text.lower()
+    t = re.sub(r"\be[-‐]mail", "email", t)  # before hyphens become spaces
     t = re.sub(r"\$(\d[\d,]*)", r"\1 dollars", t)
     t = t.replace("%", " percent")
     t = re.sub(r"(\d+):(\d\d)", lambda m: f"{m.group(1)} {m.group(2) if m.group(2) != '00' else ''}", t)

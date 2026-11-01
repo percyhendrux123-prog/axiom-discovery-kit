@@ -21,12 +21,13 @@
   "expected": null
  },
  "summary_checklist": {
-  "captured": 22,
+  "metric": "automatic keyword-checklist hits (not factual accuracy)",
+  "captured": 20,
   "total": 24,
   "by_category": {
-   "workflow": "5/5",
+   "workflow": "4/5",
    "volume": "5/6",
-   "tool": "3/4",
+   "tool": "2/4",
    "pain": "4/4",
    "outcome": "1/1",
    "decision": "1/1",
@@ -37,11 +38,8 @@
     "id": "w1",
     "cat": "workflow",
     "item": "Leads from Angi, website forms, and door knocking go into JobNimbus",
-    "captured": true,
-    "matched": [
-     "angi",
-     "jobnimbus"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "w2",
@@ -58,7 +56,7 @@
     "item": "Estimator inspects roof, builds estimate in JobNimbus, emails PDF",
     "captured": true,
     "matched": [
-     "estimat",
+     "estimat*",
      "pdf"
     ]
    },
@@ -130,9 +128,7 @@
     "cat": "volume",
     "item": "Three or four inspections a day per estimator",
     "captured": false,
-    "matched": [
-     null
-    ]
+    "matched": null
    },
    {
     "id": "t1",
@@ -157,18 +153,14 @@
     "cat": "tool",
     "item": "CompanyCam",
     "captured": false,
-    "matched": [
-     null
-    ]
+    "matched": null
    },
    {
     "id": "t4",
     "cat": "tool",
     "item": "Angi lead service",
-    "captured": true,
-    "matched": [
-     "angi"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "p1",
@@ -177,7 +169,7 @@
     "captured": true,
     "matched": [
      "follow",
-     "no "
+     "nineteen"
     ]
    },
    {
@@ -187,7 +179,7 @@
     "captured": true,
     "matched": [
      "adjuster",
-     "schedul"
+     "schedul*"
     ]
    },
    {
@@ -205,7 +197,7 @@
     "item": "Follow up day 2, 5, 10; close rate 30 to 35 percent",
     "captured": true,
     "matched": [
-     "thirty five"
+     "close rate"
     ]
    },
    {
@@ -242,7 +234,7 @@
     "item": "Two-week trial on new estimates; adjuster scheduling kept as phase two",
     "captured": true,
     "matched": [
-     "trial"
+     "plan"
     ]
    },
    {
@@ -258,11 +250,16 @@
  },
  "quote_linking": {
   "items": 30,
-  "items_with_quote": 27,
+  "items_with_candidate_quote": 25,
+  "items_numbers_missing": [
+   "**Estimates with zero follow-up:** 19 out of 45.",
+   "No system for follow-ups; estimators forget to call back customers. | 19 out of 45 estimates receive no follow-up. Potential loss of $40,000+/month if more close."
+  ],
   "items_without_quote": [
    "Leads enter system | System | Job Nimbus (CRM)",
    "Estimator visits site | Estimator | Job Nimbus (for building estimate)",
    "**Potential revenue loss estimate:** Over $40,000/month if three more estimates from the \"zero follow-up\" group close."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  }
 }

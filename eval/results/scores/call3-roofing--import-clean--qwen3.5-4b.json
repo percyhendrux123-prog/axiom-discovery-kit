@@ -21,10 +21,11 @@
   "expected": null
  },
  "summary_checklist": {
-  "captured": 24,
+  "metric": "automatic keyword-checklist hits (not factual accuracy)",
+  "captured": 23,
   "total": 24,
   "by_category": {
-   "workflow": "5/5",
+   "workflow": "4/5",
    "volume": "6/6",
    "tool": "4/4",
    "pain": "4/4",
@@ -37,11 +38,8 @@
     "id": "w1",
     "cat": "workflow",
     "item": "Leads from Angi, website forms, and door knocking go into JobNimbus",
-    "captured": true,
-    "matched": [
-     "angi",
-     "jobnimbus"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "w2",
@@ -58,7 +56,7 @@
     "item": "Estimator inspects roof, builds estimate in JobNimbus, emails PDF",
     "captured": true,
     "matched": [
-     "estimat",
+     "estimat*",
      "pdf"
     ]
    },
@@ -187,7 +185,7 @@
     "captured": true,
     "matched": [
      "adjuster",
-     "schedul"
+     "schedul*"
     ]
    },
    {
@@ -205,7 +203,7 @@
     "item": "Follow up day 2, 5, 10; close rate 30 to 35 percent",
     "captured": true,
     "matched": [
-     "thirty five"
+     "close rate"
     ]
    },
    {
@@ -242,7 +240,7 @@
     "item": "Two-week trial on new estimates; adjuster scheduling kept as phase two",
     "captured": true,
     "matched": [
-     "trial"
+     "plan"
     ]
    },
    {
@@ -258,10 +256,15 @@
  },
  "quote_linking": {
   "items": 35,
-  "items_with_quote": 33,
+  "items_with_candidate_quote": 31,
+  "items_numbers_missing": [
+   "Team | Conduct a two-week trial on new estimates only for the estimate follow-up process. | Next Tuesday at 10 AM",
+   "Team | Meet again to discuss results and potential second phase (adjuster scheduling). | Next Tuesday at 10 AM"
+  ],
   "items_without_quote": [
    "**Potential revenue impact:** If 3 more of those 19 were closed monthly, over $40,000 in additional revenue.",
    "Price is rarely a reason for losing a job (only 1 in 5). | Lost revenue due to lack of follow-up outweighs price competition issues."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  }
 }

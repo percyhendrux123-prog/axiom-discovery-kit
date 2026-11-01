@@ -21,13 +21,14 @@
   "expected": null
  },
  "summary_checklist": {
-  "captured": 23,
+  "metric": "automatic keyword-checklist hits (not factual accuracy)",
+  "captured": 22,
   "total": 24,
   "by_category": {
    "workflow": "4/5",
    "volume": "5/5",
    "tool": "4/4",
-   "pain": "5/5",
+   "pain": "4/5",
    "outcome": "1/1",
    "decision": "1/1",
    "next_step": "3/3"
@@ -49,7 +50,7 @@
     "item": "Carlos triages emergency vs routine",
     "captured": true,
     "matched": [
-     "emergenc"
+     "emergenc*"
     ]
    },
    {
@@ -66,10 +67,7 @@
     "cat": "workflow",
     "item": "Owner approval needed for repairs over $500",
     "captured": false,
-    "matched": [
-     null,
-     null
-    ]
+    "matched": null
    },
    {
     "id": "w5",
@@ -179,18 +177,15 @@
     "item": "Vendor no-shows (about 1 in 8)",
     "captured": true,
     "matched": [
-     "show"
+     "vendor"
     ]
    },
    {
     "id": "p3",
     "cat": "pain",
     "item": "Slow owner approvals (an hour to a week)",
-    "captured": true,
-    "matched": [
-     "owner",
-     "week"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "p5",
@@ -216,7 +211,7 @@
     "item": "Every request in AppFolio within the hour; halve status calls",
     "captured": true,
     "matched": [
-     "hour"
+     "status"
     ]
    },
    {
@@ -243,7 +238,7 @@
     "item": "Call with Linda and Carlos next week",
     "captured": true,
     "matched": [
-     "next week"
+     "linda"
     ]
    },
    {
@@ -259,13 +254,15 @@
  },
  "quote_linking": {
   "items": 33,
-  "items_with_quote": 28,
+  "items_with_candidate_quote": 28,
+  "items_numbers_missing": [],
   "items_without_quote": [
    "Status call duration: 5\u201310 minutes each.",
    "Unmatched invoices frequency: 2\u20133 times per month.",
    "Vendors do not show up or arrive late; no record kept in system. | Residents call upset; no one knows what happened because info was only in Carlos's texts.",
    "After-hours emergency requests often lack proper documentation. | Invoices cannot be matched to units; bookkeeper must email Carlos to dig through texts.",
    "**Required involvement:** Carlos (Maintenance Coordinator) must be present to know where issues are occurring."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  }
 }

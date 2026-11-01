@@ -21,11 +21,12 @@
   "expected": null
  },
  "summary_checklist": {
-  "captured": 23,
+  "metric": "automatic keyword-checklist hits (not factual accuracy)",
+  "captured": 21,
   "total": 23,
   "by_category": {
-   "workflow": "4/4",
-   "volume": "6/6",
+   "workflow": "3/4",
+   "volume": "5/6",
    "tool": "4/4",
    "pain": "4/4",
    "outcome": "1/1",
@@ -57,11 +58,8 @@
     "id": "w3",
     "cat": "workflow",
     "item": "Messages emailed to a shared inbox, read next morning",
-    "captured": true,
-    "matched": [
-     "email",
-     "morning"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "w4",
@@ -124,11 +122,8 @@
     "id": "v6",
     "cat": "volume",
     "item": "About 15 arrival-time status calls a day in summer",
-    "captured": true,
-    "matched": [
-     "fifteen",
-     "arriv"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "t1",
@@ -190,7 +185,7 @@
     "item": "Emergencies misjudged (woke tech for thermostat battery, missed no-heat newborn)",
     "captured": true,
     "matched": [
-     "emergenc"
+     "on call"
     ]
    },
    {
@@ -227,7 +222,7 @@
     "item": "Prospect sends ~10 anonymized answering service emails by Wednesday",
     "captured": true,
     "matched": [
-     "wednesday"
+     "email"
     ]
    },
    {
@@ -252,7 +247,13 @@
  },
  "quote_linking": {
   "items": 34,
-  "items_with_quote": 34,
-  "items_without_quote": []
+  "items_with_candidate_quote": 31,
+  "items_numbers_missing": [
+   "**Answering Service Cost:** ~$1,200/month.",
+   "Customer waits 13+ hours for response after emergency call at night. | Customers call other contractors; company loses ~8 jobs/week.",
+   "Interviewer | Schedule 30-minute meeting with Ray and Monique. | Thursday afternoon at 2:00 PM"
+  ],
+  "items_without_quote": [],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  }
 }

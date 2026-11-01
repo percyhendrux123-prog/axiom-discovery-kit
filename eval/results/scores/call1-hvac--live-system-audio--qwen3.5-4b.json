@@ -22,11 +22,12 @@
   "share_expected": 0.0
  },
  "summary_checklist": {
-  "captured": 22,
+  "metric": "automatic keyword-checklist hits (not factual accuracy)",
+  "captured": 20,
   "total": 23,
   "by_category": {
-   "workflow": "3/4",
-   "volume": "6/6",
+   "workflow": "2/4",
+   "volume": "5/6",
    "tool": "4/4",
    "pain": "4/4",
    "outcome": "1/1",
@@ -58,21 +59,15 @@
     "id": "w3",
     "cat": "workflow",
     "item": "Messages emailed to a shared inbox, read next morning",
-    "captured": true,
-    "matched": [
-     "email",
-     "morning"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "w4",
     "cat": "workflow",
     "item": "Dispatcher calls each person back and enters job by hand",
     "captured": false,
-    "matched": [
-     "call",
-     null
-    ]
+    "matched": null
    },
    {
     "id": "v1",
@@ -125,11 +120,8 @@
     "id": "v6",
     "cat": "volume",
     "item": "About 15 arrival-time status calls a day in summer",
-    "captured": true,
-    "matched": [
-     "fifteen",
-     "when"
-    ]
+    "captured": false,
+    "matched": null
    },
    {
     "id": "t1",
@@ -173,7 +165,7 @@
     "item": "After hours callers wait until 10 to 10:30 the next morning (13 hours)",
     "captured": true,
     "matched": [
-     "ten"
+     "morning"
     ]
    },
    {
@@ -191,7 +183,7 @@
     "item": "Emergencies misjudged (woke tech for thermostat battery, missed no-heat newborn)",
     "captured": true,
     "matched": [
-     "emergenc"
+     "on call"
     ]
    },
    {
@@ -228,7 +220,7 @@
     "item": "Prospect sends ~10 anonymized answering service emails by Wednesday",
     "captured": true,
     "matched": [
-     "wednesday"
+     "email"
     ]
    },
    {
@@ -253,10 +245,16 @@
  },
  "quote_linking": {
   "items": 41,
-  "items_with_quote": 39,
+  "items_with_candidate_quote": 36,
+  "items_numbers_missing": [
+   "Dispatchers spend significant time (until 10:30 AM) manually reading emails and creating jobs by hand. | Delays response to customers who called at night (e.g., 9 PM vs 8 AM).",
+   "Previous attempts to fix the problem failed. | Switched to a more expensive answering service ($1,200/month) that still could not book jobs or provide schedule visibility.",
+   "Meeting Partner | Schedule 30-minute meeting with Ray and Monique | Thursday at 2:00 PM"
+  ],
   "items_without_quote": [
    "**After-hours emails for analysis:** 10 examples provided by Wednesday.",
    "**Meeting with decision makers:** Thursday at 2:00 PM."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  }
 }

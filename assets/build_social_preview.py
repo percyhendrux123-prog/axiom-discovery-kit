@@ -1,7 +1,8 @@
 """GitHub social preview for axiom-discovery-kit. 1280x640 PNG, Axiom letterhead (DESIGN.md).
 
 Numbers and terminal lines are copied from eval/RESULTS.md and the call-1 extraction
-(synthetic call). Run: python3 assets/build_social_preview.py
+(synthetic call; terminal text is condensed from extraction.md, the quotes are verbatim).
+Run: python3 assets/build_social_preview.py
 """
 import os
 from PIL import Image, ImageDraw, ImageFont
@@ -76,14 +77,14 @@ y = 146 * S
 d.text((LX, y), "axiom-discovery-kit", font=bask(44, "SemiBold"), fill=INK)
 y += 64 * S
 for line in wrap("Discovery calls recorded, transcribed and summarized on our own Mac, "
-                 "then turned into a process map with every item tied to a quote.", bask(23, "Regular"), LW):
+                 "then turned into a process map with a candidate quote to check for each item.", bask(23, "Regular"), LW):
     d.text((LX, y), line, font=bask(23, "Regular"), fill=INK); y += 33 * S
 y += 16 * S
 d.rectangle([LX, y, LX + 56 * S, y + 2 * S], fill=BRASS)
 y += 22 * S
 f_lab, f_val = cinzel(12, 700), bask(21, "Regular")
 for lab, val in [("WORD ERROR", "1.0–4.5% clean or noisy · 13.6% cross-talk"),
-                 ("SUMMARY", "92–100% of checklist items per call"),
+                 ("CHECKLIST", "87–100% keyword hits, clean or noisy"),
                  ("LIMIT", "no speaker names; owners checked by hand")]:
     tracked(LX, y + 7 * S, lab, f_lab, BRASS, 2.4 * S)
     d.text((LX + 138 * S, y), val, font=f_val, fill=INK)
@@ -98,19 +99,20 @@ top = 150 * S
 fm, fmt = ImageFont.truetype(MONO, 14 * S), ImageFont.truetype(MONO, 12 * S)
 raw = [
     ("$ python3 meetily_reader.py --meeting <id>", (120, 124, 132)),
-    ("Items: 34, linked to a quote: 34.", (226, 178, 92)),
+    ("Items: 34. Candidate quote: 31. Flagged: 3.", (226, 178, 92)),
     ("", None),
     ("Pain: Answering service guesses on urgency,", (232, 232, 228)),
     ("leading to missed real emergencies ...", (232, 232, 228)),
-    ("> [02:09] \"Last month they woke him up twice", (150, 190, 160)),
-    ("for a thermostat battery, and they missed a", (150, 190, 160)),
-    ("real one where a family had no heat with a", (150, 190, 160)),
-    ("newborn.\"", (150, 190, 160)),
+    ("> candidate quote, verify [02:09] \"Last", (150, 190, 160)),
+    ("month they woke him up twice for a thermostat", (150, 190, 160)),
+    ("battery, and they missed a real one where a", (150, 190, 160)),
+    ("family had no heat with a newborn.\"", (150, 190, 160)),
     ("", None),
     ("Candidate agent task: Dispatcher reads", (232, 232, 228)),
     ("messages and calls customers back", (232, 232, 228)),
-    ("> [01:04] \"...calls each person back, and", (150, 190, 160)),
-    ("enters the job in Service Titan by hand.\"", (150, 190, 160)),
+    ("> candidate quote, verify [01:04] \"...calls", (150, 190, 160)),
+    ("each person back, and enters the job in", (150, 190, 160)),
+    ("Service Titan by hand.\"", (150, 190, 160)),
 ]
 bar, lh = 30 * S, 21 * S
 bot = top + bar + 16 * S + lh * len(raw) + 14 * S

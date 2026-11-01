@@ -1,0 +1,17 @@
+netwatch start 2026-11-01 14:42:56  secs=420
+nettop 14:42:56:
+nettop 14:43:34:
+nettop 14:44:13:
+nettop 14:44:52:
+nettop 14:45:31:
+nettop 14:46:10:
+nettop 14:46:49:
+nettop 14:47:28:
+nettop 14:48:07:
+nettop 14:48:47:
+nettop 14:49:27:
+nettop 14:50:05:
+nettop 14:50:43:
+nettop 14:51:22:
+netwatch end 2026-11-01 14:52:01
+socket lines: 0

@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """meetily_reader.py: pull a finished Meetily Community meeting into Axiom's discovery format.
 
-Reads Meetily's local SQLite database (a temporary copy, so the running app is never locked
-or written to) and writes, per meeting:
+Reads Meetily's local SQLite database through one coherent read-only snapshot (SQLite backup API,
+never a file-by-file copy of the database and its WAL) and writes, per meeting:
   transcript.md   time-stamped transcript with the source of each line (mic = us, system = them)
   extraction.md   process map, volumes, tools, pain list, next steps and candidate agent tasks,
-                  each item linked to the closest transcript quote with its timestamp
+                  each item paired with a CANDIDATE quote: the closest transcript sentence(s) by
+                  word overlap that is not a bare question and that contains every number the item
+                  states. A candidate quote is a lexical match, not proof. Check every item.
   extraction.json same content, machine readable
 
 Python 3.10+, standard library only.
@@ -13,7 +15,7 @@ Python 3.10+, standard library only.
   python3 meetily_reader.py --list
   python3 meetily_reader.py --meeting "<id or part of the title>" --out ./out
 """
-import argparse, atexit, json, re, shutil, sqlite3, sys, tempfile
+import argparse, atexit, json, os, re, shutil, sqlite3, sys, tempfile
 from pathlib import Path
 
 DEFAULT_DB = Path.home() / "Library/Application Support/com.meetily.ai/meeting_minutes.sqlite"
@@ -26,21 +28,56 @@ TASK_CUES = re.compile(r"\b(call(s|ing)? back|callback|follow(s|ing)?[ -]?up|sch
                        r"status|update|messag|email|text(s|ed|ing)?\b|book(s|ed|ing)?\b|intake|triag|approv|"
                        r"clos(e|ed|es|ing)\b|assign|respon|confirm|log(s|ged|ging)?\b|track)", re.I)
 SPEAKER = {"mic": "Us (mic)", "system": "Them (system)"}
+CANDIDATE_NOTE = ("A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare "
+                  "question and contains every number the item states. It is not proof: check every item "
+                  "against its quote, and check every next-step owner (Meetily records no speaker).")
 
 
 # ---------- database ----------
 
-def open_copy(db: Path) -> sqlite3.Connection:
-    """Copy the DB (+WAL/SHM) to a temp dir and open the copy read-only."""
+def _quiescent_copy(db: Path, tmp: Path, tries: int = 3) -> Path:
+    """Copy a database that has no -wal/-shm (Meetily closed) and prove it did not change meanwhile."""
+    wal, shm = Path(str(db) + "-wal"), Path(str(db) + "-shm")
+    for _ in range(tries):
+        if wal.exists() or shm.exists():
+            break
+        before = os.stat(db)
+        dst = tmp / "quiescent.sqlite"
+        shutil.copy2(db, dst)
+        after = os.stat(db)
+        if (before.st_size, before.st_mtime_ns) == (after.st_size, after.st_mtime_ns) \
+                and not wal.exists() and not shm.exists():
+            return dst
+    sys.exit("Meetily's database changed while it was being read. Try again, or quit Meetily first.")
+
+
+def open_copy(db: Path, pages: int = -1, progress=None) -> sqlite3.Connection:
+    """Return a read-only connection to one coherent snapshot of the Meetily database.
+
+    While Meetily runs, the source is opened in SQLite's read-only mode and copied with the backup
+    API. Backup reads pages under SQLite's own locking and restarts if another connection commits
+    mid-copy, so the snapshot is always a state that really existed. When Meetily is closed, a
+    WAL-mode file with no -shm cannot be opened read-only, so the single main file is copied and
+    checked unchanged before and after. The original database is never opened for writing.
+    `pages` / `progress` pass through to Connection.backup (the tests use them to interleave a writer)."""
     if not db.exists():
         sys.exit(f"Meetily database not found: {db}")
     tmp = Path(tempfile.mkdtemp(prefix="meetily-read-"))
     atexit.register(shutil.rmtree, tmp, True)
-    for suffix in ("", "-wal", "-shm"):
-        src = Path(str(db) + suffix)
-        if src.exists():
-            shutil.copy2(src, tmp / (db.name + suffix))
-    con = sqlite3.connect(tmp / db.name)
+    try:
+        src = sqlite3.connect(f"{db.resolve().as_uri()}?mode=ro", uri=True)
+        src.execute("select count(*) from sqlite_master").fetchone()
+    except sqlite3.OperationalError:
+        src = sqlite3.connect(_quiescent_copy(db, tmp))  # a private temp copy; the source is untouched
+    snap = tmp / "snapshot.sqlite"
+    out = sqlite3.connect(snap)
+    try:
+        src.backup(out, pages=pages, progress=progress)
+    finally:
+        src.close()
+    out.execute("pragma journal_mode=delete")  # the snapshot then opens read-only with no sidecar files
+    out.close()
+    con = sqlite3.connect(f"{snap.as_uri()}?mode=ro", uri=True)
     con.row_factory = sqlite3.Row
     return con
 
@@ -119,7 +156,7 @@ def pick(sections, *keys):
     return out
 
 
-# ---------- quote linking ----------
+# ---------- candidate quotes ----------
 
 def stem(w):
     for suf in ("ing", "ed", "s"):
@@ -139,6 +176,38 @@ def fmt_t(sec):
     return f"{sec // 60:02d}:{sec % 60:02d}"
 
 
+ONES = ("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen "
+        "sixteen seventeen eighteen nineteen").split()
+TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+NUMWORDS = set(ONES[1:]) | set(TENS[2:]) | {"hundred", "thousand", "million", "half", "dozen"}
+
+
+def num2words(n: int) -> str:
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + ("" if n % 10 == 0 else " " + ONES[n % 10])
+    if n < 1000:
+        return ONES[n // 100] + " hundred" + ("" if n % 100 == 0 else " " + num2words(n % 100))
+    if n < 1_000_000:
+        return num2words(n // 1000) + " thousand" + ("" if n % 1000 == 0 else " " + num2words(n % 1000))
+    return num2words(n // 1_000_000) + " million" + ("" if n % 1_000_000 == 0 else " " + num2words(n % 1_000_000))
+
+
+def number_words(text: str) -> set:
+    """Every number word a text states, with digits spelled out ("$450" -> four, hundred, fifty)."""
+    t = re.sub(r"\d[\d,]*", lambda m: " " + num2words(int(m.group(0).replace(",", "") or 0)) + " ", text.lower())
+    t = re.sub(r"\ba (hundred|thousand|million)\b", r"one \1", t)  # "a hundred" == 100
+    return {w for w in re.findall(r"[a-z]+", t) if w in NUMWORDS}
+
+
+def item_numbers(item: str) -> set:
+    """Numbers an extracted item asserts, from all of its cells. A cell that is only a step number is
+    skipped, and a bare "one" is not checked ("one-page", "one lane" are wording, not quantities)."""
+    cells = [c for c in item.replace("*", "").split(" | ") if not re.fullmatch(r"\s*\d+[.)]?\s*", c)]
+    return number_words(" ".join(cells)) - {"one"}
+
+
 def sentences(segs):
     """Split segments into sentences; each sentence gets a time interpolated inside its segment."""
     out = []
@@ -149,40 +218,54 @@ def sentences(segs):
         done = 0
         for p in parts:
             t = None if start is None else start + ((end or start) - start) * done / total
-            out.append({"text": p, "start": t, "speaker": s["speaker"]})
+            out.append({"text": p, "start": t, "speaker": s["speaker"], "question": p.endswith("?")})
             done += len(p)
     return out
 
 
 def link_quote(item, segs, min_score=0.34, sents=None):
-    """Closest 1-3 consecutive transcript sentences for an extracted item, by content-word overlap.
+    """Find a CANDIDATE quote for an extracted item: the best 1 to 3 consecutive transcript sentences.
 
-    Table rows are matched on their first cell (the step / pain itself), since later cells are the
-    model's own commentary. A link needs >= min_score of the item's content words, or >= 4 of them
-    for long paraphrased items."""
+    Word match: table rows are matched on their first cell (the step or pain itself). A span needs
+    >= min_score of the item's content words, or >= 4 of them for long paraphrased items.
+    Checks: a span made only of questions is never used, and every number stated anywhere in the
+    item (all cells) must appear in the span. If no word-matching span holds all the numbers, the
+    closest one is returned with status "numbers_missing" and the missing numbers, so the item is
+    flagged for a human. Even status "candidate" is only a word match, not proof."""
     first = item.split(" | ")[0].replace("*", "")
     want = set(toks(first)) or set(toks(item))
     if not want:
         return None
+    need = item_numbers(item)
     sents = sents if sents is not None else sentences(segs)
-    best, best_i, best_span = 0.0, None, 1
+    best = best_ok = None  # (score, start index, span)
     for i in range(len(sents)):
         for span in (1, 2, 3):
             if i + span > len(sents):
                 continue
-            have = set(toks(" ".join(s["text"] for s in sents[i:i + span])))
-            hit = want & have
+            chunk = sents[i:i + span]
+            if all(s["question"] for s in chunk):
+                continue  # a question is not evidence for its own answer
+            text = " ".join(s["text"] for s in chunk)
+            hit = want & set(toks(text))
             score = (len(hit) + sum(1 for w in hit if w.isdigit())) / (len(want) + sum(1 for w in want if w.isdigit()))
             score -= 0.04 * (span - 1)  # prefer the shortest quote that carries the evidence
             if len(hit) >= 4:
                 score = max(score, min_score)
-            if score > best:
-                best, best_i, best_span = score, i, span
-    if best_i is None or best < min_score:
+            if score < min_score:
+                continue
+            if best is None or score > best[0]:
+                best = (score, i, span)
+            if need <= number_words(text) and (best_ok is None or score > best_ok[0]):
+                best_ok = (score, i, span)
+    chosen, status = (best_ok, "candidate") if best_ok else (best, "numbers_missing")
+    if chosen is None:
         return None
-    seg = sents[best_i:best_i + best_span]
-    return {"t": fmt_t(seg[0]["start"]), "speaker": seg[0]["speaker"], "score": round(best, 2),
-            "quote": " ".join(s["text"] for s in seg)}
+    score, i, span = chosen
+    seg = sents[i:i + span]
+    quote = " ".join(s["text"] for s in seg)
+    return {"t": fmt_t(seg[0]["start"]), "speaker": seg[0]["speaker"], "score": round(score, 2),
+            "status": status, "numbers_missing": sorted(need - number_words(quote)), "quote": quote}
 
 
 def build(meeting, segs, md):
@@ -208,13 +291,19 @@ def build(meeting, segs, md):
             first = row["item"].split(" | ")[0]
             if first.lower().startswith("customer"):
                 continue  # what the customer does is the trigger, not the work
-            if TASK_CUES.search(row["item"]) and row["evidence"] and first not in {t["task"][22:] for t in tasks}:
+            ok = bool(row["evidence"]) and row["evidence"]["status"] == "candidate"
+            if TASK_CUES.search(row["item"]) and ok and first not in {t["task"][22:] for t in tasks}:
                 tasks.append({"task": "Candidate agent task: " + row["item"].split(" | ")[0],
                               "from": src, "evidence": row["evidence"]})
     out["candidate_agent_tasks"] = tasks
     allrows = [r for g in groups for r in out[g]]
-    out["stats"] = {"items": len(allrows), "items_with_quote": sum(1 for r in allrows if r["evidence"]),
-                    "items_without_quote": [r["item"] for r in allrows if not r["evidence"]]}
+    out["stats"] = {
+        "items": len(allrows),
+        "items_with_candidate_quote": sum(1 for r in allrows if r["evidence"] and r["evidence"]["status"] == "candidate"),
+        "items_numbers_missing": [r["item"] for r in allrows if r["evidence"] and r["evidence"]["status"] == "numbers_missing"],
+        "items_without_quote": [r["item"] for r in allrows if not r["evidence"]],
+        "note": CANDIDATE_NOTE,
+    }
     return out
 
 
@@ -237,13 +326,20 @@ def write_extraction(x, path):
         for n, r in enumerate(rows, 1):
             ev = r["evidence"]
             L.append(f"{n}. {r[key]}")
-            if ev:
-                L.append(f"   > [{ev['t']}] {SPEAKER.get(ev['speaker'], ev['speaker'] or '')}: \"{ev['quote']}\" (match {ev['score']})")
+            who = SPEAKER.get(ev["speaker"], ev["speaker"] or "") if ev else ""
+            if ev and ev["status"] == "candidate":
+                L.append(f"   > Candidate quote, verify. [{ev['t']}] {who}: \"{ev['quote']}\" (word match {ev['score']})")
+            elif ev:
+                L.append(f"   > NUMBERS NOT IN QUOTE ({', '.join(ev['numbers_missing'])}). Closest words "
+                         f"[{ev['t']}]: \"{ev['quote']}\". Check this item by hand.")
             else:
-                L.append("   > NO SUPPORTING QUOTE FOUND. Check this item by hand before using it.")
+                L.append("   > NO CANDIDATE QUOTE FOUND. Check this item by hand before using it.")
         return L + [""]
+    st = x["stats"]
     L = [f"# Discovery extraction: {x['meeting']['title']}", "",
-         f"Items: {x['stats']['items']}, linked to a quote: {x['stats']['items_with_quote']}.", ""]
+         f"Items: {st['items']}. Candidate quote found: {st['items_with_candidate_quote']}. "
+         f"Numbers not in quote: {len(st['items_numbers_missing'])}. No quote: {len(st['items_without_quote'])}.", "",
+         CANDIDATE_NOTE, ""]
     if not x["summary_present"]:
         L += ["_No Meetily summary yet. Generate one with the Axiom Discovery template, then re-run._", ""]
     L += block("Process map (as described)", x["process_map"])
@@ -280,8 +376,10 @@ def main():
     x["summary_markdown"] = md
     (d / "extraction.json").write_text(json.dumps(x, indent=1))
     write_extraction(x, d / "extraction.md")
-    print(f"wrote {d}/transcript.md, extraction.md, extraction.json "
-          f"({len(segs)} segments; {x['stats']['items_with_quote']}/{x['stats']['items']} items linked to a quote)")
+    st = x["stats"]
+    print(f"wrote {d}/transcript.md, extraction.md, extraction.json ({len(segs)} segments; "
+          f"candidate quote for {st['items_with_candidate_quote']}/{st['items']} items, "
+          f"{len(st['items_numbers_missing'])} with numbers not in the quote, {len(st['items_without_quote'])} with none)")
 
 
 if __name__ == "__main__":

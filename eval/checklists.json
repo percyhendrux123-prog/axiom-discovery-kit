@@ -1,5 +1,5 @@
 {
- "_how": "An item counts as captured when EVERY group in 'all' has at least one alternative present in the normalised summary text (spaces also removed for brand names). Built from the scripts before any Meetily output was seen.",
+ "_how": "Automatic KEYWORD-checklist hits, not factual accuracy. An item is a hit when EVERY group in 'all' has an alternative in the SAME line of the normalised summary (bullet, table row or paragraph), as whole words with plural/tense endings allowed, and not after a negation in the 4 words before it. An alternative ending in '*' is an explicit word-start prefix. Items and alternatives were built from the scripts before any Meetily output was seen; on 2026-11-01, after review, the five stem alternatives were marked with '*' and the matching rules were tightened (they were global substring matches before). Single-keyword items stay lenient: they do not check amounts, owners or deadlines; the hand audit does.",
  "call1-hvac": [
   {
    "id": "w1",
@@ -128,7 +128,7 @@
     ],
     [
      "status",
-     "arriv",
+     "arriv*",
      "when"
     ]
    ]
@@ -208,7 +208,7 @@
    "item": "Emergencies misjudged (woke tech for thermostat battery, missed no-heat newborn)",
    "all": [
     [
-     "emergenc",
+     "emergenc*",
      "emergency",
      "emergencies",
      "urgent",
@@ -306,7 +306,7 @@
    "item": "Carlos triages emergency vs routine",
    "all": [
     [
-     "emergenc",
+     "emergenc*",
      "emergency",
      "emergencies",
      "routine"
@@ -332,7 +332,7 @@
      "five hundred"
     ],
     [
-     "approv",
+     "approv*",
      "approval",
      "approve"
     ]
@@ -492,7 +492,7 @@
      "owner"
     ],
     [
-     "approv",
+     "approv*",
      "approval",
      "week",
      "slow"
@@ -615,7 +615,7 @@
    "item": "Estimator inspects roof, builds estimate in JobNimbus, emails PDF",
    "all": [
     [
-     "estimat"
+     "estimat*"
     ],
     [
      "pdf",
@@ -779,7 +779,7 @@
      "adjuster"
     ],
     [
-     "schedul",
+     "schedul*",
      "message",
      "nightmare"
     ]

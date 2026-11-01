@@ -12,6 +12,8 @@
     "t": "00:20",
     "speaker": null,
     "score": 0.92,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Walk me through what happens when a customer calls in with a problem. Sure. During business hours the phone rings at the front desk."
    }
   },
@@ -21,6 +23,8 @@
     "t": "00:30",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "One of my two dispatchers picks up, asks what's going on with the unit, gets the address, and then creates a job in ServiceTitan."
    }
   },
@@ -30,6 +34,8 @@
     "t": "00:30",
     "speaker": null,
     "score": 0.63,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "One of my two dispatchers picks up, asks what's going on with the unit, gets the address, and then creates a job in ServiceTitan. After that, they look at the board and slot the job with whichever technician is closest."
    }
   },
@@ -39,6 +45,8 @@
     "t": "01:02",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "After 6 in the evening, the calls roll over to an answering service."
    }
   },
@@ -48,6 +56,8 @@
     "t": "01:02",
     "speaker": null,
     "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "After 6 in the evening, the calls roll over to an answering service. They take a message and they email it to a shared inbox."
    }
   },
@@ -57,6 +67,8 @@
     "t": "01:09",
     "speaker": null,
     "score": 0.88,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then the next morning, one of my dispatchers reads every message, calls each person back, and enters the job in Service Titan by hand."
    }
   },
@@ -66,6 +78,8 @@
     "t": "02:36",
     "speaker": null,
     "score": 0.46,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then they search Service Titan to see if the customer already exists. If not, they create the customer."
    }
   },
@@ -75,6 +89,8 @@
     "t": "02:42",
     "speaker": null,
     "score": 0.63,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then they call the person. If the person answers, they book the job. If not, they leave a voicemail and put a sticky note on the monitor to try again at noon."
    }
   },
@@ -84,6 +100,8 @@
     "t": "03:15",
     "speaker": null,
     "score": 0.59,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We have nine technicians. Two of them rotate on call each week. During the day a new job shows up in the Service Titan mobile app"
    }
   },
@@ -93,6 +111,8 @@
     "t": "02:12",
     "speaker": null,
     "score": 0.63,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Our on-call technician. If the answering service thinks it sounds urgent, they call him directly, but they're guessing."
    }
   },
@@ -102,6 +122,8 @@
     "t": "03:36",
     "speaker": null,
     "score": 0.67,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "He has to call the customer himself, figure out the address, and decide if it can wait until morning. What about customers who call during the day asking when the technician will arrive?"
    }
   }
@@ -113,6 +135,8 @@
     "t": "00:46",
     "speaker": null,
     "score": 0.78,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "In the summer, it's around 60 calls a day. In the spring and fall, it drops to maybe 35."
    }
   },
@@ -122,16 +146,20 @@
     "t": "01:18",
     "speaker": null,
     "score": 0.83,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "How many after hours calls come in during a typical week? 25 a week. On a hot weekend, it can be 40."
    }
   },
   {
    "item": "**Time spent processing after-hours messages:** Until 10:00 or 10:30 AM the next morning.",
    "evidence": {
-    "t": "01:02",
+    "t": "01:22",
     "speaker": null,
     "score": 0.34,
-    "quote": "After 6 in the evening, the calls roll over to an answering service. They take a message and they email it to a shared inbox. Then the next morning, one of my dispatchers reads every message, calls each person back, and enters the job in Service Titan by hand."
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "On a hot weekend, it can be 40. How long does it take to work through those messages in the morning? Usually until 10 or 1030."
    }
   },
   {
@@ -140,6 +168,8 @@
     "t": "01:41",
     "speaker": null,
     "score": 0.66,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We tracked it for a month in a Google She lost about eight jobs a week that we know of. An average repair ticket for us is around$400, and a replacement can be$8 or$9,000."
    }
   },
@@ -149,6 +179,8 @@
     "t": "01:46",
     "speaker": null,
     "score": 0.83,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "An average repair ticket for us is around$400, and a replacement can be$8 or$9,000."
    }
   },
@@ -158,6 +190,8 @@
     "t": "01:46",
     "speaker": null,
     "score": 0.43,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "An average repair ticket for us is around$400, and a replacement can be$8 or$9,000."
    }
   },
@@ -167,6 +201,8 @@
     "t": "03:42",
     "speaker": null,
     "score": 0.55,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "What about customers who call during the day asking when the technician will arrive? That's a big one. In the summer we get maybe fifteen of those calls a day."
    }
   },
@@ -176,6 +212,8 @@
     "t": "03:50",
     "speaker": null,
     "score": 0.39,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "The dispatcher has to stop what she's doing, look at the board, sometimes call the technician to ask how long he'll be, and then call the customer back. Each one is five minutes."
    }
   },
@@ -195,6 +233,8 @@
     "t": "00:28",
     "speaker": null,
     "score": 0.75,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We use Ring Central for the phones."
    }
   },
@@ -204,6 +244,8 @@
     "t": "00:30",
     "speaker": null,
     "score": 0.4,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "One of my two dispatchers picks up, asks what's going on with the unit, gets the address, and then creates a job in ServiceTitan."
    }
   },
@@ -213,16 +255,20 @@
     "t": "00:56",
     "speaker": null,
     "score": 0.75,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "What happens after hours after the office closes? That's the problem area. After 6 in the evening, the calls roll over to an answering service."
    }
   },
   {
    "item": "Google Sheet",
    "evidence": {
-    "t": "02:55",
+    "t": "02:54",
     "speaker": null,
-    "score": 1.0,
-    "quote": "What tools besides Service Titan, Rings Central, the answering service, and the Google Sheet?"
+    "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "We lose some of those, too. What tools besides Service Titan, Rings Central, the answering service, and the Google Sheet?"
    }
   },
   {
@@ -231,6 +277,8 @@
     "t": "03:01",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We use podium for text messages and reviews, and the techs use the Service Titan mobile app in the field."
    }
   },
@@ -240,6 +288,8 @@
     "t": "02:46",
     "speaker": null,
     "score": 1.0,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "If not, they leave a voicemail and put a sticky note on the monitor to try again at noon."
    }
   },
@@ -249,6 +299,8 @@
     "t": "03:01",
     "speaker": null,
     "score": 0.59,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We use podium for text messages and reviews, and the techs use the Service Titan mobile app in the field. That's about it. Let's talk about the technicians for a minute."
    }
   }
@@ -260,6 +312,8 @@
     "t": "04:40",
     "speaker": null,
     "score": 0.59,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "40 messages in the inbox, the phones ring at 8, two technicians already asking where to go, and Monique trying to call back people who have been waiting since Friday night. If you could fix one thing in the next 90 days, what would it be? Every after hours caller gets a real response within 15 minutes, with the basic information captured correctly and a book slot for the morning when it isn't an emergency."
    }
   },
@@ -269,6 +323,8 @@
     "t": "01:54",
     "speaker": null,
     "score": 0.55,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "What does the answering service actually capture? Name, phone number, and a sentence about the problem. Half the time the address is wrong or missing."
    }
   },
@@ -278,6 +334,8 @@
     "t": "02:13",
     "speaker": null,
     "score": 0.4,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "If the answering service thinks it sounds urgent, they call him directly, but they're guessing. Last month they woke him up twice for a thermostat battery, and they missed a real one where a family had no heat with a newborn."
    }
   },
@@ -287,6 +345,13 @@
     "t": "01:02",
     "speaker": null,
     "score": 0.34,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "eight",
+     "nine",
+     "ten",
+     "thirty"
+    ],
     "quote": "After 6 in the evening, the calls roll over to an answering service. They take a message and they email it to a shared inbox. Then the next morning, one of my dispatchers reads every message, calls each person back, and enters the job in Service Titan by hand."
    }
   },
@@ -296,6 +361,8 @@
     "t": "03:23",
     "speaker": null,
     "score": 0.57,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "And the dispatcher usually sends a text too, because the techs don't always look at the app while they're on a roof."
    }
   },
@@ -304,8 +371,14 @@
    "evidence": {
     "t": "04:00",
     "speaker": null,
-    "score": 0.4,
-    "quote": "Have you tried anything before to fix the after hours problem?"
+    "score": 0.36,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "hundred",
+     "thousand",
+     "two"
+    ],
+    "quote": "Easy. Have you tried anything before to fix the after hours problem?"
    }
   }
  ],
@@ -316,6 +389,8 @@
     "t": "04:54",
     "speaker": null,
     "score": 0.65,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Every after hours caller gets a real response within 15 minutes, with the basic information captured correctly and a book slot for the morning when it isn't an emergency. And the real emergencies get to the on-call tech with the right details."
    }
   },
@@ -325,6 +400,8 @@
     "t": "05:07",
     "speaker": null,
     "score": 0.87,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "How would you measure that? Time to first response, and how many after hours calls turn into booked jobs."
    }
   }
@@ -336,6 +413,8 @@
     "t": "05:16",
     "speaker": null,
     "score": 0.78,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Who else would need to be involved in a decision like this? The owner Ray. He signs off on anything that touches customers."
    }
   },
@@ -345,6 +424,8 @@
     "t": "05:22",
     "speaker": null,
     "score": 0.44,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "And my lead dispatcher Monique because she'd be working with it every morning."
    }
   }
@@ -353,10 +434,12 @@
   {
    "item": "Meeting Partner | Send 10 anonymized examples of answering service emails | Wednesday",
    "evidence": {
-    "t": "05:30",
+    "t": "05:28",
     "speaker": null,
-    "score": 0.75,
-    "quote": "Can you send me a few anonymized examples of the answering service emails, maybe ten of them?"
+    "score": 0.71,
+    "status": "candidate",
+    "numbers_missing": [],
+    "quote": "Here's what I'd suggest for next steps. Can you send me a few anonymized examples of the answering service emails, maybe ten of them?"
    }
   },
   {
@@ -365,6 +448,10 @@
     "t": "05:38",
     "speaker": null,
     "score": 0.43,
+    "status": "numbers_missing",
+    "numbers_missing": [
+     "two"
+    ],
     "quote": "And let's get thirty minutes with Ray and Monique on Thursday afternoon."
    }
   },
@@ -374,6 +461,8 @@
     "t": "05:42",
     "speaker": null,
     "score": 0.86,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "I'll come back with a one page proposal for a single lane. after hours intake and morning booking."
    }
   }
@@ -386,17 +475,9 @@
     "t": "01:54",
     "speaker": null,
     "score": 0.55,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "What does the answering service actually capture? Name, phone number, and a sentence about the problem. Half the time the address is wrong or missing."
-   }
-  },
-  {
-   "task": "Candidate agent task: Dispatchers spend significant time (until 10:30 AM) manually reading emails and creating jobs by hand.",
-   "from": "pains",
-   "evidence": {
-    "t": "01:02",
-    "speaker": null,
-    "score": 0.34,
-    "quote": "After 6 in the evening, the calls roll over to an answering service. They take a message and they email it to a shared inbox. Then the next morning, one of my dispatchers reads every message, calls each person back, and enters the job in Service Titan by hand."
    }
   },
   {
@@ -406,17 +487,9 @@
     "t": "03:23",
     "speaker": null,
     "score": 0.57,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "And the dispatcher usually sends a text too, because the techs don't always look at the app while they're on a roof."
-   }
-  },
-  {
-   "task": "Candidate agent task: Previous attempts to fix the problem failed.",
-   "from": "pains",
-   "evidence": {
-    "t": "04:00",
-    "speaker": null,
-    "score": 0.4,
-    "quote": "Have you tried anything before to fix the after hours problem?"
    }
   },
   {
@@ -426,6 +499,8 @@
     "t": "01:02",
     "speaker": null,
     "score": 0.96,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "After 6 in the evening, the calls roll over to an answering service. They take a message and they email it to a shared inbox."
    }
   },
@@ -436,6 +511,8 @@
     "t": "01:09",
     "speaker": null,
     "score": 0.88,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then the next morning, one of my dispatchers reads every message, calls each person back, and enters the job in Service Titan by hand."
    }
   },
@@ -446,6 +523,8 @@
     "t": "02:42",
     "speaker": null,
     "score": 0.63,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "Then they call the person. If the person answers, they book the job. If not, they leave a voicemail and put a sticky note on the monitor to try again at noon."
    }
   },
@@ -456,17 +535,25 @@
     "t": "03:15",
     "speaker": null,
     "score": 0.59,
+    "status": "candidate",
+    "numbers_missing": [],
     "quote": "We have nine technicians. Two of them rotate on call each week. During the day a new job shows up in the Service Titan mobile app"
    }
   }
  ],
  "stats": {
   "items": 41,
-  "items_with_quote": 39,
+  "items_with_candidate_quote": 36,
+  "items_numbers_missing": [
+   "Dispatchers spend significant time (until 10:30 AM) manually reading emails and creating jobs by hand. | Delays response to customers who called at night (e.g., 9 PM vs 8 AM).",
+   "Previous attempts to fix the problem failed. | Switched to a more expensive answering service ($1,200/month) that still could not book jobs or provide schedule visibility.",
+   "Meeting Partner | Schedule 30-minute meeting with Ray and Monique | Thursday at 2:00 PM"
+  ],
   "items_without_quote": [
    "**After-hours emails for analysis:** 10 examples provided by Wednesday.",
    "**Meeting with decision makers:** Thursday at 2:00 PM."
-  ]
+  ],
+  "note": "A candidate quote is the closest transcript sentence(s) by word overlap that is not a bare question and contains every number the item states. It is not proof: check every item against its quote, and check every next-step owner (Meetily records no speaker)."
  },
  "summary_status": "completed",
  "summary_markdown": "**Company and People**\n\n*   **Company:** Bayou Comfort Heating and Air\n    *   **What it does:** Provides heating and air conditioning services.\n*   **People:**\n    *   Ray (Owner)\n    *   Monique (Lead Dispatcher)\n    *   Dispatchers (Two employees, one rotates on-call each week)\n    *   Technicians (Nine employees total; two rotate on-call each week)\n\n**Workflow Steps**\n\n| Step | Who | Tool |\n| --- | --- | --- |\n| Customer calls during business hours | Front desk dispatcher | Ring Central |\n| Dispatcher creates job | Dispatcher | ServiceTitan |\n| Dispatcher slots job with technician based on proximity | Dispatcher | Board/ServiceTitan |\n| Customer calls after 6 PM | Answering service | Answering Service |\n| Answering service emails message to shared inbox | Answering service | Email |\n| Next morning, dispatcher reads messages and enters jobs by hand | Dispatcher | Manual entry into ServiceTitan |\n| Dispatcher searches for existing customer or creates new one | Dispatcher | ServiceTitan |\n| Dispatcher calls customer to book job or leave voicemail | Dispatcher | Phone |\n| Technician receives job notification (during day) | Technician | ServiceTitan mobile app / Text message from dispatcher |\n| On-call technician receives call from answering service (at night) | On-call technician | Phone |\n| On-call technician contacts customer to get address and decide if urgent | On-call technician | Phone |\n\n**Volumes and Timing**\n\n*   **Business hours calls:** ~60 calls/day in summer, ~35 calls/day in spring/fall.\n*   **After-hours calls:** 25/week typically, up to 40 on hot weekends.\n*   **Time spent processing after-hours messages:** Until 10:00 or 10:30 AM the next morning.\n*   **Jobs lost due to delayed response:** ~8 jobs/week (tracked over one month).\n*   **Average repair ticket value:** ~$400.\n*   **Replacement unit cost:** $8,000 - $9,000.\n*   **Customer inquiry calls (during day):** ~15/day in summer.\n*   **Call duration per customer inquiry:** ~5 minutes.\n*   **After-hours emails for analysis:** 10 examples provided by Wednesday.\n*   **Meeting with decision makers:** Thursday at 2:00 PM.\n\n**Tools and Systems**\n\n*   Ring Central (Phone system)\n*   ServiceTitan (Job scheduling and CRM software)\n*   Answering service (External service for after-hours calls)\n*   Google Sheet\n*   Podium (Text messages and reviews)\n*   Sticky notes (Monitor)\n*   ServiceTitan mobile app (Used by technicians in the field)\n\n**Pain Points**\n\n| Pain | Cost or impact |\n| --- | --- |\n| After-hours calls are not processed immediately; they wait until the next morning. | Customers with urgent needs (e.g., no heat with a newborn) may call someone else first, resulting in lost jobs. |\n| Address information is often missing or wrong from answering service emails. | Cannot book jobs or see schedules accurately. |\n| Answering service cannot distinguish between real emergencies and nuisance calls. | Real emergencies are missed; non-urgent calls wake up on-call techs unnecessarily. |\n| Dispatchers spend significant time (until 10:30 AM) manually reading emails and creating jobs by hand. | Delays response to customers who called at night (e.g., 9 PM vs 8 AM). |\n| Technicians do not always check the app while working on roofs. | Dispatcher must send text messages to notify them of new day jobs. |\n| Previous attempts to fix the problem failed. | Switched to a more expensive answering service ($1,200/month) that still could not book jobs or provide schedule visibility. |\n\n**Desired Outcome and Measure**\n\n*   **Outcome:** Every after-hours caller receives a real response within 15 minutes with correct information capture and a booked slot for the morning (unless it is an emergency handled by the on-call tech). Real emergencies receive the right details to reach the on-call technician immediately.\n*   **Measure:** Time to first response and the number of after-hours calls turned into booked jobs.\n\n**Decision Makers**\n\n*   Ray (Owner) \u2013 Signs off on customer-facing decisions.\n*   Monique (Lead Dispatcher) \u2013 Involved in execution as she handles morning intake daily.\n\n**Next Steps**\n\n| Owner | Action | When |\n| --- | --- | --- |\n| Meeting Partner | Send 10 anonymized examples of answering service emails | Wednesday |\n| Meeting Partner | Schedule 30-minute meeting with Ray and Monique | Thursday at 2:00 PM |\n| Meeting Partner | Provide a one-page proposal for single-lane after-hours intake and morning booking | Following Thursday meeting |"
