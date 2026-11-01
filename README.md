@@ -9,7 +9,7 @@ Axiom uses this on **its own** discovery calls. The audio and transcripts stay o
 | Path | What it is |
 |---|---|
 | `templates/axiom_discovery.json` | Meetily summary template: company and people, workflow steps, volumes and timing, tools, pain points, desired outcome and measure, decision makers, next steps |
-| `meetily_reader.py` | Reads one coherent, read-only snapshot of Meetily's local SQLite (SQLite backup API; it never writes the live file) and writes `transcript.md` plus `extraction.md`/`.json`. Each extracted item gets a **candidate quote**: the closest transcript sentence by word overlap that is not a bare question and contains every number the item states. Items whose numbers are not in the quote, or with no match, are flagged. A candidate quote is a word match, not proof. Standard library only. |
+| `meetily_reader.py` | Reads one coherent, read-only snapshot of Meetily's local SQLite (SQLite backup API; it never writes the live file; if the database is locked or in an unexpected state it stops and reads nothing) and writes `transcript.md` plus `extraction.md`/`.json`. Each extracted item gets a **candidate quote**: the closest transcript sentence by word overlap that is not a bare question and contains every number the item states. Items whose numbers are not in the quote, or with no match, are flagged. A candidate quote is a word match, not proof. Standard library only. |
 | `eval/` | The eval harness: synthetic call scripts (the ground truth), TTS render and mixing scripts, WER and keyword-checklist scoring, the hand audits, per-meeting segment counts, network-watch logs, and the results |
 | `tests/` | Unit tests for the reader, the snapshot, the scorer and the text normaliser |
 

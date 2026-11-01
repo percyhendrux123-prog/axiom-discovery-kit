@@ -89,6 +89,49 @@ class SnapshotTests(unittest.TestCase):
         self.assertIn((v, has_y), {(1, False), (2, True)})
         w.close()
 
+    def test_locked_rollback_journal_db_fails_closed(self):
+        """Reviewer's A183-R2 case: a rollback-journal writer holds an exclusive lock and has spilled
+        uncommitted pages into the main file. The reader must refuse, never copy the main file."""
+        db = Path(tempfile.mkdtemp()) / "meeting_minutes.sqlite"
+        w = sqlite3.connect(db)
+        w.execute("create table x (v blob)")
+        w.executemany("insert into x values (?)", [(b"a" * 3000,)] * 2000)
+        w.commit()
+        w.execute("pragma cache_size=5"); w.execute("pragma cache_spill=1")
+        w.execute("begin exclusive"); w.execute("update x set v = zeroblob(3000)")
+        calls = []
+        real = mr._quiescent_copy
+        mr._quiescent_copy = lambda *a, **k: calls.append(1) or real(*a, **k)
+        try:
+            with self.assertRaises(SystemExit):
+                mr.open_copy(db)
+        finally:
+            mr._quiescent_copy = real
+            w.rollback(); w.close()
+        self.assertEqual(calls, [])
+
+    def test_closed_wal_db_without_sidecars_uses_checked_copy(self):
+        db = Path(tempfile.mkdtemp()) / "meeting_minutes.sqlite"
+        c = fake_meetily_db(db, wal=True)
+        c.execute("pragma wal_checkpoint(truncate)"); c.close()
+        for s in mr.SIDECARS:
+            Path(str(db) + s).unlink(missing_ok=True)
+        self.assertTrue(mr._wal_header(db))
+        tmp = Path(tempfile.mkdtemp())
+        copy = mr._quiescent_copy(db, tmp)  # the fallback itself; whether SQLite needs it varies by build
+        self.assertEqual(sqlite3.connect(copy).execute("select id from meetings").fetchone()[0], "m1")
+        con = mr.open_copy(db)
+        self.assertEqual(mr.find_meeting(con, "m1")["id"], "m1")
+
+    def test_non_wal_db_with_journal_fails_closed(self):
+        db = Path(tempfile.mkdtemp()) / "meeting_minutes.sqlite"
+        fake_meetily_db(db).close()
+        Path(str(db) + "-journal").write_bytes(b"\0" * 512)  # a hot or leftover rollback journal
+        tmp = Path(tempfile.mkdtemp())
+        with self.assertRaises(SystemExit):
+            mr._quiescent_copy(db, tmp)
+        self.assertFalse((tmp / "quiescent.sqlite").exists())
+
 
 class QuoteTests(unittest.TestCase):
     def test_supported_item_gets_candidate_quote(self):

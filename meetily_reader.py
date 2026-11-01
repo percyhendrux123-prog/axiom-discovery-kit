@@ -35,20 +35,41 @@ CANDIDATE_NOTE = ("A candidate quote is the closest transcript sentence(s) by wo
 
 # ---------- database ----------
 
+SIDECARS = ("-wal", "-shm", "-journal")
+FAIL_CLOSED = ("Quit Meetily, or wait a moment, and try again. Nothing was read.")
+
+
+def _wal_header(path: Path) -> bool:
+    """True if the SQLite header says WAL mode (file format write/read versions both 2)."""
+    with open(path, "rb") as f:
+        h = f.read(20)
+    return len(h) == 20 and h[:16] == b"SQLite format 3\x00" and h[18] == 2 and h[19] == 2
+
+
+def _no_sidecars(db: Path) -> bool:
+    return not any(Path(str(db) + s).exists() for s in SIDECARS)
+
+
 def _quiescent_copy(db: Path, tmp: Path, tries: int = 3) -> Path:
-    """Copy a database that has no -wal/-shm (Meetily closed) and prove it did not change meanwhile."""
-    wal, shm = Path(str(db) + "-wal"), Path(str(db) + "-shm")
+    """Copy a closed WAL-mode database. This is the one case where SQLite's read-only open fails
+    with nothing wrong: a WAL database with no -shm cannot be opened read-only.
+
+    The boundary is narrow on purpose. A WAL-mode database never holds uncommitted data in its main
+    file: writers append to -wal, and only a checkpoint (which needs -wal) changes the main file.
+    So the header must say WAL, no -wal / -shm / -journal may exist before or after the copy, size
+    and mtime must not move, and the copy's header must still say WAL. Anything else fails closed."""
     for _ in range(tries):
-        if wal.exists() or shm.exists():
+        if not (_no_sidecars(db) and _wal_header(db)):
             break
         before = os.stat(db)
         dst = tmp / "quiescent.sqlite"
         shutil.copy2(db, dst)
         after = os.stat(db)
         if (before.st_size, before.st_mtime_ns) == (after.st_size, after.st_mtime_ns) \
-                and not wal.exists() and not shm.exists():
+                and _no_sidecars(db) and _wal_header(dst):
             return dst
-    sys.exit("Meetily's database changed while it was being read. Try again, or quit Meetily first.")
+    sys.exit("Could not take a coherent snapshot of Meetily's database (in use or changed while "
+             "being read). " + FAIL_CLOSED)
 
 
 def open_copy(db: Path, pages: int = -1, progress=None) -> sqlite3.Connection:
@@ -57,8 +78,9 @@ def open_copy(db: Path, pages: int = -1, progress=None) -> sqlite3.Connection:
     While Meetily runs, the source is opened in SQLite's read-only mode and copied with the backup
     API. Backup reads pages under SQLite's own locking and restarts if another connection commits
     mid-copy, so the snapshot is always a state that really existed. When Meetily is closed, a
-    WAL-mode file with no -shm cannot be opened read-only, so the single main file is copied and
-    checked unchanged before and after. The original database is never opened for writing.
+    WAL-mode file with no -shm cannot be opened read-only, so the single main file is copied under the
+    narrow checks in _quiescent_copy. Every other open error (locked, rollback journal present, not a
+    WAL file) fails closed. The original database is never opened for writing.
     `pages` / `progress` pass through to Connection.backup (the tests use them to interleave a writer)."""
     if not db.exists():
         sys.exit(f"Meetily database not found: {db}")
@@ -67,7 +89,11 @@ def open_copy(db: Path, pages: int = -1, progress=None) -> sqlite3.Connection:
     try:
         src = sqlite3.connect(f"{db.resolve().as_uri()}?mode=ro", uri=True)
         src.execute("select count(*) from sqlite_master").fetchone()
-    except sqlite3.OperationalError:
+    except sqlite3.OperationalError as e:
+        # Fail closed. Only "unable to open" on a closed WAL database with no sidecar files may fall
+        # back to a file copy. A locked database, a rollback journal or any other error stops here.
+        if "unable to open database file" not in str(e) or not (_no_sidecars(db) and _wal_header(db)):
+            sys.exit(f"Could not read Meetily's database safely ({e}). " + FAIL_CLOSED)
         src = sqlite3.connect(_quiescent_copy(db, tmp))  # a private temp copy; the source is untouched
     snap = tmp / "snapshot.sqlite"
     out = sqlite3.connect(snap)
